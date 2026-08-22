@@ -365,13 +365,16 @@ function shuffle(arr){
 }
 
 function updateResult(){
-  let graded = 0, correct = 0, revealed = 0;
+  let graded = 0, correct = 0, revealed = 0, open = 0, openRevealed = 0;
   ITEMS.forEach(function(t){
     const s = state[t.id];
-    if(!s) return;
-    if(s.graded) graded++;
-    if(s.graded && s.correct) correct++;
-    if(s.revealed) revealed++;
+    if(!s || !s.graded){
+      open++;
+      if(s && s.revealed) openRevealed++;
+    }
+    if(s && s.graded) graded++;
+    if(s && s.graded && s.correct) correct++;
+    if(s && s.revealed) revealed++;
   });
   const pAns = TOTAL ? Math.round(graded / TOTAL * 100) : 0;
   const pCor = graded ? Math.round(correct / graded * 100) : 0;
@@ -381,6 +384,8 @@ function updateResult(){
   document.getElementById("progAnswered").style.width = pAns + "%";
   document.getElementById("progCorrect").style.width = (TOTAL ? Math.round(correct / TOTAL * 100) : 0) + "%";
   document.getElementById("btnFirstOpen").disabled = graded >= TOTAL;
+  document.getElementById("btnRevealAll").textContent =
+    open > 0 && openRevealed === open ? "👁 Alle zudecken" : "👁 Alle aufdecken";
 
   const counts = { all:TOTAL, open:0, wrong:0, right:0 };
   ITEMS.forEach(function(t){ counts[groupOf(t.id)]++; });
@@ -416,7 +421,14 @@ document.querySelectorAll(".btn.sort").forEach(function(b){
   b.addEventListener("click", function(){ sortMode = b.dataset.sort; saveView(); render(); });
 });
 document.getElementById("btnRevealAll").addEventListener("click", function(){
-  ITEMS.forEach(function(t){ getState(t.id).revealed = true; });
+  const allOpenRevealed = ITEMS.every(function(t){
+    const s = state[t.id];
+    return s && s.graded || s && s.revealed;
+  }) && ITEMS.some(function(t){ return !(state[t.id] && state[t.id].graded); });
+  ITEMS.forEach(function(t){
+    const s = getState(t.id);
+    if(!s.graded) s.revealed = !allOpenRevealed;
+  });
   saveState();
   render();
 });
