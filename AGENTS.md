@@ -10,4 +10,7 @@ Es gibt unter Übungen Reihe von Aktionen:
 Innerhalb von Übungen kann Reihenfolge durch Buttonklick zufällig sortiert werden.
 Alle Lücken können auf einmal angezeigt werden.
 Status und Ergebnis kann zurückgesetzt werden.
+Es gibt eine Übersicht zum Ergebnis: x% beantwortet, davon y% richtig.
 Es gibt eine Übersichtsdatei (HTML) mit Tabelle aller Übungen mit Titel, Datum, Tags und Verlinkung.
+Input ist in `in`.
+HTML-Output ist in `public`.
