@@ -1,0 +1,530 @@
+{
+  "rules": {
+    "l16-preposizione-a": "Preposizione a + articolo: alla stazione, allo sportello; distanze: a dieci minuti da qui",
+    "l16-in-mezzo": "in + mezzo di trasporto senza articolo: in pullman, in treno, in aereo",
+    "l16-avere-bisogno": "avere bisogno di + sostantivo o infinito = brauchen",
+    "l16-buon": "buono diventa buon davanti a un nome maschile singolare: un buon albergo",
+    "l16-vocab-turismo": "lessico: sportello, posteggio, indirizzo, impiegata, chiedere (a qualcuno)",
+    "l17-meglio-possibile": "è possibile / è meglio + infinito: forme impersonali",
+    "l17-fino-a": "fino a quando?, fino a venerdì, fino alle dieci: limite temporale",
+    "l17-mesi-tempo": "con i mesi si usa a (a marzo); fa caldo / fa freddo",
+    "l17-cortesia-prezzo": "forma di cortesia Lei (desidera?) e domanda del prezzo: quanto costa?",
+    "l17-vocab-albergo": "mezza pensione, camera singola, terzo piano, fare colazione",
+    "l18-imperativo": "imperativo singolare: guarda! apri!; plurale come l'indicativo: suonate!",
+    "l18-ci-sono": "c'è / ci sono + partitivo: dei biscotti, delle arance",
+    "l18-voglia-qualcosa": "avere voglia di + infinito; qualcosa di fresco",
+    "l18-vocab-camera": "panorama, doccia, vasca, asciugamano, comodino, accanto a",
+    "l19-venire-da": "venire da + articolo indica la provenienza: dalla Toscana, dagli Stati Uniti",
+    "l19-fra-tra": "fra / tra + tempo futuro: fra dieci minuti",
+    "l19-nazionalita": "essere + aggettivo di nazionalità: è tedesca, sono francesi",
+    "l19-vicino-lontano": "vicino a e lontano da indicano vicinanza e distanza",
+    "l19-presentazioni": "piacere!, molto lieto, il mio nome è, in vacanza / le vacanze",
+    "l20-da-durata": "presente + da esprime la durata: sono qui da tre giorni; da quando?",
+    "l20-fino-fra": "fino a venerdì (termine); fra / tra + tempo futuro",
+    "l20-ad-vocale": "a diventa ad davanti a vocale: ad Amalfi",
+    "l20-espressioni": "avere paura di + infinito; stai tranquillo! (stare + aggettivo)",
+    "l20-vocab-gite": "lessico delle gite: partenza, ritorno, scavi archeologici, purtroppo, ripartire per"
+  },
+  "items": [
+    {
+      "id": "l16n01",
+      "r": "l16-preposizione-a",
+      "pre": "Il museo è a dieci minuti ",
+      "disp": "da",
+      "ans": ["da"],
+      "post": " qui.",
+      "tr": "Das Museum ist zehn Minuten von hier entfernt.",
+      "expl": "Entfernungen stehen in der Konstruktion „a … da“: a dieci minuti da qui. Die Präposition „da“ nennt den Bezugspunkt (hier: qui)."
+    },
+    {
+      "id": "l16n02",
+      "r": "l16-preposizione-a",
+      "pre": "I turisti vanno ",
+      "disp": "allo",
+      "ans": ["allo"],
+      "post": " sportello «Informazioni».",
+      "tr": "Die Touristen gehen zum Schalter „Informationen“.",
+      "expl": "„a“ verschmilzt mit dem bestimmten Artikel: a + lo = „allo“ vor Substantiven mit s + Konsonant. Ebenso: all'albergo, agli sportelli, alla Galleria."
+    },
+    {
+      "id": "l16n03",
+      "r": "l16-in-mezzo",
+      "pre": "Arriviamo a Verona ",
+      "disp": "in",
+      "ans": ["in"],
+      "post": " pullman.",
+      "tr": "Wir kommen mit dem Bus in Verona an.",
+      "expl": "Verkehrsmittel stehen ohne Artikel nach „in“: in pullman, in treno, in aereo. Bei Ländern und Städten ebenso: in Italia, in Germania."
+    },
+    {
+      "id": "l16n04",
+      "r": "l16-avere-bisogno",
+      "pre": "Avete ",
+      "disp": "bisogno",
+      "ans": ["bisogno"],
+      "post": " di una carta della città?",
+      "tr": "Brauchen Sie einen Stadtplan?",
+      "expl": "„Brauchen“ heißt immer „avere bisogno di“ – hier mit voi: „avete bisogno di“ + Substantiv."
+    },
+    {
+      "id": "l16n05",
+      "r": "l16-buon",
+      "pre": "Vorrei un ",
+      "disp": "buon",
+      "ans": ["buon"],
+      "post": " ristorante per questa sera.",
+      "tr": "Ich möchte für heute Abend ein gutes Restaurant.",
+      "expl": "„buono“ verliert vor maskulinen Substantiven im Singular das o: un buon ristorante, un buon vino, un buon amico."
+    },
+    {
+      "id": "l16n06",
+      "r": "l16-vocab-turismo",
+      "pre": "Il signor Bianchi ",
+      "disp": "chiede",
+      "ans": ["chiede"],
+      "post": " all'impiegata dov'è il museo.",
+      "tr": "Herr Bianchi fragt die Angestellte, wo das Museum ist.",
+      "expl": "„chiedere“ ist das gewöhnliche Wort für „fragen“ (häufiger als „domandare“). Die befragte Person steht mit „a“: chiedere all'impiegata."
+    },
+    {
+      "id": "l16n07",
+      "r": "l16-vocab-turismo",
+      "pre": "Il ",
+      "disp": "posteggio",
+      "ans": ["posteggio"],
+      "post": " dei taxi è davanti alla stazione.",
+      "tr": "Der Taxistand ist vor dem Bahnhof.",
+      "expl": "„il posteggio dei taxi“ ist der Taxistand. „davanti a + Ort“ heißt „vor“ – hier: davanti alla stazione."
+    },
+    {
+      "id": "l16n08",
+      "r": "l16-vocab-turismo",
+      "pre": "Qual è l'",
+      "disp": "indirizzo",
+      "ans": ["indirizzo"],
+      "post": " di questo ristorante?",
+      "tr": "Wie lautet die Adresse dieses Restaurants?",
+      "expl": "„l'indirizzo“ bedeutet „Adresse“ und beginnt mit Vokal, daher der Artikel „l’“. Mit „qual è“ fragt man „was ist“."
+    },
+    {
+      "id": "l16n09",
+      "r": "l16-vocab-turismo",
+      "pre": "La ",
+      "disp": "impiegata",
+      "ans": ["impiegata"],
+      "post": " dell'ufficio del turismo è molto gentile.",
+      "tr": "Die Angestellte des Fremdenverkehrsbüros ist sehr freundlich.",
+      "expl": "„impiegata“ ist die weibliche Form von „impiegato“. Wörter wie tassista, turista, artista enden im Singular auf -a, im Plural auf -i."
+    },
+    {
+      "id": "l16n10",
+      "r": "l16-vocab-turismo",
+      "pre": "Compriamo i biglietti allo ",
+      "disp": "sportello",
+      "ans": ["sportello"],
+      "post": " numero cinque.",
+      "tr": "Wir kaufen die Fahrkarten an Schalter Nummer fünf.",
+      "expl": "„lo sportello“ ist der Schalter, etwa in einem Amt oder am Bahnhof. Man geht „allo sportello“ – a + lo = allo."
+    },
+    {
+      "id": "l17n01",
+      "r": "l17-meglio-possibile",
+      "pre": "Secondo me, ",
+      "disp": "è",
+      "ans": ["è"],
+      "post": " meglio partire la mattina presto.",
+      "tr": "Meiner Meinung nach ist es besser, früh am Morgen aufzubrechen.",
+      "expl": "„è meglio + Infinitiv“ ist eine unpersönliche Form: „Es ist besser zu …“. Genauso funktioniert „è possibile + Infinitiv“."
+    },
+    {
+      "id": "l17n02",
+      "r": "l17-fino-a",
+      "pre": "Il ristorante resta aperto ",
+      "disp": "fino alle",
+      "ans": ["fino alle"],
+      "post": " ventitré.",
+      "tr": "Das Restaurant bleibt bis dreiundzwanzig Uhr geöffnet.",
+      "expl": "„fino a + Uhrzeit“ verschmilzt mit dem Artikel: fino a + le = „fino alle“. Vor „mezzanotte“ hieße es fino a mezzanotte."
+    },
+    {
+      "id": "l17n03",
+      "r": "l17-mesi-tempo",
+      "pre": "A Palermo il tempo è bello ",
+      "disp": "a",
+      "ans": ["a", "in"],
+      "post": " marzo.",
+      "tr": "In Palermo ist das Wetter im März schön.",
+      "expl": "Vor Monatsnamen steht normalerweise „a“: a marzo, a settembre. Man hört auch „in marzo“, aber „a“ ist üblicher."
+    },
+    {
+      "id": "l17n04",
+      "r": "l17-mesi-tempo",
+      "pre": "In Sicilia, ad agosto, ",
+      "disp": "fa",
+      "ans": ["fa"],
+      "post": " troppo caldo.",
+      "tr": "Auf Sizilien ist es im August zu heiß.",
+      "expl": "Wetterausdrücke sind unpersönlich: „fa caldo“, „fa freddo“, „piove“. „troppo“ verstärkt: zu heiß, zu kalt."
+    },
+    {
+      "id": "l17n05",
+      "r": "l17-cortesia-prezzo",
+      "pre": "Signora, ",
+      "disp": "desidera",
+      "ans": ["desidera"],
+      "post": " la camera con vista sul parco?",
+      "tr": "Madam, wünschen Sie das Zimmer mit Blick auf den Park?",
+      "expl": "In der höflichen Anrede (Lei) steht das Verb in der 3. Person Singular: „desidera“. Im Plural ist heute voi üblicher als das sehr förmliche Loro."
+    },
+    {
+      "id": "l17n06",
+      "r": "l17-vocab-albergo",
+      "pre": "La ",
+      "disp": "mezza",
+      "ans": ["mezza"],
+      "post": " pensione comprende la colazione e la cena.",
+      "tr": "Die Halbpension umfasst Frühstück und Abendessen.",
+      "expl": "„la mezza pensione“ ist Halbpension, meist Frühstück plus eine weitere Mahlzeit. Vollpension heißt „pensione completa“."
+    },
+    {
+      "id": "l17n07",
+      "r": "l17-cortesia-prezzo",
+      "pre": "Scusi, quanto ",
+      "disp": "costa",
+      "ans": ["costa"],
+      "post": " una camera singola per notte?",
+      "tr": "Entschuldigung, wie viel kostet ein Einzelzimmer pro Nacht?",
+      "expl": "Den Preis fragt man mit „quanto costa?“ (Singular) bzw. „quanto costano?“ (Plural). „per notte“ heißt pro Nacht."
+    },
+    {
+      "id": "l17n08",
+      "r": "l17-fino-a",
+      "pre": "Fino a quando ",
+      "disp": "restate",
+      "ans": ["restate"],
+      "post": " a Bologna, signori?",
+      "tr": "Bis wann bleiben Sie in Bologna, meine Herrschaften?",
+      "expl": "„Fino a quando?“ fragt nach der Dauer des Aufenthalts. Für mehrere angesprochene Personen steht voi: „restate“ (von restare)."
+    },
+    {
+      "id": "l17n09",
+      "r": "l17-vocab-albergo",
+      "pre": "La nostra camera è al ",
+      "disp": "terzo",
+      "ans": ["terzo"],
+      "post": " piano.",
+      "tr": "Unser Zimmer ist im dritten Stock.",
+      "expl": "„al terzo piano“ = im dritten Stockwerk, mit bestimmtem Artikel. Ordnungszahlen enden auf -o: primo, secondo, terzo."
+    },
+    {
+      "id": "l17n10",
+      "r": "l17-vocab-albergo",
+      "pre": "Possiamo ",
+      "disp": "fare",
+      "ans": ["fare"],
+      "post": " colazione in terrazza?",
+      "tr": "Können wir auf der Terrasse frühstücken?",
+      "expl": "„Frühstücken“ heißt „fare colazione“, eine feste Wendung mit fare. Das zugehörige Substantiv ist „la colazione“."
+    },
+    {
+      "id": "l18n01",
+      "r": "l18-imperativo",
+      "pre": "Anna, ",
+      "disp": "guarda",
+      "ans": ["guarda", "Guarda"],
+      "post": " quella barca laggiù!",
+      "tr": "Anna, schau dir das Boot da drüben an!",
+      "expl": "Der Imperativ der Verben auf -are endet auf -a: „guarda!“, „ascolta!“, „osserva!“. „laggiù“ heißt „dort drüben“."
+    },
+    {
+      "id": "l18n02",
+      "r": "l18-imperativo",
+      "pre": "Carlo, ",
+      "disp": "apri",
+      "ans": ["apri", "Apri"],
+      "post": " le persiane, per favore.",
+      "tr": "Carlo, öffne bitte die Fensterläden.",
+      "expl": "Verben auf -ere und -ire bilden den Imperativ wie die 2. Person Singular: „apri!“, „prendi!“. Die Form endet also auf -i, nicht auf -a."
+    },
+    {
+      "id": "l18n03",
+      "r": "l18-imperativo",
+      "pre": "Signori, ",
+      "disp": "suonate",
+      "ans": ["suonate", "Suonate"],
+      "post": " il campanello se avete bisogno.",
+      "tr": "Meine Herrschaften, klingeln Sie, wenn Sie etwas brauchen.",
+      "expl": "Der Plural-Imperativ gleicht für alle Verbgruppen der 2. Person Plural des Präsens: „suonate“, „guardate“, „prendete“, „aprite“."
+    },
+    {
+      "id": "l18n04",
+      "r": "l18-vocab-camera",
+      "pre": "Che ",
+      "disp": "panorama",
+      "ans": ["panorama"],
+      "post": " dalla terrazza: mare, barche e vulcano!",
+      "tr": "Was für ein Ausblick von der Terrasse: Meer, Boote und Vulkan!",
+      "expl": "„il panorama“ ist der Ausblick. Ausrufe bildet man mit „che + Nomen“: che panorama!, che meraviglia!, che bello!"
+    },
+    {
+      "id": "l18n05",
+      "r": "l18-ci-sono",
+      "pre": "Sul tavolo ",
+      "disp": "ci sono",
+      "ans": ["ci sono"],
+      "post": " dei biscotti e delle arance.",
+      "tr": "Auf dem Tisch gibt es Kekse und Orangen.",
+      "expl": "Im Plural steht „ci sono“ (Singular: „c’è“); in der Frage ändert sich die Form nicht. „dei“ und „delle“ sind Partitive: „einige“."
+    },
+    {
+      "id": "l18n06",
+      "r": "l18-voglia-qualcosa",
+      "pre": "Ho ",
+      "disp": "voglia",
+      "ans": ["voglia"],
+      "post": " di fare una passeggiata al mare.",
+      "tr": "Ich habe Lust, am Meer spazieren zu gehen.",
+      "expl": "„avere voglia di + Infinitiv“ = Lust haben, etwas zu tun. Hier mit io: „ho voglia di fare una passeggiata“."
+    },
+    {
+      "id": "l18n07",
+      "r": "l18-voglia-qualcosa",
+      "pre": "C'è ",
+      "disp": "qualcosa",
+      "ans": ["qualcosa"],
+      "post": " di fresco da bere?",
+      "tr": "Gibt es etwas Kühles zu trinken?",
+      "expl": "„qualcosa“ (auch „qualche cosa“) heißt „etwas“. Danach folgt „di + Adjektiv“: qualcosa di fresco, qualcosa di buono."
+    },
+    {
+      "id": "l18n08",
+      "r": "l18-vocab-camera",
+      "pre": "D'estate preferisco la ",
+      "disp": "doccia",
+      "ans": ["doccia"],
+      "post": " alla vasca.",
+      "tr": "Im Sommer mag ich die Dusche lieber als die Badewanne.",
+      "expl": "„la doccia“ ist die Dusche, „la vasca“ die Badewanne. Nach „preferire“ steht das zweite Element mit „a“: preferisco la doccia alla vasca."
+    },
+    {
+      "id": "l18n09",
+      "r": "l18-vocab-camera",
+      "pre": "Mi porta un ",
+      "disp": "asciugamano",
+      "ans": ["asciugamano"],
+      "post": " pulito, per favore?",
+      "tr": "Bringen Sie mir bitte ein sauberes Handtuch?",
+      "expl": "„l'asciugamano“ ist das Handtuch, im Plural „gli asciugamani“. „pulito“ heißt sauber – hier höflich mit Lei gefragt."
+    },
+    {
+      "id": "l18n10",
+      "r": "l18-vocab-camera",
+      "pre": "Sul ",
+      "disp": "comodino",
+      "ans": ["comodino"],
+      "post": " c'è una lampada accanto al telefono.",
+      "tr": "Auf dem Nachttisch steht eine Lampe neben dem Telefon.",
+      "expl": "„il comodino“ ist der Nachttisch; „accanto a + Ort“ heißt „neben“. „sul“ ist die Verschmelzung von su + il."
+    },
+    {
+      "id": "l19n01",
+      "r": "l19-venire-da",
+      "pre": "I signori Moretti vengono ",
+      "disp": "dalla",
+      "ans": ["dalla"],
+      "post": " Toscana.",
+      "tr": "Die Familie Moretti kommt aus der Toskana.",
+      "expl": "Die Herkunft steht mit „venire da + Artikel“: da + la = „dalla“, weil „la Toscana“ feminin ist. Ebenso: vengo dalla Germania."
+    },
+    {
+      "id": "l19n02",
+      "r": "l19-venire-da",
+      "pre": "Venite anche voi ",
+      "disp": "dagli",
+      "ans": ["dagli"],
+      "post": " Stati Uniti?",
+      "tr": "Kommt ihr auch aus den Vereinigten Staaten?",
+      "expl": "„gli Stati Uniti“ verlangt den Artikel gli; da + gli = „dagli“. Vor lo-Wörtern entsteht „dallo“: veniamo dallo Yorkshire."
+    },
+    {
+      "id": "l19n03",
+      "r": "l19-venire-da",
+      "pre": "Signorina Brown, ",
+      "disp": "viene",
+      "ans": ["viene"],
+      "post": " anche Lei alla festa dell'albergo?",
+      "tr": "Fräulein Brown, kommen Sie auch zum Fest des Hotels?",
+      "expl": "„venire“ wird unregelmäßig konjugiert: vengo, vieni, viene, veniamo, venite. Mit höflichem Lei steht die 3. Person: „viene“."
+    },
+    {
+      "id": "l19n04",
+      "r": "l19-nazionalita",
+      "pre": "La signorina Neumann non è francese, è ",
+      "disp": "tedesca",
+      "ans": ["tedesca"],
+      "post": ".",
+      "tr": "Fräulein Neumann ist nicht Französin, sie ist Deutsche.",
+      "expl": "Nationalitätsadjektive richten sich nach Geschlecht und Zahl: Ein Mann „è tedesco“, eine Frau „è tedesca“."
+    },
+    {
+      "id": "l19n05",
+      "r": "l19-fra-tra",
+      "pre": "Sono pronta ",
+      "disp": "fra",
+      "ans": ["fra", "tra"],
+      "post": " dieci minuti!",
+      "tr": "Ich bin in zehn Minuten fertig!",
+      "expl": "„fra“ (oder „tra“) + Zeitangabe bezeichnet einen künftigen Zeitraum: fra un minuto, fra dieci minuti – „in einer Minute, in zehn Minuten“."
+    },
+    {
+      "id": "l19n06",
+      "r": "l19-vicino-lontano",
+      "pre": "L'aeroporto è molto ",
+      "disp": "lontano",
+      "ans": ["lontano"],
+      "post": " dal centro.",
+      "tr": "Der Flughafen ist sehr weit vom Zentrum entfernt.",
+      "expl": "„lontano da“ = weit entfernt von; das Gegenstück ist „vicino a“ = nahe bei. Hier: lontano dal centro (da + il)."
+    },
+    {
+      "id": "l19n07",
+      "r": "l19-nazionalita",
+      "pre": "I signori Martin sono ",
+      "disp": "francesi",
+      "ans": ["francesi"],
+      "post": ", vengono da Lione.",
+      "tr": "Die Familie Martin ist französisch, sie kommt aus Lyon.",
+      "expl": "Im Plural enden Nationalitätsadjektive auf -i und gelten für Männer und Frauen gleich: „francesi“, „spagnoli“, „italiani“."
+    },
+    {
+      "id": "l19n08",
+      "r": "l19-presentazioni",
+      "pre": "— Piacere! — ",
+      "disp": "Molto",
+      "ans": ["Molto", "molto"],
+      "post": " lieto anch'io!",
+      "tr": "— Angenehm! — Ich bin auch sehr erfreut!",
+      "expl": "Beim Kennenlernen sagt man „Piacere!“ oder „Molto lieto“ (eine Frau: „Molto lieta“), gern erweitert zu „molto lieto di fare la Sua conoscenza“."
+    },
+    {
+      "id": "l19n09",
+      "r": "l19-presentazioni",
+      "pre": "Il mio ",
+      "disp": "nome",
+      "ans": ["nome"],
+      "post": " è Federico, e questa è mia moglie Silvia.",
+      "tr": "Mein Name ist Federico, und dies ist meine Frau Silvia.",
+      "expl": "„Il mio nome è …“ ist eine übliche Vorstellungsformel. Bei Familienangehörigen im Singular fehlt der Artikel: „mia moglie“, „mio fratello“."
+    },
+    {
+      "id": "l19n10",
+      "r": "l19-presentazioni",
+      "pre": "Siamo molto felici di essere ",
+      "disp": "in",
+      "ans": ["in"],
+      "post": " vacanza in Sardegna.",
+      "tr": "Wir sind sehr glücklich, im Urlaub auf Sardinien zu sein.",
+      "expl": "„in vacanza“ = im Urlaub (Singular). Die Ferien im Allgemeinen heißen „le vacanze“, etwa „le vacanze di Natale“."
+    },
+    {
+      "id": "l20n01",
+      "r": "l20-da-durata",
+      "pre": "Sono a Venezia ",
+      "disp": "da",
+      "ans": ["da"],
+      "post": " tre giorni.",
+      "tr": "Ich bin seit drei Tagen in Venedig.",
+      "expl": "Was noch andauert, steht im Präsens mit „da“: „sono qui da sabato“ – ich bin seit Samstag hier. Kein Perfekt verwenden."
+    },
+    {
+      "id": "l20n02",
+      "r": "l20-da-durata",
+      "pre": "Ma ",
+      "disp": "da",
+      "ans": ["da", "Da"],
+      "post": " quando sei a Roma, Luca?",
+      "tr": "Aber seit wann bist du in Rom, Luca?",
+      "expl": "„Da quando + Präsens“ fragt nach dem Beginn eines andauernden Zustands. Die Antwort beginnt ebenfalls mit „da“: da sabato scorso."
+    },
+    {
+      "id": "l20n03",
+      "r": "l20-fino-fra",
+      "pre": "Noi restiamo a Firenze ",
+      "disp": "fino a",
+      "ans": ["fino a"],
+      "post": " venerdì.",
+      "tr": "Wir bleiben bis Freitag in Florenz.",
+      "expl": "„fino a + Tag oder Datum“ nennt das Ende eines Zeitraums. Vor Uhrzeiten mit Artikel verschmilzt es: „fino alle otto“."
+    },
+    {
+      "id": "l20n04",
+      "r": "l20-fino-fra",
+      "pre": "Il treno arriva ",
+      "disp": "fra",
+      "ans": ["fra", "tra"],
+      "post": " mezz'ora.",
+      "tr": "Der Zug kommt in einer halben Stunde an.",
+      "expl": "„fra“ oder „tra“ + Zeitangabe bezeichnet die nahe Zukunft: fra due giorni = in zwei Tagen. Beide Formen sind gleichbedeutend."
+    },
+    {
+      "id": "l20n05",
+      "r": "l20-ad-vocale",
+      "pre": "Domani andiamo ",
+      "disp": "ad",
+      "ans": ["ad"],
+      "post": " Amalfi in pullman.",
+      "tr": "Morgen fahren wir mit dem Bus nach Amalfi.",
+      "expl": "Vor Vokalen wird „a“ zu „ad“ – aus euphonischen Gründen, ganz wie „e“ zu „ed“: ad Amalfi, ad Arezzo."
+    },
+    {
+      "id": "l20n06",
+      "r": "l20-vocab-gite",
+      "pre": "Purtroppo ",
+      "disp": "riparto",
+      "ans": ["riparto"],
+      "post": " domani per Torino.",
+      "tr": "Leider reise ich morgen nach Turin ab.",
+      "expl": "„ripartire per + Stadt“ heißt zurück- bzw. weiterreisen nach; zu io heißt es „riparto“. „purtroppo“ = leider."
+    },
+    {
+      "id": "l20n07",
+      "r": "l20-vocab-gite",
+      "pre": "La visita comprende gli scavi ",
+      "disp": "archeologici",
+      "ans": ["archeologici"],
+      "post": " di Pompei.",
+      "tr": "Die Besichtigung umfasst die archäologischen Ausgrabungen von Pompeji.",
+      "expl": "„gli scavi archeologici“ sind die archäologischen Ausgrabungen. Die meisten Wörter auf -co werden im Plural -ci: archeologico → archeologici."
+    },
+    {
+      "id": "l20n08",
+      "r": "l20-espressioni",
+      "pre": "Paolo, ",
+      "disp": "stai",
+      "ans": ["stai"],
+      "post": " tranquillo: c'è ancora tempo!",
+      "tr": "Paolo, bleib ruhig: Es ist noch genug Zeit da!",
+      "expl": "„stai + Adjektiv“ ist eine Aufforderung an du: „stai tranquillo!“, „stai calmo!“, „stai attento!“. Zu einer Frau: „stai tranquilla!“."
+    },
+    {
+      "id": "l20n09",
+      "r": "l20-espressioni",
+      "pre": "Ho ",
+      "disp": "paura",
+      "ans": ["paura"],
+      "post": " di perdere il treno.",
+      "tr": "Ich habe Angst, den Zug zu verpassen.",
+      "expl": "„avere paura di + Infinitiv“ = Angst haben, etwas zu tun. Bei Verneinung im Infinitiv steht „non“: ho paura di non avere il tempo."
+    },
+    {
+      "id": "l20n10",
+      "r": "l20-vocab-gite",
+      "pre": "La ",
+      "disp": "partenza",
+      "ans": ["partenza"],
+      "post": " del pullman è alle otto in punto.",
+      "tr": "Die Abfahrt des Busses ist um acht Uhr genau.",
+      "expl": "„la partenza“ ist die Abfahrt (zu partire), „il ritorno“ die Rückkehr. „in punto“ = genau, auf die Minute."
+    }
+  ]
+}

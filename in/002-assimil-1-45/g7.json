@@ -1,0 +1,632 @@
+{
+  "rules": {
+    "l31-avere-avuto": "Il passato prossimo di avere si forma con avuto: ho avuto, abbiamo avuto.",
+    "l31-essere-stato": "Con essere il participio stato si accorda: è stata, sono stati, siamo state.",
+    "l31-participi-ire": "Terzo gruppo in -ire: finito, dormito, partito, con ausiliare avere o essere.",
+    "l31-mi-raccomando": "Mi raccomando serve a pregare qualcuno con affetto e insistenza.",
+    "l31-espressioni-serata": "Espressioni utili: gli applausi, mal di testa, volentieri, venire da noi.",
+    "l32-ecco-pronome": "Ecco si scrive unito al pronome: eccola, eccoli, eccone.",
+    "l32-ci-luogo": "Il pronome ci sostituisce un luogo: ci vado spesso.",
+    "l32-ce-avere": "Con avere il pronome oggetto si rafforza con ce: ce le ho.",
+    "l32-da-tempo": "Con da quanto tempo il presente esprime un'azione che dura.",
+    "l32-espressioni-taxi": "Vocaboli ed espressioni: soldi, come al solito, ora di punta, mettere la tavola.",
+    "l33-modali-essere": "Potere e dovere prendono l'ausiliare dell'infinito: sono potuta arrivare, è dovuta andare.",
+    "l33-pronome-passato": "Il pronome diretto prima del verbo: l'ho vista, l'ho conosciuta.",
+    "l33-ne-participio": "Con ne il participio si accorda: ne ho bevuto uno, ne ho visitate tre.",
+    "l33-bere": "Presente di bere: bevo, bevi, beve, beviamo, bevete, bevono.",
+    "l33-espressioni-giornata": "Espressioni: è successo, di pessimo umore, all'alba, lasciamo perdere.",
+    "l34-accordo-pronome": "Pronomi diretti e passato prossimo: le ho comprate, li ho conosciuti.",
+    "l34-ne-quantita": "Ne sostituisce una quantità e il participio si accorda: ne ho fatte parecchie.",
+    "l34-preposizioni-articolate": "Preposizioni articolate: alla griglia, dell'Associazione, dal salumiere.",
+    "l34-uomini": "Il plurale di uomo è irregolare: uomini.",
+    "l34-espressioni-movimento": "Vocaboli ed espressioni: dici sul serio, significa, intanto, il seguito, militanti.",
+    "l35-ausiliari-se-stessi": "Avere ed essere si coniugano con se stessi: ho avuto, sono stato.",
+    "l35-accordo-soggetto": "Con essere il participio accorda col soggetto; col misto prevale il maschile plurale.",
+    "l35-modali-ausiliare": "Volere, potere e dovere prendono l'ausiliare dell'infinito che li segue.",
+    "l35-pronome-ne": "Pronomi plurali senza apostrofo: li ho salutati; con ne: ne ho prese due.",
+    "l35-espressioni-ripasso": "Espressioni di ripasso: eccomi qua, non c'è male, di bello, dal salumiere."
+  },
+  "items": [
+    {
+      "id": "l31n01",
+      "r": "l31-avere-avuto",
+      "pre": "Ieri sera abbiamo ",
+      "disp": "avuto",
+      "ans": [
+        "avuto"
+      ],
+      "post": " una splendida idea.",
+      "tr": "Gestern Abend hatten wir eine großartige Idee.",
+      "expl": "„Avere“ bildet das Passato prossimo mit sich selbst: haben + „avuto“. Zu „noi“ gehört die Form „abbiamo avuto“."
+    },
+    {
+      "id": "l31n02",
+      "r": "l31-essere-stato",
+      "pre": "Paolo e Sara ",
+      "disp": "sono",
+      "ans": [
+        "sono"
+      ],
+      "post": " stati a Bologna ieri.",
+      "tr": "Paolo und Sara waren gestern in Bologna.",
+      "expl": "„Essere“ arbeitet hier als Hilfszeitwort: „sono stati“ = sie sind … gewesen. Das Partizip „stati“ richtet sich nach der männlichen Mehrzahl."
+    },
+    {
+      "id": "l31n03",
+      "r": "l31-essere-stato",
+      "pre": "La serata ",
+      "disp": "è",
+      "ans": [
+        "è"
+      ],
+      "post": " stata davvero divertente.",
+      "tr": "Der Abend war wirklich unterhaltsam.",
+      "expl": "„Serata“ ist feminin, daher „è stata“. Das Partizip „stata“ stimmt mit dem weiblichen Subjekt überein."
+    },
+    {
+      "id": "l31n04",
+      "r": "l31-participi-ire",
+      "pre": "Il treno è ",
+      "disp": "partito",
+      "ans": [
+        "partito"
+      ],
+      "post": " alle otto in punto.",
+      "tr": "Der Zug ist um Punkt acht abgefahren.",
+      "expl": "„Partire“ gehört zur Gruppe der Verben auf „-ire“: das Partizip heißt „partito“. Als Bewegungsverb verlangt es „essere“."
+    },
+    {
+      "id": "l31n05",
+      "r": "l31-participi-ire",
+      "pre": "I bambini hanno ",
+      "disp": "dormito",
+      "ans": [
+        "dormito"
+      ],
+      "post": " fino a tardi.",
+      "tr": "Die Kinder haben bis spät geschlafen.",
+      "expl": "„Dormire“ bildet das Partizip „dormito“, genau wie „finire“ → „finito“. „Dormire“ steht mit dem Hilfszeitwort „avere“."
+    },
+    {
+      "id": "l31n06",
+      "r": "l31-mi-raccomando",
+      "pre": "Mi ",
+      "disp": "raccomando",
+      "ans": [
+        "raccomando"
+      ],
+      "post": ", scrivimi appena arrivi!",
+      "tr": "Bitte, schreib mir, sobald du ankommst!",
+      "expl": "„Mi raccomando“ ist eine feste Wendung für „Ich bitte dich dringend“. Man verwendet sie, um jemanden freundlich zu ermahnen."
+    },
+    {
+      "id": "l31n07",
+      "r": "l31-espressioni-serata",
+      "pre": "Gli attori, alla fine, hanno avuto gli ",
+      "disp": "applausi",
+      "ans": [
+        "applausi"
+      ],
+      "post": " del pubblico.",
+      "tr": "Die Schauspieler bekamen am Ende den Applaus des Publikums.",
+      "expl": "„Avere gli applausi“ heißt wörtlich „den Beifall haben“, also Beifall erhalten. „Applausi“ steht praktisch immer im Plural."
+    },
+    {
+      "id": "l31n08",
+      "r": "l31-espressioni-serata",
+      "pre": "Dopo la festa in discoteca ho avuto ",
+      "disp": "mal",
+      "ans": [
+        "mal"
+      ],
+      "post": " di testa tutto il giorno.",
+      "tr": "Nach der Party in der Disko hatte ich den ganzen Tag Kopfschmerzen.",
+      "expl": "„Mal di testa“ = Kopfschmerzen. Die Wendung ist über „di“ fest verbunden und unveränderlich."
+    },
+    {
+      "id": "l31n09",
+      "r": "l31-espressioni-serata",
+      "pre": "— Vuoi cenare con noi sabato? — Sì, ",
+      "disp": "volentieri",
+      "ans": [
+        "volentieri"
+      ],
+      "post": "!",
+      "tr": "— Willst du am Samstag mit uns essen? — Ja, sehr gern!",
+      "expl": "„Volentieri“ bedeutet „gern, mit Vergnügen“ und ist die freundliche Zusage auf eine Einladung."
+    },
+    {
+      "id": "l31n10",
+      "r": "l31-espressioni-serata",
+      "pre": "Domani sera i nostri vicini vengono ",
+      "disp": "da",
+      "ans": [
+        "da"
+      ],
+      "post": " noi per un caffè.",
+      "tr": "Morgen Abend kommen unsere Nachbarn zu uns auf einen Kaffee.",
+      "expl": "„Venire da + Person“ heißt „zu jemandem kommen“: „da noi“ = zu uns. Die Präposition „da“ bezeichnet hier die Zielperson."
+    },
+    {
+      "id": "l32n01",
+      "r": "l32-ecco-pronome",
+      "pre": "Dov'è la tua borsa? ",
+      "disp": "Eccola",
+      "ans": [
+        "Eccola"
+      ],
+      "post": " qua!",
+      "tr": "Wo ist deine Tasche? Hier ist sie!",
+      "expl": "„Ecco“ verschmilzt mit dem Folgepronomen zu einem Wort: „eccola“ = hier ist sie. „Eccola qua“ verstärkt den Hinweis noch."
+    },
+    {
+      "id": "l32n02",
+      "r": "l32-ci-luogo",
+      "pre": "Conosci quel caffè? — Sì, ",
+      "disp": "ci",
+      "ans": [
+        "ci"
+      ],
+      "post": " vado spesso.",
+      "tr": "Kennst du dieses Café? — Ja, ich gehe oft dorthin.",
+      "expl": "„Ci“ ersetzt die Ortsangabe („a quel caffè“) und bedeutet „dorthin“. So wird die Wiederholung des Ortes vermieden."
+    },
+    {
+      "id": "l32n03",
+      "r": "l32-espressioni-taxi",
+      "pre": "Non ho molti ",
+      "disp": "soldi",
+      "ans": [
+        "soldi"
+      ],
+      "post": " con me oggi.",
+      "tr": "Ich habe heute nicht viel Geld dabei.",
+      "expl": "„Soldi“ ist das übliche Wort für Geld und steht immer im Plural. Das seltener gebrauchte Singularwort ist „denaro“."
+    },
+    {
+      "id": "l32n04",
+      "r": "l32-ce-avere",
+      "pre": "— Hai le fotocopie? — No, non ",
+      "disp": "ce",
+      "ans": [
+        "ce"
+      ],
+      "post": " le ho.",
+      "tr": "— Hast du die Kopien? — Nein, ich habe sie nicht.",
+      "expl": "Bei „avere“ wird das Objektpronomen mit „ce“ verstärkt: „ce le ho“ = ich habe sie. Vor „le ho“ passt nur „ce“."
+    },
+    {
+      "id": "l32n05",
+      "r": "l32-espressioni-taxi",
+      "pre": "Il treno è arrivato in ritardo, ",
+      "disp": "come",
+      "ans": [
+        "come"
+      ],
+      "post": " al solito.",
+      "tr": "Der Zug kam verspätet an, wie üblich.",
+      "expl": "„Come al solito“ = wie üblich. Die feste Wendung kommentiert eine typische, erwartbare Situation."
+    },
+    {
+      "id": "l32n06",
+      "r": "l32-espressioni-taxi",
+      "pre": "In centro il traffico è pazzesco: è l'ora di ",
+      "disp": "punta",
+      "ans": [
+        "punta"
+      ],
+      "post": ".",
+      "tr": "Im Zentrum ist der Verkehr verrückt: Es ist Hauptverkehrszeit.",
+      "expl": "„L'ora di punta“ ist die Hauptverkehrszeit, wörtlich die „Spitzenstunde“. Sie passt zum verrückten Verkehr („traffico pazzesco“)."
+    },
+    {
+      "id": "l32n07",
+      "r": "l32-espressioni-taxi",
+      "pre": "Ah no, ",
+      "disp": "povera",
+      "ans": [
+        "povera"
+      ],
+      "post": " me! Sono uscita senza portafogli!",
+      "tr": "Ach nein, ich Arme! Ich bin ohne Geldbörse aus dem Haus gegangen!",
+      "expl": "„Povera me!“ = ich Arme! Das Adjektiv steht feminin, weil die Sprecherin eine Frau ist („sono uscita“)."
+    },
+    {
+      "id": "l32n08",
+      "r": "l32-espressioni-taxi",
+      "pre": "Non si preoccupi, può ",
+      "disp": "tenere",
+      "ans": [
+        "tenere"
+      ],
+      "post": " il resto.",
+      "tr": "Machen Sie sich keine Sorgen, Sie können das Wechselgeld behalten.",
+      "expl": "„Tenere il resto“ = das Wechselgeld behalten. Höfliche Formel beim Bezahlen, wenn man kein Kleingeld zurückwill."
+    },
+    {
+      "id": "l32n09",
+      "r": "l32-da-tempo",
+      "pre": "— Da quanto tempo ",
+      "disp": "conosci",
+      "ans": [
+        "conosci"
+      ],
+      "post": " Elsa? — Da circa dieci anni.",
+      "tr": "— Wie lange kennst du Elsa? — Etwa zehn Jahre.",
+      "expl": "Nach „da quanto tempo“ steht im Italienischen das Präsens, nicht das Perfekt: „conosci“ = du kennst (schon seit …)."
+    },
+    {
+      "id": "l32n10",
+      "r": "l32-espressioni-taxi",
+      "pre": "Puoi ",
+      "disp": "mettere",
+      "ans": [
+        "mettere"
+      ],
+      "post": " la tavola? Tra poco arrivano gli ospiti.",
+      "tr": "Kannst du den Tisch decken? Gleich kommen die Gäste.",
+      "expl": "„Mettere la tavola“ = den Tisch decken. Beim Essen sagt man „la tavola“, nicht „il tavolo“."
+    },
+    {
+      "id": "l33n01",
+      "r": "l33-modali-essere",
+      "pre": "— Sei in ritardo! — Lo so, non sono ",
+      "disp": "potuta",
+      "ans": [
+        "potuta"
+      ],
+      "post": " uscire prima dall'ufficio.",
+      "tr": "— Du bist zu spät! — Ich weiß, ich konnte nicht früher aus dem Büro weg.",
+      "expl": "„Potere“ übernimmt das Hilfszeitwort des folgenden Infinitivs: „uscire“ verlangt „essere“. Die Sprecherin ist eine Frau, daher „potuta“."
+    },
+    {
+      "id": "l33n02",
+      "r": "l33-espressioni-giornata",
+      "pre": "— Sei pallida! Che cosa è ",
+      "disp": "successo",
+      "ans": [
+        "successo"
+      ],
+      "post": "?",
+      "tr": "— Du bist ganz blass! Was ist passiert?",
+      "expl": "„Succedere“ hat das Partizip „successo“: „che cosa è successo?“ = was ist passiert? Im Präsens heißt es „che succede?“."
+    },
+    {
+      "id": "l33n03",
+      "r": "l33-pronome-passato",
+      "pre": "Hai visto Nadia? — Sì, l'ho ",
+      "disp": "vista",
+      "ans": [
+        "vista"
+      ],
+      "post": " stamattina al mercato.",
+      "tr": "Hast du Nadia gesehen? — Ja, ich habe sie heute Morgen auf dem Markt gesehen.",
+      "expl": "Das Pronomen „la“ wird vor „ho“ zu „l'“: „l'ho“. Das Partizip richtet sich nach dem Objekt aus: Nadia → „vista“."
+    },
+    {
+      "id": "l33n04",
+      "r": "l33-bere",
+      "pre": "Vuoi un altro caffè? — No, grazie, ne ho già ",
+      "disp": "bevuto",
+      "ans": [
+        "bevuto"
+      ],
+      "post": " uno.",
+      "tr": "Willst du noch einen Kaffee? — Nein danke, ich habe schon einen getrunken.",
+      "expl": "„Bere“ hat das Partizip „bevuto“. Bei „ne … uno“ bleibt es männlich Singular."
+    },
+    {
+      "id": "l33n05",
+      "r": "l33-bere",
+      "pre": "Che cosa ",
+      "disp": "bevi",
+      "ans": [
+        "bevi"
+      ],
+      "post": " a colazione, tè o caffè?",
+      "tr": "Was trinkst du zum Frühstück, Tee oder Kaffee?",
+      "expl": "Weil nach Tee oder Kaffee gefragt wird, muss „trinken“ stehen: „bevi“ ist die du-Form von „bere“ (io bevo, tu bevi)."
+    },
+    {
+      "id": "l33n06",
+      "r": "l33-ne-participio",
+      "pre": "Hai visitato molte città? — Sì, ne ho ",
+      "disp": "visitate",
+      "ans": [
+        "visitate"
+      ],
+      "post": " tre.",
+      "tr": "Hast du viele Städte besucht? — Ja, ich habe drei davon besucht.",
+      "expl": "Mit „ne“ stimmt das Partizip mit dem Bezugswort überein: „città“ ist feminin Plural, also „visitate“."
+    },
+    {
+      "id": "l33n07",
+      "r": "l33-espressioni-giornata",
+      "pre": "— Perché hai rifiutato l'intervista? — Perché io ",
+      "disp": "detesto",
+      "ans": [
+        "detesto"
+      ],
+      "post": " il calcio!",
+      "tr": "— Warum hast du das Interview abgelehnt? — Weil ich Fußball hasse!",
+      "expl": "„Detestare“ = verabscheuen, hassen. Hier steht die ich-Form „detesto“; „il calcio“ ist der Fußball."
+    },
+    {
+      "id": "l33n08",
+      "r": "l33-espressioni-giornata",
+      "pre": "Oggi Giulia si è alzata ",
+      "disp": "all'",
+      "ans": [
+        "all'"
+      ],
+      "post": "alba per prendere l'aereo.",
+      "tr": "Heute ist Giulia im Morgengrauen aufgestanden, um das Flugzeug zu nehmen.",
+      "expl": "„All'“ ist die Verschmelzung von „a“ + Artikel vor Vokal: „all'alba“ = im Morgengrauen. Nach dem Apostroph folgt das Vokalwort ohne Leerzeichen."
+    },
+    {
+      "id": "l33n09",
+      "r": "l33-espressioni-giornata",
+      "pre": "Sono uscita di ",
+      "disp": "pessimo",
+      "ans": [
+        "pessimo"
+      ],
+      "post": " umore: la giornata era cominciata male.",
+      "tr": "Ich ging in übler Laune aus dem Haus: Der Tag hatte schlecht begonnen.",
+      "expl": "„Di pessimo umore“ = in denkbar schlechter Stimmung. „Pessimo“ ist der lateinische Superlativ von „cattivo“, wie „ottimo“ von „buono“."
+    },
+    {
+      "id": "l33n10",
+      "r": "l33-espressioni-giornata",
+      "pre": "Un caffè, grazie… anzi no, ",
+      "disp": "lasciamo",
+      "ans": [
+        "lasciamo"
+      ],
+      "post": " perdere.",
+      "tr": "Einen Kaffee, bitte… nein, lassen wir es.",
+      "expl": "„Lasciamo perdere“ = das vergessen wir, lassen wir es sein. Die Wendung nimmt eine eben geäußerte Bitte zurück."
+    },
+    {
+      "id": "l34n01",
+      "r": "l34-accordo-pronome",
+      "pre": "Hai comprato le arance? — Sì, le ho ",
+      "disp": "comprate",
+      "ans": [
+        "comprate"
+      ],
+      "post": " al mercato.",
+      "tr": "Hast du die Orangen gekauft? — Ja, ich habe sie auf dem Markt gekauft.",
+      "expl": "Das direkte Objektpronomen „le“ steht vor dem Hilfszeitwort, daher stimmt das Partizip überein: „comprate“ für „arance“ (feminin Plural)."
+    },
+    {
+      "id": "l34n02",
+      "r": "l34-preposizioni-articolate",
+      "pre": "Stasera preferisco i funghi ",
+      "disp": "alla",
+      "ans": [
+        "alla"
+      ],
+      "post": " griglia.",
+      "tr": "Heute Abend mag ich lieber Champignons vom Grill.",
+      "expl": "„Alla griglia“ = gegrillt. „Alla“ entsteht aus „a“ + „la“; die Wendung beschreibt die Zubereitungsart."
+    },
+    {
+      "id": "l34n03",
+      "r": "l34-ne-quantita",
+      "pre": "— Avete fatto delle foto in gita? — Sì, ne ho fatte ",
+      "disp": "parecchie",
+      "ans": [
+        "parecchie"
+      ],
+      "post": ".",
+      "tr": "— Habt ihr auf dem Ausflug Fotos gemacht? — Ja, ich habe etliche davon gemacht.",
+      "expl": "„Parecchie“ = etliche, einige. Es richtet sich nach „foto“ (feminin Plural); „ne ho fatte parecchie“ = ich habe davon etliche gemacht."
+    },
+    {
+      "id": "l34n04",
+      "r": "l34-ne-quantita",
+      "pre": "Hai conosciuto i nuovi colleghi? — Sì, ",
+      "disp": "ne",
+      "ans": [
+        "ne"
+      ],
+      "post": " ho conosciuti due.",
+      "tr": "Hast du die neuen Kollegen kennengelernt? — Ja, zwei davon habe ich kennengelernt.",
+      "expl": "„Ne“ ersetzt hier „di loro“ (von ihnen). Das Partizip „conosciuti“ richtet sich nach dem männlichen Plural."
+    },
+    {
+      "id": "l34n05",
+      "r": "l34-uomini",
+      "pre": "L'associazione difende i diritti degli ",
+      "disp": "uomini",
+      "ans": [
+        "uomini"
+      ],
+      "post": " oppressi.",
+      "tr": "Die Vereinigung verteidigt die Rechte der unterdrückten Männer.",
+      "expl": "Der Plural von „uomo“ ist unregelmäßig: „uomini“. In „degli uomini“ verschmilzt außerdem „di“ + „gli“."
+    },
+    {
+      "id": "l34n06",
+      "r": "l34-espressioni-movimento",
+      "pre": "Dici sul ",
+      "disp": "serio",
+      "ans": [
+        "serio"
+      ],
+      "post": "? Non ci credo!",
+      "tr": "Meinst du das ernst? Ich glaube das nicht!",
+      "expl": "„Dire sul serio“ = im Ernst sprechen. Die typische Gegenantwort lautet „come no!“, aber natürlich."
+    },
+    {
+      "id": "l34n07",
+      "r": "l34-espressioni-movimento",
+      "pre": "Intanto ti ",
+      "disp": "racconto",
+      "ans": [
+        "racconto"
+      ],
+      "post": " come è finita.",
+      "tr": "Währenddessen erzähle ich dir, wie es ausgegangen ist.",
+      "expl": "„Intanto“ = inzwischen, währenddessen. „Racconto“ ist die ich-Form von „raccontare“, „il seguito“ wäre die Fortsetzung der Geschichte."
+    },
+    {
+      "id": "l34n08",
+      "r": "l34-espressioni-movimento",
+      "pre": "Quella sigla ",
+      "disp": "significa",
+      "ans": [
+        "significa"
+      ],
+      "post": ": Movimento di Liberazione dei Mariti Maltrattati.",
+      "tr": "Diese Abkürzung bedeutet: Bewegung zur Befreiung misshandelter Ehemänner.",
+      "expl": "„Significare“ = bedeuten. Die dritte Person Singular „significa“ erklärt, wofür eine Abkürzung steht."
+    },
+    {
+      "id": "l34n09",
+      "r": "l34-preposizioni-articolate",
+      "pre": "Lo scopo ",
+      "disp": "dell'",
+      "ans": [
+        "dell'"
+      ],
+      "post": "Associazione è la difesa dei più deboli.",
+      "tr": "Ziel der Vereinigung ist der Schutz der Schwächsten.",
+      "expl": "„Dell'“ = „di“ + „l'“ vor Vokal, hier vor „Associazione“. Der Apostroph steht für das ausgelassene „i“ von „il“."
+    },
+    {
+      "id": "l34n10",
+      "r": "l34-espressioni-movimento",
+      "pre": "Due ",
+      "disp": "militanti",
+      "ans": [
+        "militanti"
+      ],
+      "post": " del movimento sfilano con un cartello.",
+      "tr": "Zwei Aktivisten der Bewegung marschieren mit einem Schild.",
+      "expl": "„Militante“ ist ein aktives Mitglied einer Bewegung; die Pluralform „militanti“ bleibt für Maskulinum und Femininum gleich."
+    },
+    {
+      "id": "l35n01",
+      "r": "l35-ausiliari-se-stessi",
+      "pre": "Da giovane ho ",
+      "disp": "avuto",
+      "ans": [
+        "avuto"
+      ],
+      "post": " molti amici a Napoli.",
+      "tr": "In meiner Jugend hatte ich viele Freunde in Neapel.",
+      "expl": "„Avere“ bildet das Passato prossimo mit sich selbst: „ho avuto“ = ich hatte. Entsprechend heißt es bei „essere“: „sono stato“."
+    },
+    {
+      "id": "l35n02",
+      "r": "l35-accordo-soggetto",
+      "pre": "Marta, Sofia e Antonio sono ",
+      "disp": "andati",
+      "ans": [
+        "andati"
+      ],
+      "post": " al cinema.",
+      "tr": "Marta, Sofia und Antonio sind ins Kino gegangen.",
+      "expl": "Mit „essere“ stimmt das Partizip mit dem Subjekt überein. Bei gemischten Gruppen setzt sich das Maskulinum durch: „andati“."
+    },
+    {
+      "id": "l35n03",
+      "r": "l35-modali-ausiliare",
+      "pre": "Ieri ho ",
+      "disp": "dovuto",
+      "ans": [
+        "dovuto"
+      ],
+      "post": " lavorare fino a tardi.",
+      "tr": "Gestern musste ich bis spät arbeiten.",
+      "expl": "„Dovere“ übernimmt das Hilfszeitwort des folgenden Infinitivs: „lavorare“ steht mit „avere“, also „ho dovuto lavorare“."
+    },
+    {
+      "id": "l35n04",
+      "r": "l35-modali-ausiliare",
+      "pre": "Con la febbre, non è ",
+      "disp": "potuta",
+      "ans": [
+        "potuta"
+      ],
+      "post": " uscire ieri sera.",
+      "tr": "Mit Fieber konnte sie gestern Abend nicht ausgehen.",
+      "expl": "„Uscire“ verlangt „essere“, also steht auch „potere“ mit „essere“: „è potuta uscire“. Feminin, weil eine Frau gemeint ist."
+    },
+    {
+      "id": "l35n05",
+      "r": "l35-espressioni-ripasso",
+      "pre": "Eccomi ",
+      "disp": "qua",
+      "ans": [
+        "qua",
+        "qui"
+      ],
+      "post": "! Scusa il ritardo.",
+      "tr": "Hier bin ich! Entschuldige die Verspätung.",
+      "expl": "„Eccomi qua“ = hier bin ich. „Ecco“ verschmilzt mit dem Pronomen „mi“; „qua“ und „qui“ bedeuten beide „hier“."
+    },
+    {
+      "id": "l35n06",
+      "r": "l35-pronome-ne",
+      "pre": "Hai raccolto tutte le ciliegie? — No, ne ho ",
+      "disp": "prese",
+      "ans": [
+        "prese"
+      ],
+      "post": " solo due.",
+      "tr": "Hast du alle Kirschen gepflückt? — Nein, ich habe nur zwei davon gepflückt.",
+      "expl": "Mit „ne“ stimmt das Partizip mit dem Bezugswort überein: „ciliegie“ ist feminin Plural, daher „prese“."
+    },
+    {
+      "id": "l35n07",
+      "r": "l35-espressioni-ripasso",
+      "pre": "Devo passare ",
+      "disp": "dal",
+      "ans": [
+        "dal"
+      ],
+      "post": " salumiere: non abbiamo più pane.",
+      "tr": "Ich muss noch beim Feinkosthändler vorbeischauen: Wir haben kein Brot mehr.",
+      "expl": "„Dal“ = „da“ + „il“. Bei „passare dal + Händler“ zeigt die Verschmelzung, bei wem man vorbeischaut."
+    },
+    {
+      "id": "l35n08",
+      "r": "l35-espressioni-ripasso",
+      "pre": "— Come va la vita? — Non c'è ",
+      "disp": "male",
+      "ans": [
+        "male"
+      ],
+      "post": ", e tu?",
+      "tr": "— Wie läuft's im Leben? — Nicht übel, und bei dir?",
+      "expl": "„Non c'è male“ = geht so, nicht übel — die zurückhaltende Standardantwort auf die Frage nach dem Befinden."
+    },
+    {
+      "id": "l35n09",
+      "r": "l35-espressioni-ripasso",
+      "pre": "— Che cosa hai fatto di ",
+      "disp": "bello",
+      "ans": [
+        "bello"
+      ],
+      "post": " ieri? — Le solite cose.",
+      "tr": "— Was hast du gestern Schönes gemacht? — Das Übliche.",
+      "expl": "„Che … di bello?“ fragt nach etwas Erfreulichem. Die Antwort „le solite cose“ bedeutet: wie immer, nichts Besonderes."
+    },
+    {
+      "id": "l35n10",
+      "r": "l35-espressioni-ripasso",
+      "pre": "Sbrigati, ti aspetto ",
+      "disp": "da",
+      "ans": [
+        "da"
+      ],
+      "post": " un'ora!",
+      "tr": "Beeil dich, ich warte schon eine Stunde auf dich!",
+      "expl": "„Da“ + Zeitdauer beim Präsens: „ti aspetto da un'ora“ = ich warte seit einer Stunde auf dich."
+    }
+  ]
+}

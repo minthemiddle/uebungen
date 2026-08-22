@@ -1,0 +1,134 @@
+{
+  "rules": {
+    "l29-spegnere": "Il verbo spegnere è irregolare al presente: spengo, spegni, spegne, spegniamo, spegnete, spengono.",
+    "l29-passato-essere": "Il passato prossimo con essere concorda con il soggetto: è andata, è entrato, sono andati.",
+    "l29-preposizione-da": "La preposizione da si usa con luoghi e persone: dal macellaio, dall'asilo, dai genitori.",
+    "l29-espressioni": "Espressioni colloquiali: fare la spesa, fare capricci, come al solito, amico del cuore, un sacco di.",
+    "l29-pronome-soggetto": "Con essere si usa il pronome soggetto: sei tu?, sono io, siamo noi."
+  },
+  "items": [
+    {
+      "id": "l29n01",
+      "r": "l29-spegnere",
+      "pre": "Aspetta un attimo, ",
+      "disp": "spengo",
+      "ans": [
+        "spengo"
+      ],
+      "post": " la televisione e poi parliamo.",
+      "tr": "Warte einen Moment, ich schalte den Fernseher aus und dann reden wir.",
+      "expl": "„Spengo“ ist die unregelmäßige 1. Person Singular von „spegnere“ (ausschalten) im Präsens. Das Verb ist irregulär: „spengo, spegni, spegne...“."
+    },
+    {
+      "id": "l29n02",
+      "r": "l29-spegnere",
+      "pre": "Ogni sera prima di dormire ",
+      "disp": "spegni",
+      "ans": [
+        "spegni"
+      ],
+      "post": " la luce, vero?",
+      "tr": "Jeden Abend vor dem Schlafen schaltest du das Licht aus, stimmt's?",
+      "expl": "„Spegni“ ist die 2. Person Singular von „spegnere“ (ausschalten). Die Form gehört zum unregelmäßigen Präsensmuster des Verbs."
+    },
+    {
+      "id": "l29n03",
+      "r": "l29-passato-essere",
+      "pre": "Questa mattina Paola ",
+      "disp": "è andata",
+      "ans": [
+        "è andata"
+      ],
+      "post": " al mercato con la sua amica.",
+      "tr": "Heute Morgen ist Paola mit ihrer Freundin zum Markt gegangen.",
+      "expl": "„È andata“ ist das Passato prossimo von „andare“ mit „essere“. Das Partizip endet auf „-ata“, weil das Subjekt Paola weiblich ist."
+    },
+    {
+      "id": "l29n04",
+      "r": "l29-passato-essere",
+      "pre": "Il bambino non ",
+      "disp": "è entrato",
+      "ans": [
+        "è entrato"
+      ],
+      "post": " finché non è arrivata la sua maestra.",
+      "tr": "Das Kind kam erst hinein, als seine Erzieherin angekommen war.",
+      "expl": "„È entrato“ ist das Passato prossimo von „entrare“ mit „essere“, das Partizip auf „-ato“. Da das Subjekt maskulin ist, endet es auf „-o“."
+    },
+    {
+      "id": "l29n05",
+      "r": "l29-preposizione-da",
+      "pre": "Dopo il lavoro sono passata ",
+      "disp": "dal",
+      "ans": [
+        "dal"
+      ],
+      "post": " macellaio a comprare un po' di carne.",
+      "tr": "Nach der Arbeit bin ich beim Metzger vorbeigegangen, um etwas Fleisch zu kaufen.",
+      "expl": "„Dal“ ist da + il: die Präposition „da“ bezeichnet den Ort oder die Person („dal macellaio“ = beim Metzger). Sie verschmilzt mit dem bestimmten Artikel."
+    },
+    {
+      "id": "l29n06",
+      "r": "l29-preposizione-da",
+      "pre": "La bambina piange sempre quando deve andare ",
+      "disp": "all'asilo",
+      "ans": [
+        "all’asilo",
+        "all'asilo",
+        "allasilo"
+      ],
+      "post": " al mattino.",
+      "tr": "Das kleine Mädchen weint immer, wenn es morgens in den Kindergarten gehen muss.",
+      "expl": "„Asilo“ ist der Kindergarten, nicht etwa ein Irrenhaus. „All'asilo“ ist a + l'asilo, wobei das „a“ vor dem Vokal elidiert wird."
+    },
+    {
+      "id": "l29n07",
+      "r": "l29-espressioni",
+      "pre": "Domenica vado a fare ",
+      "disp": "la spesa",
+      "ans": [
+        "la spesa"
+      ],
+      "post": " al supermercato vicino a casa.",
+      "tr": "Am Sonntag gehe ich im Supermarkt in der Nähe von zu Hause Lebensmittel einkaufen.",
+      "expl": "„Fare la spesa“ bedeutet „Lebensmittel einkaufen“, im Gegensatz zu „fare delle spese“ (bummeln gehen). Es ist eine feste Wendung mit „fare“."
+    },
+    {
+      "id": "l29n08",
+      "r": "l29-espressioni",
+      "pre": "Come ",
+      "disp": "al solito",
+      "ans": [
+        "al solito"
+      ],
+      "post": ", prendo il caffè prima di iniziare a lavorare.",
+      "tr": "Wie gewöhnlich trinke ich den Kaffee, bevor ich mit der Arbeit beginne.",
+      "expl": "„Come al solito“ bedeutet „wie gewöhnlich / wie immer“. Es ist eine häufige feste Wendung mit dem Adjektiv „solito“ (gewohnt)."
+    },
+    {
+      "id": "l29n09",
+      "r": "l29-espressioni",
+      "pre": "Marco è il mio ",
+      "disp": "amico",
+      "ans": [
+        "amico"
+      ],
+      "post": " del cuore: ci conosciamo da tanti anni.",
+      "tr": "Marco ist mein Herzensfreund: wir kennen uns seit vielen Jahren.",
+      "expl": "„Amico del cuore“ bedeutet „bester Freund / Herzensfreund“. Die Wendung stammt aus dem Dialog über Federicos Freund."
+    },
+    {
+      "id": "l29n10",
+      "r": "l29-pronome-soggetto",
+      "pre": "Pronto? Chi parla? – ",
+      "disp": "Sono",
+      "ans": [
+        "Sono",
+        "sono"
+      ],
+      "post": " io, la tua amica Chiara!",
+      "tr": "Hallo? Wer spricht? – Ich bin es, deine Freundin Chiara!",
+      "expl": "„Sono io“ („ich bin es“) verwendet das Subjektpronomen „io“ beim Verb „essere“. So sagt man es, wenn man sich am Telefon zu erkennen gibt."
+    }
+  ]
+}

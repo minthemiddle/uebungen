@@ -1,0 +1,111 @@
+{
+  "rules": {
+    "l44-passato-prossimo": "Il passato prossimo usa il participio passato (risposto, scritto) con l'ausiliare avere.",
+    "l44-sembrare": "Sembrare regge il pronome indiretto (mi, ti) e concorda col soggetto.",
+    "l44-adatto": "L'aggettivo adatto regge la preposizione a.",
+    "l44-pronomi-diretti": "I pronomi diretti (lo, la, ti) precedono l'ausiliare nel passato prossimo.",
+    "l44-espressioni": "Espressioni del linguaggio di lavoro: offerta, curriculum, casella postale."
+  },
+  "items": [
+    {
+      "id": "l44n01",
+      "r": "l44-passato-prossimo",
+      "pre": "Per molti mesi ho ",
+      "disp": "risposto",
+      "ans": ["risposto"],
+      "post": " agli annunci dei giornali.",
+      "tr": "Viele Monate lang habe ich auf die Zeitungsanzeigen geantwortet.",
+      "expl": "„Rispondere“ bildet sein Partizip Perfekt unregelmäßig: „risposto“. Mit „avere“ entsteht das Passato Prossimo: „ho risposto“. Auf „rispondere“ folgt die Präposition „a“, hier zu „agli“ verschmolzen."
+    },
+    {
+      "id": "l44n02",
+      "r": "l44-passato-prossimo",
+      "pre": "Naturalmente ho ",
+      "disp": "scritto",
+      "ans": ["scritto"],
+      "post": " loro una lettera di presentazione.",
+      "tr": "Natürlich habe ich ihnen sofort ein Bewerbungsschreiben geschickt.",
+      "expl": "„Scrivere“ hat das unregelmäßige Partizip Perfekt „scritto“. Zusammen mit „avere“ bildet es das Passato Prossimo: „ho scritto“. Das indirekte Objekt „loro“ (ihnen) steht nach dem Partizip."
+    },
+    {
+      "id": "l44n03",
+      "r": "l44-sembrare",
+      "pre": "La loro offerta ",
+      "disp": "mi è sembrata",
+      "ans": ["mi è sembrata"],
+      "post": " molto interessante.",
+      "tr": "Ihr Angebot erschien mir sehr interessant.",
+      "expl": "„Sembrare“ (erscheinen) wird mit „essere“ gebildet und richtet sich nach dem Subjekt: „mi è sembrata“ (fem. Sg. wegen „offerta“). Das indirekte Pronomen „mi“ steht vor dem Hilfsverb."
+    },
+    {
+      "id": "l44n04",
+      "r": "l44-adatto",
+      "pre": "Marco non è ",
+      "disp": "adatto",
+      "ans": ["adatto"],
+      "post": " a questo tipo di lavoro.",
+      "tr": "Marco ist für diese Art von Arbeit nicht geeignet.",
+      "expl": "„Adatto“ (geeignet) regiert die Präposition „a“: „essere adatto a qualcosa“. Es wird in Geschlecht und Zahl angeglichen (adatto, adatta, adatti, adatte); hier steht es maskulin Singular."
+    },
+    {
+      "id": "l44n05",
+      "r": "l44-pronomi-diretti",
+      "pre": "Ti ho ",
+      "disp": "aspettato",
+      "ans": ["aspettato"],
+      "post": " davanti al cinema per un'ora.",
+      "tr": "Ich habe dich eine Stunde lang vor dem Kino erwartet.",
+      "expl": "„Aspettare“ (erwarten) ist regelmäßig, Partizip „aspettato“. Es regiert direkt, ohne Präposition: „aspettare qualcuno“. Das direkte Objektpronomen „ti“ (dich) steht vor dem Hilfsverb „ho“."
+    },
+    {
+      "id": "l44n06",
+      "r": "l44-pronomi-diretti",
+      "pre": "L'italiano? ",
+      "disp": "L'ho",
+      "ans": ["L'ho", "l'ho"],
+      "post": " studiato per due anni.",
+      "tr": "Italienisch? Ich habe es zwei Jahre lang studiert.",
+      "expl": "Das direkte Objektpronomen „lo“ (es) wird vor dem Hilfsverb zu „l'“ elidiert: „l'ho studiato“. Es nimmt das zuvor erwähnte „l'italiano“ wieder auf."
+    },
+    {
+      "id": "l44n07",
+      "r": "l44-espressioni",
+      "pre": "Finalmente ho trovato ",
+      "disp": "un'offerta di lavoro",
+      "ans": ["un'offerta di lavoro", "un'offerta"],
+      "post": " interessante sul giornale.",
+      "tr": "Endlich habe ich in der Zeitung ein interessantes Stellenangebot gefunden.",
+      "expl": "„Un'offerta di lavoro“ = ein Stellenangebot. „Offerta“ ist feminin, daher wird der unbestimmte Artikel elidiert: „un'“. „Trovare“ (finden) wird mit „avere“ gebildet."
+    },
+    {
+      "id": "l44n08",
+      "r": "l44-espressioni",
+      "pre": "L'azienda chiede di inviare il ",
+      "disp": "curriculum vitae",
+      "ans": ["curriculum vitae"],
+      "post": " a una casella postale di Milano.",
+      "tr": "Die Firma verlangt, den Lebenslauf an ein Postfach in Mailand zu schicken.",
+      "expl": "„Curriculum vitae“ (lateinisch) ist in Italien der feste Begriff für den Lebenslauf. „Inviare“ = schicken; „casella postale“ = Postfach."
+    },
+    {
+      "id": "l44n09",
+      "r": "l44-espressioni",
+      "pre": "Invia la risposta alla ",
+      "disp": "casella postale",
+      "ans": ["casella postale"],
+      "post": " 320 di Milano.",
+      "tr": "Sende die Antwort an das Postfach 320 in Mailand.",
+      "expl": "„Casella postale“ = Postfach. Die Präposition „a“ verschmilzt mit dem Artikel „la“ zu „alla“: „alla casella postale“."
+    },
+    {
+      "id": "l44n10",
+      "r": "l44-espressioni",
+      "pre": "Ha inviato ",
+      "disp": "l'ennesimo",
+      "ans": ["l'ennesimo"],
+      "post": " curriculum vitae senza ricevere risposta.",
+      "tr": "Er hat schon wieder einen (den x-ten) Lebenslauf geschickt, ohne eine Antwort zu bekommen.",
+      "expl": "„L'ennesimo“ (mask. Sg.) = der x-te, schon wieder ein weiterer; es beschreibt leicht ironisch die wiederholte Bewerbung. Hier steht es als Objekt zu „ha inviato“."
+    }
+  ]
+}

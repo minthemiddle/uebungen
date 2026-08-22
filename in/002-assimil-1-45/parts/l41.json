@@ -1,0 +1,111 @@
+{
+  "rules": {
+    "l41-ne": "Il pronome ne sostituisce la cosa di cui si parla quando si indica la quantità",
+    "l41-servire": "servire esprime il bisogno come piacere: mi serve, mi servono",
+    "l41-da-negozio": "da + negozio o professionista: dal fruttivendolo, dal salumiere; in farmacia",
+    "l41-consigliare": "consigliare o suggerire a qualcuno di + infinito",
+    "l41-spese": "Al negozio: un etto, acerbo, fettina, attimo di pazienza, desidera altro?"
+  },
+  "items": [
+    {
+      "id": "l41n01",
+      "r": "l41-ne",
+      "pre": "— Quante mele desidera? — ",
+      "disp": "Ne",
+      "ans": ["Ne", "ne"],
+      "post": " vorrei due chili, per favore.",
+      "tr": "— Wie viele Äpfel möchten Sie? — Ich hätte gern zwei Kilo davon, bitte.",
+      "expl": "„ne“ ersetzt die Sache, um die es geht, sobald die Menge genannt wird: due chili di mele → „ne vorrei due chili“. In der Frage des Verkäufers heißt es entsprechend „Quante ne vuole?“."
+    },
+    {
+      "id": "l41n02",
+      "r": "l41-servire",
+      "pre": "Mi ",
+      "disp": "serve",
+      "ans": ["serve"],
+      "post": " un dentifricio nuovo.",
+      "tr": "Ich brauche eine neue Zahnpasta.",
+      "expl": "„servire“ im Sinn von „brauchen“ wird wie „piacere“ konjugiert: Die Sache ist Subjekt („un dentifricio“ → „mi serve“). Im Plural heißt es „mi servono“."
+    },
+    {
+      "id": "l41n03",
+      "r": "l41-da-negozio",
+      "pre": "Poi Francesca va ",
+      "disp": "dal",
+      "ans": ["dal"],
+      "post": " salumiere per il prosciutto.",
+      "tr": "Danach geht Francesca zum Feinkosthändler für den Schinken.",
+      "expl": "Bei Geschäften und Berufsbezeichnungen steht „da“ verschmolzen mit dem Artikel: dal salumiere, dal fruttivendolo. Ausnahme ist die Apotheke: „in farmacia“."
+    },
+    {
+      "id": "l41n04",
+      "r": "l41-consigliare",
+      "pre": "Il farmacista Le suggerisce ",
+      "disp": "di",
+      "ans": ["di"],
+      "post": " prendere questo spazzolino.",
+      "tr": "Der Apotheker empfiehlt Ihnen, diese Zahnbürste zu nehmen.",
+      "expl": "Nach „suggerire“ und „consigliare“ folgt „di + Infinitiv“; die höfliche Anrede hängt an: „suggerisce di prendere“, „consigliarLe“."
+    },
+    {
+      "id": "l41n05",
+      "r": "l41-spese",
+      "pre": "Vorrei tre ",
+      "disp": "etti",
+      "ans": ["etti"],
+      "post": " di prosciutto cotto.",
+      "tr": "Ich hätte gern dreihundert Gramm gekochten Schinken.",
+      "expl": "„Un etto“ bedeutet 100 Gramm; drei etti sind also 300 Gramm. Man kann auch „trecento grammi“ sagen."
+    },
+    {
+      "id": "l41n06",
+      "r": "l41-spese",
+      "pre": "Un attimo di ",
+      "disp": "pazienza",
+      "ans": ["pazienza"],
+      "post": ", signora: La servo subito!",
+      "tr": "Einen Moment Geduld, gnädige Frau: Ich bediene Sie sofort!",
+      "expl": "„Un attimo di pazienza“ ist die höfliche Bitte, kurz zu warten. „Servire qualcuno“ heißt hier „jemanden bedienen“."
+    },
+    {
+      "id": "l41n07",
+      "r": "l41-spese",
+      "pre": "Le banane? Le preferisco un po' ",
+      "disp": "acerbe",
+      "ans": ["acerbe"],
+      "post": ".",
+      "tr": "Die Bananen? Ich mag sie lieber etwas unreif.",
+      "expl": "„acerbo“ beschreibt Obst, das noch nicht reif ist; der Gegensatz ist „maturo“. Das klitische Pronomen „le“ steht vor dem konjugierten Verb und wiederholt „le banane“."
+    },
+    {
+      "id": "l41n08",
+      "r": "l41-spese",
+      "pre": "Il prosciutto crudo è una delizia con qualche ",
+      "disp": "fettina",
+      "ans": ["fettina"],
+      "post": " di melone.",
+      "tr": "Der rohe Schinken ist ein Genuss mit ein paar dünnen Scheibchen Melone.",
+      "expl": "„fettina“ ist die Verkleinerungsform von „fetta“ (Scheibe) und bedeutet eine dünne Scheibe. Nach „qualche“ steht seltsamerweise der Singular."
+    },
+    {
+      "id": "l41n09",
+      "r": "l41-spese",
+      "pre": "Questo spazzolino da denti è molto ",
+      "disp": "morbido",
+      "ans": ["morbido"],
+      "post": ".",
+      "tr": "Diese Zahnbürste ist sehr weich.",
+      "expl": "„morbido“ heißt „weich“ und ist kein falscher Freund von „morbid“: das krankhaft Morbide ist auf Italienisch „morboso“. Der Verkäufer empfiehlt eine weiche Bürste."
+    },
+    {
+      "id": "l41n10",
+      "r": "l41-spese",
+      "pre": "— Desidera ",
+      "disp": "altro",
+      "ans": ["altro"],
+      "post": "? — No, grazie, è tutto.",
+      "tr": "— Möchten Sie sonst noch etwas? — Nein, danke, das ist alles.",
+      "expl": "„Desidera altro?“ ist die Standardfrage am Ende jedes Einkaufs. „altro“ steht ohne Artikel und bedeutet „etwas anderes/weiteres“."
+    }
+  ]
+}

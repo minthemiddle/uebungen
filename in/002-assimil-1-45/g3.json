@@ -1,0 +1,527 @@
+{
+  "rules": {
+    "l11-verbi-isc": "Verbi in -ire come finire, preferire, capire: -isc alle persone singolari e alla terza plurale",
+    "l11-che-ore-sono": "L'ora: sono le otto meno un quarto; a + l'una = all'una e mezza",
+    "l11-fare-siesta-chiacchiere": "Espressioni fisse: fare la siesta, fare quattro chiacchiere, fare quattro passi",
+    "l11-turno-compagnia": "il turno, durare fino a, verso le otto, la compagnia",
+    "l12-avere-voglia": "avere voglia di + infinitivo: ha voglia di mangiare",
+    "l12-cercare-pagare": "cercare e pagare: cerco, cerchi; pago, paghi, paghiamo (suono duro con h)",
+    "l12-conoscere": "conoscere: conosco, conosci, conosce, conoscete",
+    "l12-vocabolario-telefono": "la telefonata, il gettone, l'elenco del telefono, il prefisso",
+    "l12-vorrei-proprio": "vorrei, forma di cortesia; proprio = davvero, esattamente",
+    "l13-chiamarsi": "chiamarsi: mi chiamo, ti chiami, si chiama, ci chiamiamo",
+    "l13-ed-vocale": "e diventa ed davanti a vocale: ed è, ed ha",
+    "l13-eta-avere": "l'età con avere: quanti anni ha? ho sei anni",
+    "l13-superlativo": "il/la più + aggettivo: la più buona di tutte",
+    "l13-lessico-famiglia": "genitori, cugini, zia, compito; un sacco di; litigare; che + aggettivo",
+    "l14-possessivi": "possessivi con articolo: le vostre valigie; invariabile solo loro; familiari singolari senza articolo",
+    "l14-presente-regolare": "parlare, prendere, partire: parlano, prendiamo, partite",
+    "l14-ora-ufficiale": "le 24 ore: alle diciassette e quaranta",
+    "l14-espressioni": "benvenuto, evviva, poverino, non è male, si accomodi",
+    "l15-di-articolato": "di + articolo: del volo, della dogana, degli arrivi, dell'ingresso",
+    "l15-avere-bisogno": "avere bisogno di: hai bisogno del passaporto",
+    "l15-lessico-aeroporto": "pullman, scaletta, gradi, carta d'identità, il tempo"
+  },
+  "items": [
+    {
+      "id": "l11n01",
+      "r": "l11-verbi-isc",
+      "pre": "A che ora ",
+      "disp": "finisci",
+      "ans": ["finisci"],
+      "post": " di lavorare, Giulia?",
+      "tr": "Um wie viel Uhr hörst du auf zu arbeiten, Giulia?",
+      "expl": "„finire di + Infinitiv\" heißt „aufhören zu …\". finire gehört zu den -ire-Verben mit -isc-Einschub, daher heißt die du-Form finisci."
+    },
+    {
+      "id": "l11n02",
+      "r": "l11-verbi-isc",
+      "pre": "La sera noi ",
+      "disp": "preferiamo",
+      "ans": ["preferiamo"],
+      "post": " cenare a casa.",
+      "tr": "Abends essen wir lieber zu Hause.",
+      "expl": "preferire ist ebenfalls ein -isc-Verb, aber bei noi entfällt das -isc: noi preferiamo."
+    },
+    {
+      "id": "l11n03",
+      "r": "l11-verbi-isc",
+      "pre": "Scusa, non ",
+      "disp": "capisco",
+      "ans": ["capisco"],
+      "post": " questa parola.",
+      "tr": "Entschuldigung, ich verstehe dieses Wort nicht.",
+      "expl": "capire bildet wie finire das -isc in der ich-Form: io capisco."
+    },
+    {
+      "id": "l11n04",
+      "r": "l11-che-ore-sono",
+      "pre": "Il mio treno parte alle otto ",
+      "disp": "meno",
+      "ans": ["meno"],
+      "post": " un quarto.",
+      "tr": "Mein Zug fährt um Viertel vor acht.",
+      "expl": "„Viertel vor acht\" sagt man wörtlich „die acht weniger ein Viertel\": le otto meno un quarto."
+    },
+    {
+      "id": "l11n05",
+      "r": "l11-che-ore-sono",
+      "pre": "Ho un appuntamento dal dentista ",
+      "disp": "all'",
+      "ans": ["all'"],
+      "post": "una e mezza.",
+      "tr": "Ich habe um halb zwei einen Termin beim Zahnarzt.",
+      "expl": "Vor der einzigen Singular-Stunde „l'una\" verschmilzt a mit dem Artikel zu „all'\": all'una e mezza = halb zwei."
+    },
+    {
+      "id": "l11n06",
+      "r": "l11-fare-siesta-chiacchiere",
+      "pre": "Dopo pranzo i nonni fanno la ",
+      "disp": "siesta",
+      "ans": ["siesta"],
+      "post": ".",
+      "tr": "Nach dem Mittagessen halten die Großeltern Mittagsschlaf.",
+      "expl": "„fare la siesta\" ist der feste Ausdruck für „Siesta halten\" bzw. „ein Nickerchen machen\"."
+    },
+    {
+      "id": "l11n07",
+      "r": "l11-fare-siesta-chiacchiere",
+      "pre": "Vieni al bar a fare quattro ",
+      "disp": "chiacchiere",
+      "ans": ["chiacchiere"],
+      "post": " con noi?",
+      "tr": "Kommst du an die Bar, um mit uns ein bisschen zu plaudern?",
+      "expl": "„fare quattro chiacchiere\" heißt wörtlich „vier Plaudereien machen\" und bedeutet „ein Schwätzchen halten\"."
+    },
+    {
+      "id": "l11n08",
+      "r": "l11-turno-compagnia",
+      "pre": "Stasera il mio ",
+      "disp": "turno",
+      "ans": ["turno"],
+      "post": " in ospedale dura fino a mezzanotte.",
+      "tr": "Heute Abend dauert meine Schicht im Krankenhaus bis Mitternacht.",
+      "expl": "„il turno\" ist die Schicht; „durare fino a\" heißt „dauern bis\"."
+    },
+    {
+      "id": "l11n09",
+      "r": "l11-turno-compagnia",
+      "pre": "Domani sera torno ",
+      "disp": "verso",
+      "ans": ["verso"],
+      "post": " le otto.",
+      "tr": "Morgen Abend komme ich gegen acht zurück.",
+      "expl": "„verso\" drückt eine ungefähre Zeit aus: „verso le otto\" = gegen acht Uhr."
+    },
+    {
+      "id": "l11n10",
+      "r": "l11-turno-compagnia",
+      "pre": "Grazie per la vostra ",
+      "disp": "compagnia",
+      "ans": ["compagnia"],
+      "post": "!",
+      "tr": "Danke für eure Gesellschaft!",
+      "expl": "„la compagnia\" bedeutet „Gesellschaft, Gesellschaftlichkeit\"."
+    },
+    {
+      "id": "l12n01",
+      "r": "l12-avere-voglia",
+      "pre": "Giulia ha ",
+      "disp": "voglia",
+      "ans": ["voglia"],
+      "post": " di mangiare una pizza.",
+      "tr": "Giulia hat Lust, eine Pizza zu essen.",
+      "expl": "„avere voglia di + Infinitiv\" heißt „Lust haben, etwas zu tun\": ha voglia di mangiare."
+    },
+    {
+      "id": "l12n02",
+      "r": "l12-cercare-pagare",
+      "pre": "Che cosa ",
+      "disp": "cerchi",
+      "ans": ["cerchi"],
+      "post": ", Marco?",
+      "tr": "Was suchst du, Marco?",
+      "expl": "Bei cercare muss das c hart bleiben; vor Endungen mit e oder i tritt daher ein h ein: tu cerchi."
+    },
+    {
+      "id": "l12n03",
+      "r": "l12-cercare-pagare",
+      "pre": "Quanto ",
+      "disp": "paghiamo",
+      "ans": ["paghiamo"],
+      "post": " per la cena?",
+      "tr": "Wie viel zahlen wir für das Abendessen?",
+      "expl": "pagare schützt das harte g genauso mit einem h: noi paghiamo."
+    },
+    {
+      "id": "l12n04",
+      "r": "l12-conoscere",
+      "pre": "",
+      "disp": "Conoscete",
+      "ans": ["Conoscete", "conoscete"],
+      "post": " il ristorante Da Antonio?",
+      "tr": "Kennt ihr das Restaurant Da Antonio?",
+      "expl": "conoscere ist regelmäßig; die voi-Form lautet conoscete."
+    },
+    {
+      "id": "l12n05",
+      "r": "l12-vorrei-proprio",
+      "pre": "",
+      "disp": "Vorrei",
+      "ans": ["Vorrei", "vorrei"],
+      "post": " un caffè, per favore.",
+      "tr": "Ich hätte gern einen Kaffee, bitte.",
+      "expl": "„vorrei\" ist die Höflichkeitsform zu „voglio\" und heißt „ich möchte / ich hätte gern\"."
+    },
+    {
+      "id": "l12n06",
+      "r": "l12-vocabolario-telefono",
+      "pre": "Devo fare una ",
+      "disp": "telefonata",
+      "ans": ["telefonata"],
+      "post": " a Lucia.",
+      "tr": "Ich muss Lucia anrufen.",
+      "expl": "„fare una telefonata a jemandem\" heißt „jemanden anrufen\"."
+    },
+    {
+      "id": "l12n07",
+      "r": "l12-vocabolario-telefono",
+      "pre": "Qual è il ",
+      "disp": "prefisso",
+      "ans": ["prefisso"],
+      "post": " di Torino?",
+      "tr": "Wie lautet die Vorwahl von Turin?",
+      "expl": "„il prefisso\" ist die Telefonvorwahl einer Stadt."
+    },
+    {
+      "id": "l12n08",
+      "r": "l12-vocabolario-telefono",
+      "pre": "Scusa, hai un ",
+      "disp": "gettone",
+      "ans": ["gettone"],
+      "post": "?",
+      "tr": "Entschuldige, hast du eine Telefonmünze?",
+      "expl": "„il gettone\" ist die Münze, mit der man in der Telefonzelle telefoniert."
+    },
+    {
+      "id": "l12n09",
+      "r": "l12-vocabolario-telefono",
+      "pre": "Cerchiamo un ",
+      "disp": "elenco",
+      "ans": ["elenco"],
+      "post": " del telefono.",
+      "tr": "Wir suchen ein Telefonbuch.",
+      "expl": "„l'elenco del telefono\" ist das Telefonverzeichnis, das Telefonbuch."
+    },
+    {
+      "id": "l12n10",
+      "r": "l12-vorrei-proprio",
+      "pre": "La farmacia è ",
+      "disp": "proprio",
+      "ans": ["proprio"],
+      "post": " qui davanti.",
+      "tr": "Die Apotheke ist direkt hier vor dir.",
+      "expl": "„proprio\" verstärkt die Ortsangabe: „proprio qui davanti\" = genau hier, direkt davor."
+    },
+    {
+      "id": "l13n01",
+      "r": "l13-chiamarsi",
+      "pre": "Mia zia si ",
+      "disp": "chiama",
+      "ans": ["chiama"],
+      "post": " Anna.",
+      "tr": "Meine Tante heißt Anna.",
+      "expl": "Für „heißen\" steht das reflexive Verb chiamarsi: „si chiama\" = sie heißt."
+    },
+    {
+      "id": "l13n02",
+      "r": "l13-ed-vocale",
+      "pre": "Mio fratello è alto ",
+      "disp": "ed",
+      "ans": ["ed"],
+      "post": " ha vent'anni.",
+      "tr": "Mein Bruder ist groß und zwanzig Jahre alt.",
+      "expl": "Die Konjunktion e wird vor einem Vokal zu ed gebunden: „ed ha\", „ed è\"."
+    },
+    {
+      "id": "l13n03",
+      "r": "l13-eta-avere",
+      "pre": "",
+      "disp": "Quanti",
+      "ans": ["Quanti", "quanti"],
+      "post": " anni ha tua figlia?",
+      "tr": "Wie alt ist deine Tochter?",
+      "expl": "Das Alter drückt man mit avere aus: „Quanti anni ha?\" = Wie alt ist sie?"
+    },
+    {
+      "id": "l13n04",
+      "r": "l13-superlativo",
+      "pre": "Secondo me, la pizza napoletana è la ",
+      "disp": "più",
+      "ans": ["più"],
+      "post": " buona di tutte.",
+      "tr": "Meiner Meinung nach ist die neapolitanische Pizza die beste von allen.",
+      "expl": "Der Superlativ besteht aus Artikel + più + Eigenschaftswort: „la più buona di tutte\"."
+    },
+    {
+      "id": "l13n05",
+      "r": "l13-lessico-famiglia",
+      "pre": "Il sabato in centro c'è un ",
+      "disp": "sacco",
+      "ans": ["sacco"],
+      "post": " di gente.",
+      "tr": "Samstags ist im Zentrum sehr viel los.",
+      "expl": "„un sacco di\" ist umgangssprachlich für „viel, eine Menge\"."
+    },
+    {
+      "id": "l13n06",
+      "r": "l13-lessico-famiglia",
+      "pre": "I due fratelli ",
+      "disp": "litigano",
+      "ans": ["litigano"],
+      "post": " spesso per i giocattoli.",
+      "tr": "Die beiden Brüder streiten oft um das Spielzeug.",
+      "expl": "„litigare\" heißt „streiten\"; die dritte Person Plural lautet litigano."
+    },
+    {
+      "id": "l13n07",
+      "r": "l13-lessico-famiglia",
+      "pre": "I figli di mio zio sono i miei ",
+      "disp": "cugini",
+      "ans": ["cugini"],
+      "post": ".",
+      "tr": "Die Kinder meines Onkels sind meine Cousins.",
+      "expl": "„i cugini\" sind die Cousins und Cousinen, also die Kinder von Onkel oder Tante."
+    },
+    {
+      "id": "l13n08",
+      "r": "l13-lessico-famiglia",
+      "pre": "Domani vado a trovare i miei ",
+      "disp": "genitori",
+      "ans": ["genitori"],
+      "post": " in campagna.",
+      "tr": "Morgen besuche ich meine Eltern auf dem Land.",
+      "expl": "„i genitori\" heißt „die Eltern\" und steht immer im Plural."
+    },
+    {
+      "id": "l13n09",
+      "r": "l13-lessico-famiglia",
+      "pre": "Stasera devo finire il mio ",
+      "disp": "compito",
+      "ans": ["compito"],
+      "post": " di matematica.",
+      "tr": "Heute Abend muss ich meine Matheaufgabe fertig machen.",
+      "expl": "„il compito\" ist die Schulaufgabe oder Hausaufgabe."
+    },
+    {
+      "id": "l13n10",
+      "r": "l13-lessico-famiglia",
+      "pre": "",
+      "disp": "Che",
+      "ans": ["Che", "che"],
+      "post": " bella macchina, Paolo!",
+      "tr": "Was für ein schönes Auto, Paolo!",
+      "expl": "Ein Ausruf des Erstaunens wird mit „che + Eigenschaftswort\" gebildet: „Che bella macchina!\""
+    },
+    {
+      "id": "l14n01",
+      "r": "l14-possessivi",
+      "pre": "Signori, le ",
+      "disp": "vostre",
+      "ans": ["vostre"],
+      "post": " valigie sono già qui.",
+      "tr": "Meine Herren, Ihre Koffer sind schon da.",
+      "expl": "Das Besitzwort passt sich ans Hauptwort an: valigie ist feminin Plural, daher „le vostre valigie\". Vor dem Besitzwort steht der Artikel."
+    },
+    {
+      "id": "l14n02",
+      "r": "l14-possessivi",
+      "pre": "Anna e Luca lavano la ",
+      "disp": "loro",
+      "ans": ["loro"],
+      "post": " barca.",
+      "tr": "Anna und Luca waschen ihr Boot.",
+      "expl": "„loro\" ist das einzige unveränderliche Besitzwort: Maskulin, Feminin, Singular und Plural bleiben immer loro."
+    },
+    {
+      "id": "l14n03",
+      "r": "l14-possessivi",
+      "pre": "Come stanno i ",
+      "disp": "tuoi",
+      "ans": ["tuoi"],
+      "post": " nonni?",
+      "tr": "Wie geht es deinen Großeltern?",
+      "expl": "Vor Familienwörtern im Plural steht der Artikel: „i tuoi nonni\". Im Singular fällt er weg: „tuo nonno\"."
+    },
+    {
+      "id": "l14n04",
+      "r": "l14-presente-regolare",
+      "pre": "Ragazzi, a che ora ",
+      "disp": "partite",
+      "ans": ["partite"],
+      "post": " domani?",
+      "tr": "Jungs, um wie viel Uhr reist ihr morgen ab?",
+      "expl": "partire ist ein regelmäßiges -ire-Zeitwort ohne -isc; die voi-Form heißt partite."
+    },
+    {
+      "id": "l14n05",
+      "r": "l14-ora-ufficiale",
+      "pre": "L'autobus per il centro arriva alle ",
+      "disp": "diciassette",
+      "ans": ["diciassette"],
+      "post": " e quaranta.",
+      "tr": "Der Bus ins Zentrum kommt um 17:40 Uhr an.",
+      "expl": "In offiziellen Angaben nutzt man das 24-Stunden-Format: „alle diciassette e quaranta\" = um 17:40 Uhr."
+    },
+    {
+      "id": "l14n06",
+      "r": "l14-espressioni",
+      "pre": "",
+      "disp": "Benvenute",
+      "ans": ["Benvenute", "benvenute"],
+      "post": " a casa nostra, signore!",
+      "tr": "Willkommen in unserem Haus, meine Damen!",
+      "expl": "„benvenuto\" passt sich ans Geschlecht der Begrüßten an; für mehrere Frauen heißt es „benvenute\"."
+    },
+    {
+      "id": "l14n07",
+      "r": "l14-espressioni",
+      "pre": "Il gatto di Lisa è malato: ",
+      "disp": "poverino",
+      "ans": ["poverino"],
+      "post": "!",
+      "tr": "Die Katze von Lisa ist krank, das arme Kerlchen!",
+      "expl": "„poverino\" drückt Mitleid aus und bedeutet so viel wie „das arme Ding\"."
+    },
+    {
+      "id": "l14n08",
+      "r": "l14-espressioni",
+      "pre": "Domani non c'è scuola: ",
+      "disp": "evviva",
+      "ans": ["evviva"],
+      "post": "!",
+      "tr": "Morgen fällt die Schule aus, hurra!",
+      "expl": "„evviva!\" ist der italienische Jubelruf für „hurra!\"."
+    },
+    {
+      "id": "l14n09",
+      "r": "l14-espressioni",
+      "pre": "Non è ",
+      "disp": "male",
+      "ans": ["male"],
+      "post": " questo vino rosso!",
+      "tr": "Dieser rote Wein ist gar nicht schlecht!",
+      "expl": "„non è male\" ist ein zurückhaltendes Lob und heißt „nicht schlecht, ganz okay\"."
+    },
+    {
+      "id": "l14n10",
+      "r": "l14-espressioni",
+      "pre": "Si ",
+      "disp": "accomodi",
+      "ans": ["accomodi"],
+      "post": ", signora!",
+      "tr": "Nehmen Sie Platz, gnädige Frau!",
+      "expl": "„accomodarsi\" heißt „Platz nehmen\"; in der Höflichkeitsform Lei heißt es „si accomodi\"."
+    },
+    {
+      "id": "l15n01",
+      "r": "l15-di-articolato",
+      "pre": "Il comandante ",
+      "disp": "del",
+      "ans": ["del"],
+      "post": " volo augura ai passeggeri un buon viaggio.",
+      "tr": "Der Kapitän des Flugs wünscht den Passagieren eine gute Reise.",
+      "expl": "„di + il\" verschmilzt zu „del\": il comandante del volo."
+    },
+    {
+      "id": "l15n02",
+      "r": "l15-lessico-aeroporto",
+      "pre": "Prendiamo il ",
+      "disp": "pullman",
+      "ans": ["pullman"],
+      "post": " per il centro.",
+      "tr": "Wir nehmen den Bus ins Zentrum.",
+      "expl": "„il pullman\" ist der Reise- bzw. Linienbus; das Wort bleibt im Plural unverändert: i pullman."
+    },
+    {
+      "id": "l15n03",
+      "r": "l15-di-articolato",
+      "pre": "Gli orari ",
+      "disp": "degli",
+      "ans": ["degli"],
+      "post": " arrivi sono sul tabellone.",
+      "tr": "Die Ankunftszeiten stehen auf der Anzeigetafel.",
+      "expl": "Vor einem Vokal heißt der Pluralartikel gli; mit di verschmilzt er zu „degli arrivi\"."
+    },
+    {
+      "id": "l15n04",
+      "r": "l15-di-articolato",
+      "pre": "L'ufficiale ",
+      "disp": "della",
+      "ans": ["della"],
+      "post": " dogana apre le valigie.",
+      "tr": "Der Zollbeamte öffnet die Koffer.",
+      "expl": "„di + la\" ergibt „della\": l'ufficiale della dogana."
+    },
+    {
+      "id": "l15n05",
+      "r": "l15-di-articolato",
+      "pre": "La farmacia si trova a destra ",
+      "disp": "dell'",
+      "ans": ["dell'"],
+      "post": "ingresso.",
+      "tr": "Die Apotheke befindet sich rechts vom Eingang.",
+      "expl": "Vor einem Vokal wird di + l' zu „dell'\"; „a destra di\" heißt „rechts von\"."
+    },
+    {
+      "id": "l15n06",
+      "r": "l15-avere-bisogno",
+      "pre": "Hai ",
+      "disp": "bisogno",
+      "ans": ["bisogno"],
+      "post": " del passaporto per questo viaggio?",
+      "tr": "Brauchst du für diese Reise den Reisepass?",
+      "expl": "„avere bisogno di\" heißt „brauchen\"; vor dem Artikel verschmilzt di: „bisogno del passaporto\"."
+    },
+    {
+      "id": "l15n07",
+      "r": "l15-lessico-aeroporto",
+      "pre": "Per viaggiare basta la carta d'",
+      "disp": "identità",
+      "ans": ["identità"],
+      "post": ".",
+      "tr": "Zum Reisen genügt der Personalausweis.",
+      "expl": "„la carta d'identità\" ist der Personalausweis; das Wort endet mit Accent auf der letzten Silbe."
+    },
+    {
+      "id": "l15n08",
+      "r": "l15-lessico-aeroporto",
+      "pre": "La temperatura esterna è di trenta ",
+      "disp": "gradi",
+      "ans": ["gradi"],
+      "post": ".",
+      "tr": "Die Außentemperatur beträgt dreißig Grad.",
+      "expl": "Temperaturen stehen mit „essere di … gradi\": „è di trenta gradi\"."
+    },
+    {
+      "id": "l15n09",
+      "r": "l15-lessico-aeroporto",
+      "pre": "Gli ospiti scendono la ",
+      "disp": "scaletta",
+      "ans": ["scaletta"],
+      "post": " della nave.",
+      "tr": "Die Gäste steigen die Gangway des Schiffs hinab.",
+      "expl": "„la scaletta\" ist die Gangway oder Bordtreppe; „scendere la scaletta\" heißt sie hinuntersteigen."
+    },
+    {
+      "id": "l15n10",
+      "r": "l15-lessico-aeroporto",
+      "pre": "Il ",
+      "disp": "tempo",
+      "ans": ["tempo"],
+      "post": " è bello: andiamo in spiaggia.",
+      "tr": "Das Wetter ist schön, wir gehen an den Strand.",
+      "expl": "„il tempo\" meint hier das Wetter, nicht die Zeit."
+    }
+  ]
+}

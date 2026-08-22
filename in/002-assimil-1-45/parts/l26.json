@@ -1,0 +1,132 @@
+{
+  "rules": {
+    "l26-uscire": "Presente di 'uscire': esco, esci, esce, usciamo, uscite, escono.",
+    "l26-fra-tra": "'Fra' e 'tra' sono preposizioni equivalenti e intercambiabili.",
+    "l26-quello-aggettivo": "'Quello' e 'bello' cambiano come gli articoli davanti al nome: quel, quello, quegli.",
+    "l26-quello-pronome": "'Quello' senza nome è pronome e resta invariato, per esempio 'quello rosso'.",
+    "l26-vocabolario": "Vocabolario del dialogo: tabaccaio, vetrina, orecchini, fare spese, regali, gente."
+  },
+  "items": [
+    {
+      "id": "l26n01",
+      "r": "l26-uscire",
+      "pre": "Allora, Marco, ",
+      "disp": "esci",
+      "ans": [
+        "esci"
+      ],
+      "post": " con noi stasera?",
+      "tr": "Also, Marco, gehst du heute Abend mit uns aus?",
+      "expl": "„Esci“ ist die 2. Person Singular von „uscire“ (ausgehen). Wie in der Lektion wird die Du-Form „esci“ von der Höflichkeitsform „esce“ unterschieden."
+    },
+    {
+      "id": "l26n02",
+      "r": "l26-fra-tra",
+      "pre": "Il parco è ",
+      "disp": "fra",
+      "ans": [
+        "fra",
+        "tra"
+      ],
+      "post": " la stazione e il museo.",
+      "tr": "Der Park liegt zwischen dem Bahnhof und dem Museum.",
+      "expl": "„Fra“ (auch „tra“) ist die Präposition für „zwischen“; beide Formen sind gleichwertig. Die Lektion verwendet „fra“ etwa in „fra il pubblico“ und „fra il primo e il secondo“."
+    },
+    {
+      "id": "l26n03",
+      "r": "l26-quello-aggettivo",
+      "pre": "Sì, ",
+      "disp": "quel",
+      "ans": [
+        "quel"
+      ],
+      "post": " ristorante è proprio qui vicino.",
+      "tr": "Ja, dieses Restaurant ist wirklich ganz in der Nähe.",
+      "expl": "Vor einem maskulinen Nomen wird „quello“ zu „quel“, so wie der Artikel „il“: „quel ristorante“. Im Dialog steht „quel cammeo“. Hier ist „quel“ Adjektiv."
+    },
+    {
+      "id": "l26n04",
+      "r": "l26-quello-pronome",
+      "pre": "Quel cappello è piccolo; preferisco ",
+      "disp": "quello",
+      "ans": [
+        "quello"
+      ],
+      "post": " grande.",
+      "tr": "Dieser Hut ist klein; ich bevorzuge den großen.",
+      "expl": "Das zweite „quello“ ist ein Pronomen: Es ersetzt „cappello“ und bleibt unverändert, während das Adjektiv davor zu „quel“ wird. Die Lektion erklärt genau diesen Gegensatz zwischen Adjektiv und Pronomen."
+    },
+    {
+      "id": "l26n05",
+      "r": "l26-vocabolario",
+      "pre": "Mio padre cerca un ",
+      "disp": "tabaccaio",
+      "ans": [
+        "tabaccaio"
+      ],
+      "post": " per comprare le sigarette.",
+      "tr": "Mein Vater sucht einen Tabakladen, um Zigaretten zu kaufen.",
+      "expl": "„Un tabaccaio“ ist ein Tabakwarenladen beziehungsweise Tabakwarenhändler; maskulin, daher „un“. Das Wort steht gleich zu Beginn des Dialogs: „sa dov'è un tabaccaio?“"
+    },
+    {
+      "id": "l26n06",
+      "r": "l26-vocabolario",
+      "pre": "Le scarpe nere in ",
+      "disp": "vetrina",
+      "ans": [
+        "vetrina"
+      ],
+      "post": " sono molto belle.",
+      "tr": "Die schwarzen Schuhe im Schaufenster sind sehr schön.",
+      "expl": "„In vetrina“ heißt „im Schaufenster“. Der Dialog erwähnt „quel cammeo che è in vetrina“; dazu steht hier „belle“, die Pluralform von „bello“."
+    },
+    {
+      "id": "l26n07",
+      "r": "l26-vocabolario",
+      "pre": "Quegli ",
+      "disp": "orecchini",
+      "ans": [
+        "orecchini"
+      ],
+      "post": " di corallo sono per mia moglie.",
+      "tr": "Diese Korallenohrringe sind für meine Frau.",
+      "expl": "„Orecchini“ (Ohrringe) ist maskulin Plural; davor steht die Form „quegli“ von „quello“, wie im Dialog „quegli orecchini di corallo“. „Di corallo“ nennt das Material."
+    },
+    {
+      "id": "l26n08",
+      "r": "l26-vocabolario",
+      "pre": "Domani andiamo a fare delle ",
+      "disp": "spese",
+      "ans": [
+        "spese"
+      ],
+      "post": " con i nostri amici.",
+      "tr": "Morgen gehen wir mit unseren Freunden einkaufen.",
+      "expl": "„Fare spese“ ist die feste Wendung für „einkaufen“; der Dialog bietet „andare a fare delle spese“. „Con i nostri amici“ greift „dei regali per i nostri amici“ auf."
+    },
+    {
+      "id": "l26n09",
+      "r": "l26-vocabolario",
+      "pre": "Perché non compriamo dei ",
+      "disp": "regali",
+      "ans": [
+        "regali"
+      ],
+      "post": " per i bambini?",
+      "tr": "Warum kaufen wir nicht ein paar Geschenke für die Kinder?",
+      "expl": "„Dei regali“ ist der Teilungsartikel im Plural („einige Geschenke“). Der Dialog: „Dobbiamo comprare dei regali per i nostri amici“. „Perché non …?“ ist ein Vorschlag."
+    },
+    {
+      "id": "l26n10",
+      "r": "l26-vocabolario",
+      "pre": "C'è molta ",
+      "disp": "gente",
+      "ans": [
+        "gente"
+      ],
+      "post": " al mercato stasera.",
+      "tr": "Es sind heute Abend viele Leute auf dem Markt.",
+      "expl": "„Molta gente“ heißt „viele Leute“; „gente“ ist ein Singularwort, deshalb „c'è“ und nicht „ci sono“. Die Übung enthält „c'è molta gente stasera“."
+    }
+  ]
+}

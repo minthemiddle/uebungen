@@ -1,0 +1,111 @@
+{
+  "rules": {
+    "l28-irregolari": "Dovere, potere, volere e sapere sono verbi irregolari con forme proprie al presente.",
+    "l28-luoghi": "Indicazioni di luogo: vicino a, davanti a, di fronte a, accanto a, lontano da.",
+    "l28-superlativo": "Il superlativo si forma con -issimo: bellissimo, stanchissimo, moltissimo.",
+    "l28-si-impersonale": "Con si impersonale il verbo è alla terza persona singolare: si può.",
+    "l28-espressioni": "Espressioni colloquiali: Che ne dici?, Avanti!, Non fa niente, dare fastidio, avere voglia di."
+  },
+  "items": [
+    {
+      "id": "l28n01",
+      "r": "l28-irregolari",
+      "pre": "Scusa, ma adesso ",
+      "disp": "devo",
+      "ans": ["devo"],
+      "post": " andare: ho un appuntamento alle cinque.",
+      "tr": "Entschuldige, aber jetzt muss ich gehen: ich habe um fünf Uhr einen Termin.",
+      "expl": "„Devo“ ist die 1. Person Singular von „dovere“ (müssen) im Präsens. Das Modalverb steht vor dem Infinitiv „andare“."
+    },
+    {
+      "id": "l28n02",
+      "r": "l28-luoghi",
+      "pre": "L'ufficio è ",
+      "disp": "vicino",
+      "ans": ["vicino"],
+      "post": " alla stazione, a cinque minuti a piedi.",
+      "tr": "Das Büro liegt in der Nähe des Bahnhofs, fünf Gehminuten entfernt.",
+      "expl": "„Vicino a“ (nahe bei) verbindet sich bei femininen Substantiven mit „alla“ (a + la). Die Präposition passt sich dem Artikel des folgenden Nomens an."
+    },
+    {
+      "id": "l28n03",
+      "r": "l28-superlativo",
+      "pre": "Questo caffè è ",
+      "disp": "buonissimo",
+      "ans": ["buonissimo"],
+      "post": "! Ne bevo due ogni mattina.",
+      "tr": "Dieser Kaffee ist sehr gut! Ich trinke jeden Morgen zwei davon.",
+      "expl": "Der Superlativ wird mit der Endung „-issimo“ gebildet: „buono“ → „buonissimo“ (sehr gut). Das Muster entspricht „fortissimo“ und „simpatichissimo“ aus der Lektion."
+    },
+    {
+      "id": "l28n04",
+      "r": "l28-si-impersonale",
+      "pre": "In questo museo non ",
+      "disp": "si può",
+      "ans": ["si può"],
+      "post": " fare foto.",
+      "tr": "In diesem Museum darf man keine Fotos machen.",
+      "expl": "„Si può“ ist die unpersönliche Konstruktion mit „si“ + Verb in der 3. Person Singular und bedeutet „man kann“. Sie steht wie in „Si può visitare la cattedrale?“."
+    },
+    {
+      "id": "l28n05",
+      "r": "l28-espressioni",
+      "pre": "Ho tanta ",
+      "disp": "voglia",
+      "ans": ["voglia"],
+      "post": " di andare al mare questo fine settimana.",
+      "tr": "Ich habe große Lust, dieses Wochenende ans Meer zu fahren.",
+      "expl": "„Avere voglia di + Infinitiv“ bedeutet „Lust haben auf etwas“. Die Wendung entspricht „Ho tanta voglia di un caffè“ aus den NOTES."
+    },
+    {
+      "id": "l28n06",
+      "r": "l28-espressioni",
+      "pre": "Che ne ",
+      "disp": "dici",
+      "ans": ["dici"],
+      "post": " di fare un giro in centro stasera?",
+      "tr": "Wie wäre es, wenn wir heute Abend einen Ausflug ins Zentrum machen?",
+      "expl": "„Che ne dici di...?“ ist eine feste Wendung und heißt wörtlich „Was sagst du dazu?“. „Dici“ ist die 2. Person Singular von „dire“."
+    },
+    {
+      "id": "l28n07",
+      "r": "l28-espressioni",
+      "pre": "Permesso? – ",
+      "disp": "Avanti",
+      "ans": ["Avanti", "avanti"],
+      "post": ", prego! Entra pure.",
+      "tr": "Darf ich eintreten? – Bitte, herein! Komm nur rein.",
+      "expl": "„Permesso?“ fragt höflich, ob man hereinkommen darf, „Avanti, prego!“ fordert zum Eintreten auf. Beides sind Kolloquialismen aus den NOTES."
+    },
+    {
+      "id": "l28n08",
+      "r": "l28-superlativo",
+      "pre": "Che giornata! Sono ",
+      "disp": "stanchissimo",
+      "ans": ["stanchissimo"],
+      "post": "!",
+      "tr": "Was für ein Tag! Ich bin sehr müde!",
+      "expl": "„Stanchissimo“ ist der Superlativ von „stanco“ (müde): die Endung „-issimo“ bedeutet „sehr“. Er stammt aus dem Ausruf „Sono stanchissimo!“."
+    },
+    {
+      "id": "l28n09",
+      "r": "l28-espressioni",
+      "pre": "Scusa per il ritardo. – Non fa ",
+      "disp": "niente",
+      "ans": ["niente"],
+      "post": "!",
+      "tr": "Entschuldige die Verspätung. – Macht nichts!",
+      "expl": "„Non fa niente“ bedeutet „Macht nichts“ oder „Ist schon gut“. Es ist eine feste Redewendung mit „fare“ und „niente“ (nichts)."
+    },
+    {
+      "id": "l28n10",
+      "r": "l28-espressioni",
+      "pre": "Il bambino dà sempre ",
+      "disp": "fastidio",
+      "ans": ["fastidio"],
+      "post": " quando è stanco.",
+      "tr": "Das Kind geht immer auf die Nerven, wenn es müde ist.",
+      "expl": "„Dare fastidio a qualcuno“ heißt „jemandem auf die Nerven gehen“. Die Wendung stammt aus der Aufforderung „Non date fastidio agli altri!“."
+    }
+  ]
+}

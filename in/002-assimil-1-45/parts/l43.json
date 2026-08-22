@@ -1,0 +1,111 @@
+{
+  "rules": {
+    "l43-stare-gerundio": "Il presente progressivo si forma con stare + gerundio.",
+    "l43-riflessivi": "Ricordarsi e sposarsi sono verbi riflessivi: il pronome si accorda col soggetto.",
+    "l43-preposizioni": "Fra/tra indicano il futuro; decidere regge la preposizione di prima dell'infinito.",
+    "l43-beato": "Beato, beata, beati, beate si accorda in genere e numero con la persona.",
+    "l43-espressioni": "Espressioni fisse della conversazione quotidiana."
+  },
+  "items": [
+    {
+      "id": "l43n01",
+      "r": "l43-stare-gerundio",
+      "pre": "Giulia sta ",
+      "disp": "cucinando",
+      "ans": ["cucinando"],
+      "post": " la pasta per gli amici.",
+      "tr": "Giulia kocht gerade die Pasta für die Freunde.",
+      "expl": "„Stare + Gerundium“ bildet das Verlaufspräsens: „Giulia sta cucinando“ = Giulia kocht gerade. Das Gerundium auf „-ando/-endo“ bleibt unverändert, nur „stare“ wird konjugiert."
+    },
+    {
+      "id": "l43n02",
+      "r": "l43-stare-gerundio",
+      "pre": "Che cosa ",
+      "disp": "stai",
+      "ans": ["stai"],
+      "post": " facendo?",
+      "tr": "Was machst du gerade?",
+      "expl": "Frage mit dem Verlaufspräsens: „Che cosa stai facendo?“ = Was machst du gerade? „Stare“ wird an das Subjekt angeglichen („stai“ für „tu“)."
+    },
+    {
+      "id": "l43n03",
+      "r": "l43-riflessivi",
+      "pre": "Ti ",
+      "disp": "ricordi",
+      "ans": ["ricordi"],
+      "post": " ancora dei nostri amici di Firenze?",
+      "tr": "Erinnerst du dich noch an unsere Freunde aus Florenz?",
+      "expl": "„Ricordarsi di“ ist reflexiv und regiert die Präposition „di“: „ti ricordi“ = du erinnerst dich. Vor „nostri amici“ verschmilzt „di + i“ zu „dei“."
+    },
+    {
+      "id": "l43n04",
+      "r": "l43-preposizioni",
+      "pre": "Ci sposiamo ",
+      "disp": "fra",
+      "ans": ["fra", "tra"],
+      "post": " due mesi e cominciamo già i preparativi.",
+      "tr": "Wir heiraten in zwei Monaten und beginnen schon mit den Vorbereitungen.",
+      "expl": "„Fra/tra + Zeitangabe“ drückt eine Zeitspanne in der Zukunft aus: „fra due mesi“ = in zwei Monaten. Beide Formen sind korrekt."
+    },
+    {
+      "id": "l43n05",
+      "r": "l43-preposizioni",
+      "pre": "Dopo la laurea ha deciso ",
+      "disp": "di",
+      "ans": ["di"],
+      "post": " aprire un suo ristorante a Bologna.",
+      "tr": "Nach dem Studium hat er beschlossen, in Bologna ein eigenes Restaurant zu eröffnen.",
+      "expl": "„Decidere di + Infinitiv“ ist eine feste Verbindung: auf „decidere“ folgt immer die Präposition „di“. Hier: „ha deciso di aprire“ = er hat beschlossen zu eröffnen."
+    },
+    {
+      "id": "l43n06",
+      "r": "l43-beato",
+      "pre": "Va in Brasile per due settimane: ",
+      "disp": "beato",
+      "ans": ["beato"],
+      "post": " lui! Io resto a casa.",
+      "tr": "Er fährt für zwei Wochen nach Brasilien: der Glückliche! Ich bleibe zu Hause.",
+      "expl": "„Beato lui!“ bedeutet „der Glückliche!“ (wörtlich: glücklich er). Der Ausruf wird in Geschlecht und Zahl angeglichen: beato, beata, beati, beate."
+    },
+    {
+      "id": "l43n07",
+      "r": "l43-espressioni",
+      "pre": "Conosci un buon ristorante ",
+      "disp": "da",
+      "ans": ["da"],
+      "post": " queste parti?",
+      "tr": "Kennst du hier in der Gegend ein gutes Restaurant?",
+      "expl": "Der feste Ausdruck „da queste parti“ bedeutet „in dieser Gegend / hier in der Nähe“. „Conoscere“ heißt „kennen“."
+    },
+    {
+      "id": "l43n08",
+      "r": "l43-espressioni",
+      "pre": "Da quando è partito non ho più avuto sue ",
+      "disp": "notizie",
+      "ans": ["notizie"],
+      "post": ".",
+      "tr": "Seit er abgereist ist, habe ich keine Nachrichten mehr von ihm bekommen.",
+      "expl": "„Avere notizie di qualcuno“ = Nachrichten von jemandem erhalten. „Sue notizie“ = Nachrichten von ihm; das Possessivpronomen stimmt mit dem femininen Plural „notizie“ überein."
+    },
+    {
+      "id": "l43n09",
+      "r": "l43-espressioni",
+      "pre": "Vi sposate a giugno? ",
+      "disp": "Auguri",
+      "ans": ["Auguri", "auguri"],
+      "post": " e felicità!",
+      "tr": "Ihr heiratet im Juni? Herzlichen Glückwunsch und alles Gute!",
+      "expl": "„Auguri!“ ist die übliche Glückwunschformel bei Hochzeiten und Geburtstagen. Mit „e felicità“ wird der Wunsch verstärkt."
+    },
+    {
+      "id": "l43n10",
+      "r": "l43-espressioni",
+      "pre": "Mio fratello è ancora ",
+      "disp": "scapolo",
+      "ans": ["scapolo"],
+      "post": ", ma sogna di sposarsi presto.",
+      "tr": "Mein Bruder ist noch Junggeselle, träumt aber davon, bald zu heiraten.",
+      "expl": "„Scapolo“ = Junggeselle; es bezeichnet einen Mann, der nie geheiratet hat. Hier steht es als Prädikatsnomen nach „essere“. „Sognare di + Infinitiv“ bedeutet „davon träumen, etwas zu tun“."
+    }
+  ]
+}

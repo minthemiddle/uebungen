@@ -1,0 +1,135 @@
+{
+  "rules": {
+    "l45-articolo-anno": "Davanti all'anno si mette l'articolo: il millenovecentosettantaquattro.",
+    "l45-passato-riflessivo": "Si è iscritto, si è laureato: passato prossimo di verbi riflessivi con essere.",
+    "l45-stato-civile": "Celibe per l'uomo, nubile per la donna: parole dello stato civile.",
+    "l45-qualche-certa": "Qualche regge il singolare; 'una certa' esprime un'impazienza indefinita.",
+    "l45-titoli-professione": "Titoli di professione come ingegnere o dottore sostituiscono 'signore'.",
+    "l45-vocabolario-cv": "Vocabolario del curriculum: consegui, assolvere, correntemente, manoscritto."
+  },
+  "items": [
+    {
+      "id": "l45n01",
+      "r": "l45-articolo-anno",
+      "pre": "Silvia si è laureata nel duemilacinque, ma ",
+      "disp": "nel",
+      "ans": [
+        "nel"
+      ],
+      "post": " millenovecentonovantasette era ancora al liceo.",
+      "tr": "Silvia hat 2005 ihren Abschluss gemacht, aber 1997 war sie noch auf dem Gymnasium.",
+      "expl": "Vor einer Jahreszahl steht „nel“ (verschieden mit dem Jahr): nel millenovecentonovantasette. Das Verb steht im Imperfetto, weil es eine Hintergrundbeschreibung in der Vergangenheit ist."
+    },
+    {
+      "id": "l45n02",
+      "r": "l45-articolo-anno",
+      "pre": "Ha conseguito il diploma ",
+      "disp": "nel",
+      "ans": [
+        "nel"
+      ],
+      "post": " millenovecentosettantadue, con ottimi voti.",
+      "tr": "Er hat 1972 sein Diplom mit sehr guten Noten erworben.",
+      "expl": "„In“ (in) verschmilzt mit dem Artikel „il“ zu „nel“: „nel 1972“. Vor der Jahreszahl steht der Artikel „il“, und nach der Präposition „in“ entsteht „nel millenovecentosettantadue“."
+    },
+    {
+      "id": "l45n03",
+      "r": "l45-passato-riflessivo",
+      "pre": "Dopo il liceo, Marco ",
+      "disp": "si è iscritto",
+      "ans": [
+        "si è iscritto",
+        "si è iscritta"
+      ],
+      "post": " all'Università di Roma.",
+      "tr": "Nach dem Gymnasium schrieb sich Marco an der Universität Rom ein.",
+      "expl": "„Iscriversi“ ist reflexiv (Partizip „iscritto“) und wird mit „essere“ gebildet: „si è iscritto“. Auf „iscriversi“ folgt die Präposition „a“, hier zu „all'Università“ elidiert, wie im Curriculum: „Si è iscritto all'Università di Roma“."
+    },
+    {
+      "id": "l45n04",
+      "r": "l45-passato-riflessivo",
+      "pre": "Dopo cinque anni di studio, ",
+      "disp": "si è laureato",
+      "ans": [
+        "si è laureato",
+        "si è laureata"
+      ],
+      "post": " in Chimica con il massimo dei voti.",
+      "tr": "Nach fünf Jahren Studium schloss er sein Chemiestudium mit Bestnote ab.",
+      "expl": "„Laurearsi“ (einen Studienabschluss machen) ist reflexiv und verwendet „essere“ im Passato Prossimo: „si è laureato“. Das Partizip richtet sich nach dem Subjekt; hier maskulin."
+    },
+    {
+      "id": "l45n05",
+      "r": "l45-stato-civile",
+      "pre": "Marco non è sposato: nel curriculum scrive che è ",
+      "disp": "celibe",
+      "ans": [
+        "celibe"
+      ],
+      "post": ".",
+      "tr": "Marco ist nicht verheiratet: Im Lebenslauf schreibt er, dass er ledig ist.",
+      "expl": "„Celibe“ bezeichnet den unverheirateten Mann; für die Frau verwendet man „nubile“. Das steht wörtlich im Curriculum von Marco: „Stato civile: celibe“."
+    },
+    {
+      "id": "l45n06",
+      "r": "l45-vocabolario-cv",
+      "pre": "Ha ",
+      "disp": "conseguito",
+      "ans": [
+        "conseguito"
+      ],
+      "post": " la Maturità Scientifica nel luglio 1974.",
+      "tr": "Er hat im Juli 1974 die naturwissenschaftliche Reifeprüfung (Maturità) erworben.",
+      "expl": "„Conseguire“ (erwerben, erreichen) ist ein wichtiges Verb des Lebenslaufs; Partizip „conseguito“ mit „avere“. Es heißt z. B. „conseguire la Maturità“, also eine Prüfung oder einen Titel erlangen."
+    },
+    {
+      "id": "l45n07",
+      "r": "l45-vocabolario-cv",
+      "pre": "A venticinque anni ha già ",
+      "disp": "assolto",
+      "ans": [
+        "assolto"
+      ],
+      "post": " gli obblighi militari.",
+      "tr": "Mit fünfundzwanzig Jahren hat er seine Wehrpflicht bereits abgeleistet.",
+      "expl": "„Assolvere“ (ableisten, erfüllen) hat das unregelmäßige Partizip „assolto“. Im Curriculum heißt es „Ha assolto gli obblighi militari“. Die Pflichten (gli obblighi) sind das direkte Objekt."
+    },
+    {
+      "id": "l45n08",
+      "r": "l45-qualche-certa",
+      "pre": "Ha atteso la risposta per ",
+      "disp": "qualche",
+      "ans": [
+        "qualche"
+      ],
+      "post": " settimana.",
+      "tr": "Er hat einige Wochen lang auf die Antwort gewartet.",
+      "expl": "„Qualche“ (einige) regiert immer ein Nomen im Singular: „qualche settimana“ bedeutet „einige Wochen“, obwohl die Menge plural ist. Das entspricht dem Satz „ho aspettato la risposta per qualche settimana“."
+    },
+    {
+      "id": "l45n09",
+      "r": "l45-vocabolario-cv",
+      "pre": "Parla ",
+      "disp": "correntemente",
+      "ans": [
+        "correntemente"
+      ],
+      "post": " l'inglese e conosce bene il francese.",
+      "tr": "Er spricht fließend Englisch und kann gut Französisch.",
+      "expl": "„Correntemente“ (fließend) ist das Adverb zu „corrente“. Im Curriculum steht: „Parla correntemente l'inglese“. Es beschreibt, wie jemand eine Sprache spricht."
+    },
+    {
+      "id": "l45n10",
+      "r": "l45-titoli-professione",
+      "pre": "Mi ha fissato un appuntamento con ",
+      "disp": "l'ingegner",
+      "ans": [
+        "l'ingegner",
+        "l'ingegnere"
+      ],
+      "post": " Pierotti, il capo del personale.",
+      "tr": "Er hat mir einen Termin mit Ingenieur Pierotti, dem Personalleiter, vereinbart.",
+      "expl": "Vor einem Eigennamen wird der Berufstitel verkürzt: „l'ingegner Pierotti“ (statt „l'ingegnere“). Im Italienischen spricht man Personen mit ihrem Berufstitel an, nicht mit „signore“."
+    }
+  ]
+}

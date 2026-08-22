@@ -1,0 +1,630 @@
+{
+  "rules": {
+    "l01-essere": "Essere: sono, sei, è, siamo, siete; io e loro hanno la stessa forma.",
+    "l01-negazione": "La negazione si forma con non davanti al verbo.",
+    "l01-preposizioni": "Di + città: provenienza; a + città: luogo.",
+    "l01-formule": "Formule: come va, vorrei, a casa, grazie mille, domani.",
+    "l02-avere": "Avere: ho, hai, ha, abbiamo, avete, hanno; la h è muta.",
+    "l02-articolo-indeterminativo": "Un, uno prima di s impura o z; una, un' prima di vocale.",
+    "l02-lei-cortese": "Il Lei formale richiede il verbo alla terza persona singolare.",
+    "l02-ce-lho": "Ce l'ho, ce l'hai: costruzione idiomatica per esprimere possesso.",
+    "l02-stazione": "Alla stazione: biglietto, vagone-ristorante, pacchetto, cortesia, fumatori.",
+    "l03-verbi-are": "Verbi in -are: abito, abiti, abita, abitiamo, abitate, abitano.",
+    "l03-preposizioni": "A + città, in + via, al numero; non serve preposizione dopo desiderare.",
+    "l03-professioni": "Dopo essere la professione non prende articolo: è avvocato, è medico.",
+    "l03-vocabolario": "Lavoro e studi: laurea, colloquio, chimica; non ancora, invece.",
+    "l04-articolo-determinativo": "Il, lo (s impura, z), l'; plurali i, gli, le.",
+    "l04-plurale": "Plurale: -o diventa -i, -a diventa -e; articoli i, gli, le.",
+    "l04-locuzioni": "Locuzioni: in orario, in sciopero, ecco, credo di sì, proprio gentile.",
+    "l05-prendere": "Prendere: prendo, prendi, prende, prendiamo, prendete, prendono.",
+    "l05-scendere": "Scendere: scendo, scendi, scende; la desinenza basta per la persona.",
+    "l05-preposizioni-articolate": "A + il = al: davanti al palazzo, davanti al tribunale.",
+    "l05-questo-questa": "Questo maschile, questa femminile; l'aggettivo si accorda.",
+    "l05-vocabolario": "In città: affollato, tempo, cappuccino, oppure, decidere di."
+  },
+  "items": [
+    {
+      "id": "l01n01",
+      "r": "l01-essere",
+      "pre": "Giulia ",
+      "disp": "è",
+      "ans": [
+        "è"
+      ],
+      "post": " di Torino.",
+      "tr": "Giulia ist aus Turin.",
+      "expl": "„è“ ist die dritte Person Singular von „essere“. Ein Subjektpronomen (lei) ist nicht nötig, die Verbform genügt."
+    },
+    {
+      "id": "l01n02",
+      "r": "l01-essere",
+      "pre": "Signori Conti, voi ",
+      "disp": "siete",
+      "ans": [
+        "siete"
+      ],
+      "post": " a Milano oggi?",
+      "tr": "Sind Sie heute in Mailand, Familie Conti?",
+      "expl": "„voi“ ist die Plural-Anrede und verlangt die Form „siete“. Die Frage erkennt man nur am Fragezeichen und an der steigenden Stimme."
+    },
+    {
+      "id": "l01n03",
+      "r": "l01-negazione",
+      "pre": "Io ",
+      "disp": "non",
+      "ans": [
+        "non"
+      ],
+      "post": " sono di Bologna, sono di Genova.",
+      "tr": "Ich bin nicht aus Bologna, ich bin aus Genua.",
+      "expl": "Die Verneinung heißt „non“ und steht direkt vor dem Verb; „no“ wäre nur die Antwort „nein“. Das betonte „io“ ist erlaubt, weil ein Kontrast ausgedrückt wird."
+    },
+    {
+      "id": "l01n04",
+      "r": "l01-preposizioni",
+      "pre": "Paolo è ",
+      "disp": "a",
+      "ans": [
+        "a"
+      ],
+      "post": " Venezia questa settimana.",
+      "tr": "Paolo ist diese Woche in Venedig.",
+      "expl": "„essere a“ + Stadt bezeichnet den Aufenthaltsort. Die Herkunft würde man mit „essere di“ ausdrücken."
+    },
+    {
+      "id": "l01n05",
+      "r": "l01-essere",
+      "pre": "Ciao Luca, di dove ",
+      "disp": "sei",
+      "ans": [
+        "sei"
+      ],
+      "post": "?",
+      "tr": "Hallo Luca, woher bist du?",
+      "expl": "Das vertrauliche „Ciao“ zeigt die du-Form an, daher „sei“. „Di dove?“ fragt nach der Herkunft."
+    },
+    {
+      "id": "l01n06",
+      "r": "l01-formule",
+      "pre": "Ciao Anna! Come ",
+      "disp": "va",
+      "ans": [
+        "va"
+      ],
+      "post": "?",
+      "tr": "Hallo Anna! Wie geht es dir?",
+      "expl": "„come va?“ ist die übliche Begrüßung, wörtlich „wie geht es“. Als Antwort passen „bene“ oder „benissimo“."
+    },
+    {
+      "id": "l01n07",
+      "r": "l01-formule",
+      "pre": "Vorrei ",
+      "disp": "parlare",
+      "ans": [
+        "parlare"
+      ],
+      "post": " con la signora Rossi, per favore.",
+      "tr": "Ich möchte bitte mit Frau Rossi sprechen.",
+      "expl": "„vorrei“ + Infinitiv ist die höfliche Wunschform. „Parlare con“ bedeutet „sprechen mit“."
+    },
+    {
+      "id": "l01n08",
+      "r": "l01-formule",
+      "pre": "Marco non è a ",
+      "disp": "casa",
+      "ans": [
+        "casa"
+      ],
+      "post": ": è al lavoro.",
+      "tr": "Marco ist nicht zu Hause, er ist auf der Arbeit.",
+      "expl": "„non è a casa“ ist die Verneinung von „è a casa“ (zu Hause sein); die Präposition „a“ steht vor dem Wohnort oder „casa“."
+    },
+    {
+      "id": "l01n09",
+      "r": "l01-formule",
+      "pre": "Oggi sono a Roma, ",
+      "disp": "domani",
+      "ans": [
+        "domani"
+      ],
+      "post": " sono a Milano.",
+      "tr": "Heute bin ich in Rom, morgen bin ich in Mailand.",
+      "expl": "„oggi“ heißt heute, „domani“ morgen. Zeitangaben stehen ohne Präposition direkt im Satz."
+    },
+    {
+      "id": "l01n10",
+      "r": "l01-formule",
+      "pre": "Come va? — Bene, ",
+      "disp": "grazie",
+      "ans": [
+        "grazie"
+      ],
+      "post": " mille!",
+      "tr": "Wie geht es dir? — Gut, vielen Dank!",
+      "expl": "„grazie mille“ ist der verstärkte Dank, wörtlich „tausend Dank“. „Mille“ folgt immer direkt auf „grazie“."
+    },
+    {
+      "id": "l02n01",
+      "r": "l02-avere",
+      "pre": "Marco e Francesca ",
+      "disp": "hanno",
+      "ans": [
+        "hanno"
+      ],
+      "post": " un appartamento a Torino.",
+      "tr": "Marco und Francesca haben eine Wohnung in Turin.",
+      "expl": "„hanno“ ist die dritte Person Plural von „avere“. Das h ist stumm, aber die Form trägt die Personeninformation."
+    },
+    {
+      "id": "l02n02",
+      "r": "l02-articolo-indeterminativo",
+      "pre": "Silvia ha ",
+      "disp": "un'",
+      "ans": [
+        "un'"
+      ],
+      "post": "amica a Bologna.",
+      "tr": "Silvia hat eine Freundin in Bologna.",
+      "expl": "Vor weiblichen Wörtern mit Vokal wird „una“ zu „un’“ elidiert. „amica“ ist die Freundin, „amico“ der Freund."
+    },
+    {
+      "id": "l02n03",
+      "r": "l02-articolo-indeterminativo",
+      "pre": "Ho ",
+      "disp": "uno",
+      "ans": [
+        "uno"
+      ],
+      "post": " zaino pieno di riviste.",
+      "tr": "Ich habe einen Rucksack voller Zeitschriften.",
+      "expl": "Vor z und vor s + Konsonant steht der unbestimmte Artikel „uno“, nicht „un“. „Zaino“ beginnt mit z."
+    },
+    {
+      "id": "l02n04",
+      "r": "l02-lei-cortese",
+      "pre": "Mi scusi, ",
+      "disp": "ha",
+      "ans": [
+        "ha"
+      ],
+      "post": " da accendere, per favore?",
+      "tr": "Entschuldigen Sie, haben Sie Feuer, bitte?",
+      "expl": "„Ha da accendere?“ ist die höfliche Frage nach Feuer für die Zigarette. „avere da accendere“ ist eine feste Wendung; „ha“ ist die Lei-Form von „avere“."
+    },
+    {
+      "id": "l02n05",
+      "r": "l02-ce-lho",
+      "pre": "Hai la rivista? — Sì, ",
+      "disp": "ce",
+      "ans": [
+        "ce"
+      ],
+      "post": " l'ho!",
+      "tr": "Hast du die Zeitschrift? — Ja, ich habe sie!",
+      "expl": "Statt „la ho“ sagt man „ce l’ho“. Das „ce“ hat keine eigene Bedeutung, gehört aber fest zur Wendung."
+    },
+    {
+      "id": "l02n06",
+      "r": "l02-stazione",
+      "pre": "Un biglietto di prima classe ",
+      "disp": "per",
+      "ans": [
+        "per"
+      ],
+      "post": " Bologna, per cortesia.",
+      "tr": "Eine Fahrkarte erster Klasse nach Bologna, bitte.",
+      "expl": "Bei Fahrkarten nennt „per“ die Zielstadt: „un biglietto per Bologna“. „Per cortesia“ ist eine höfliche Form von „bitte“."
+    },
+    {
+      "id": "l02n07",
+      "r": "l02-stazione",
+      "pre": "Il treno per Napoli ha un ",
+      "disp": "vagone",
+      "ans": [
+        "vagone"
+      ],
+      "post": "-ristorante?",
+      "tr": "Hat der Zug nach Neapel einen Speisewagen?",
+      "expl": "„vagone-ristorante“ ist der Speisewagen, wörtlich „Wagen-Restaurant“. Der Artikel „un“ richtet sich nach „vagone“ (Maskulinum)."
+    },
+    {
+      "id": "l02n08",
+      "r": "l02-stazione",
+      "pre": "Mi dà un’informazione, per ",
+      "disp": "cortesia",
+      "ans": [
+        "cortesia"
+      ],
+      "post": "?",
+      "tr": "Geben Sie mir eine Auskunft, bitte?",
+      "expl": "„per cortesia“ ist die höfliche Bitte wie „bitte“; alternativ „per favore“. Das Substantiv ist „l’informazione“ mit Elision vor Vokal."
+    },
+    {
+      "id": "l02n09",
+      "r": "l02-stazione",
+      "pre": "Marco ha un ",
+      "disp": "pacchetto",
+      "ans": [
+        "pacchetto"
+      ],
+      "post": " di sigarette e un accendino.",
+      "tr": "Marco hat eine Packung Zigaretten und ein Feuerzeug.",
+      "expl": "„un pacchetto di sigarette“ ist die Zigarettenschachtel, „accendino“ das Feuerzeug. „Di“ verbindet Packung und Inhalt."
+    },
+    {
+      "id": "l02n10",
+      "r": "l02-stazione",
+      "pre": "Il posto di Marco è in uno scompartimento per ",
+      "disp": "fumatori",
+      "ans": [
+        "fumatori"
+      ],
+      "post": ".",
+      "tr": "Marcos Platz ist in einem Abteil für Raucher.",
+      "expl": "„scompartimento per fumatori“ heißt Raucherabteil; „per“ bezeichnet den Zweck. Der Plural „fumatori“ gehört zur festen Wendung."
+    },
+    {
+      "id": "l03n01",
+      "r": "l03-verbi-are",
+      "pre": "Anna e Paolo ",
+      "disp": "abitano",
+      "ans": [
+        "abitano"
+      ],
+      "post": " a Verona.",
+      "tr": "Anna und Paolo wohnen in Verona.",
+      "expl": "„abitare“ ist ein Verb auf -are: Zwei Personen ergeben die Pluralform „abitano“ auf -ano. Nach „abitare“ folgt „a“ + Stadt."
+    },
+    {
+      "id": "l03n02",
+      "r": "l03-verbi-are",
+      "pre": "Ma dove ",
+      "disp": "lavori",
+      "ans": [
+        "lavori"
+      ],
+      "post": ", Sergio? A Roma?",
+      "tr": "Aber wo arbeitest du, Sergio? In Rom?",
+      "expl": "Die du-Form von Verben auf -are endet auf -i: „lavori“. Fragen mit „dove“ brauchen kein Hilfsverb, nur die Stimme steigt."
+    },
+    {
+      "id": "l03n03",
+      "r": "l03-preposizioni",
+      "pre": "Abitiamo a Torino, ",
+      "disp": "in",
+      "ans": [
+        "in"
+      ],
+      "post": " Via Po.",
+      "tr": "Wir wohnen in Turin, in der Via Po.",
+      "expl": "Städte folgen auf „a“, Straßennamen auf „in“. Die Straße heißt hier „Via Po“, daher „in Via Po“."
+    },
+    {
+      "id": "l03n04",
+      "r": "l03-preposizioni",
+      "pre": "L'ufficio è in Via Roma, ",
+      "disp": "al",
+      "ans": [
+        "al"
+      ],
+      "post": " numero dodici.",
+      "tr": "Das Büro liegt in der Via Roma, Nummer zwölf.",
+      "expl": "„a“ und „il“ verschmelzen zu „al“. Bei Adressen folgt die Hausnummer mit „al numero“ am Ende."
+    },
+    {
+      "id": "l03n05",
+      "r": "l03-verbi-are",
+      "pre": "Signora Russo, Lei ",
+      "disp": "lavora",
+      "ans": [
+        "lavora"
+      ],
+      "post": " a Milano o a Roma?",
+      "tr": "Frau Russo, arbeiten Sie in Mailand oder in Rom?",
+      "expl": "Die höfliche Anrede „Lei“ verlangt die dritte Person Singular: „lavora“ statt „lavori“."
+    },
+    {
+      "id": "l03n06",
+      "r": "l03-professioni",
+      "pre": "Luca è ",
+      "disp": "avvocato",
+      "ans": [
+        "avvocato"
+      ],
+      "post": " e lavora al tribunale di Napoli.",
+      "tr": "Luca ist Anwalt und arbeitet am Gericht in Neapel.",
+      "expl": "Nach „essere“ steht der Beruf ohne Artikel: „è avvocato“. „Al tribunale“ passt zum Beruf des Anwalts."
+    },
+    {
+      "id": "l03n07",
+      "r": "l03-vocabolario",
+      "pre": "Sara ha una ",
+      "disp": "laurea",
+      "ans": [
+        "laurea"
+      ],
+      "post": " in medicina.",
+      "tr": "Sara hat einen Abschluss in Medizin.",
+      "expl": "„avere una laurea in“ + Fachgebiet heißt „einen Abschluss haben in“. Das Fach folgt ohne Artikel auf „in“."
+    },
+    {
+      "id": "l03n08",
+      "r": "l03-vocabolario",
+      "pre": "Domani Luca va a Roma per un ",
+      "disp": "colloquio",
+      "ans": [
+        "colloquio"
+      ],
+      "post": " di lavoro.",
+      "tr": "Morgen fährt Luca für ein Vorstellungsgespräch nach Rom.",
+      "expl": "„colloquio di lavoro“ ist das Vorstellungsgespräch. „Per“ begründet die Fahrt, „di lavoro“ näher bestimmt das Gespräch."
+    },
+    {
+      "id": "l03n09",
+      "r": "l03-vocabolario",
+      "pre": "Giulia studia chimica, ma non lavora ",
+      "disp": "ancora",
+      "ans": [
+        "ancora"
+      ],
+      "post": ".",
+      "tr": "Giulia studiert Chemie, aber sie arbeitet noch nicht.",
+      "expl": "„non … ancora“ heißt „noch nicht“; „ancora“ steht nach dem Verb. Allein gebraucht heißt es „noch“ oder „immer noch“."
+    },
+    {
+      "id": "l03n10",
+      "r": "l03-vocabolario",
+      "pre": "Sergio lavora a Roma; Anna ",
+      "disp": "invece",
+      "ans": [
+        "invece"
+      ],
+      "post": " lavora a Trieste.",
+      "tr": "Sergio arbeitet in Rom, Anna dagegen in Triest.",
+      "expl": "„invece“ markiert einen Gegensatz wie „dagegen“. Es steht zwischen Subjekt und Verb, oft mit Kommata eingeschlossen."
+    },
+    {
+      "id": "l04n01",
+      "r": "l04-articolo-determinativo",
+      "pre": "Il controllore aiuta ",
+      "disp": "lo",
+      "ans": [
+        "lo"
+      ],
+      "post": " studente a portare le valigie.",
+      "tr": "Der Schaffner hilft dem Studenten, die Koffer zu tragen.",
+      "expl": "„lo“ steht vor männlichen Wörtern mit s + Konsonant (studente). Nach „aiutare“ folgt „a“ + Infinitiv."
+    },
+    {
+      "id": "l04n02",
+      "r": "l04-articolo-determinativo",
+      "pre": "Dove sono ",
+      "disp": "gli",
+      "ans": [
+        "gli"
+      ],
+      "post": " scompartimenti per fumatori?",
+      "tr": "Wo sind die Abteile für Raucher?",
+      "expl": "„gli“ ist der Plural von „lo“ und steht ebenfalls vor s + Konsonant. So wie „lo scompartimento“ heißt es plural „gli scompartimenti“."
+    },
+    {
+      "id": "l04n03",
+      "r": "l04-articolo-determinativo",
+      "pre": "Al bar Marco non trova ",
+      "disp": "l'",
+      "ans": [
+        "l'"
+      ],
+      "post": "accendino.",
+      "tr": "In der Bar findet Marco das Feuerzeug nicht.",
+      "expl": "Vor einem Vokal wird „il“ zu „l’“ elidiert. Die Verneinung „non“ steht wie immer direkt vor dem Verb „trova“."
+    },
+    {
+      "id": "l04n04",
+      "r": "l04-articolo-determinativo",
+      "pre": "La signora porta ",
+      "disp": "le",
+      "ans": [
+        "le"
+      ],
+      "post": " valigie: sono quattro.",
+      "tr": "Die Dame trägt die Koffer: Es sind vier.",
+      "expl": "„le“ ist der bestimmte Artikel vor weiblichen Pluralwörtern wie „valigie“. Das Subjekt ist Singular, das Objekt Plural."
+    },
+    {
+      "id": "l04n05",
+      "r": "l04-plurale",
+      "pre": "A Milano ",
+      "disp": "i",
+      "ans": [
+        "i"
+      ],
+      "post": " treni arrivano sempre in orario.",
+      "tr": "In Mailand kommen die Züge immer pünktlich an.",
+      "expl": "Der Plural von „treno“ ist „treni“: -o wird zu -i. Der bestimmte Artikel lautet im Maskulin-Plural „i“."
+    },
+    {
+      "id": "l04n06",
+      "r": "l04-locuzioni",
+      "pre": "Il treno per Pisa è in ",
+      "disp": "orario",
+      "ans": [
+        "orario"
+      ],
+      "post": "?",
+      "tr": "Ist der Zug nach Pisa pünktlich?",
+      "expl": "„in orario“ heißt „pünktlich“ oder „im Fahrplan“. Die Wendung mit „in“ ist fest."
+    },
+    {
+      "id": "l04n07",
+      "r": "l04-locuzioni",
+      "pre": "Che guaio: domani i treni sono in ",
+      "disp": "sciopero",
+      "ans": [
+        "sciopero"
+      ],
+      "post": "!",
+      "tr": "Was für ein Pech: Morgen streiken die Züge!",
+      "expl": "„in sciopero“ heißt „im Streik“. Der Ausruf „che guaio!“ zeigt Ärger über die Situation."
+    },
+    {
+      "id": "l04n08",
+      "r": "l04-locuzioni",
+      "pre": "Guarda, ",
+      "disp": "ecco",
+      "ans": [
+        "ecco",
+        "Ecco"
+      ],
+      "post": " il controllore!",
+      "tr": "Schau, da ist der Schaffner!",
+      "expl": "„ecco“ zeigt etwas Sichtbares an: „da ist“, „sieh mal“. Es steht direkt vor dem Ding oder der Person."
+    },
+    {
+      "id": "l04n09",
+      "r": "l04-locuzioni",
+      "pre": "Il treno di Davide arriva in orario? — ",
+      "disp": "credo",
+      "ans": [
+        "credo",
+        "Credo"
+      ],
+      "post": " di sì.",
+      "tr": "Kommt Davides Zug pünktlich an? — Ich glaube ja.",
+      "expl": "„credo di sì“ heißt „ich glaube ja“; mit „di no“ wäre es „ich glaube nein“. Nach „credo“ folgt immer „di“."
+    },
+    {
+      "id": "l04n10",
+      "r": "l04-locuzioni",
+      "pre": "Il facchino aiuta la signora: è proprio ",
+      "disp": "gentile",
+      "ans": [
+        "gentile"
+      ],
+      "post": "!",
+      "tr": "Der Gepäckträger hilft der Dame: Er ist wirklich nett!",
+      "expl": "„proprio“ verstärkt ein Adjektiv wie „wirklich“. „Gentile“ beschreibt hier eine nette, hilfsbereite Person."
+    },
+    {
+      "id": "l05n01",
+      "r": "l05-prendere",
+      "pre": "Ogni mattina la signora Ferri ",
+      "disp": "prende",
+      "ans": [
+        "prende"
+      ],
+      "post": " il taxi per l'ufficio.",
+      "tr": "Jeden Morgen nimmt Frau Ferri das Taxi ins Büro.",
+      "expl": "„prendere“ heißt „nehmen“: die dritte Person Singular ist „prende“. „Prendere il taxi“ ist die feste Wendung für Taxi fahren."
+    },
+    {
+      "id": "l05n02",
+      "r": "l05-prendere",
+      "pre": "La mattina ",
+      "disp": "prendiamo",
+      "ans": [
+        "prendiamo"
+      ],
+      "post": " l'autobus per la stazione.",
+      "tr": "Morgens nehmen wir den Bus zum Bahnhof.",
+      "expl": "„prendiamo“ ist die wir-Form auf -iamo. Auch hier gilt: „prendere l’autobus“ = Bus fahren."
+    },
+    {
+      "id": "l05n03",
+      "r": "l05-scendere",
+      "pre": "Il signor Neri ",
+      "disp": "scende",
+      "ans": [
+        "scende"
+      ],
+      "post": " dopo tre fermate.",
+      "tr": "Herr Neri steigt nach drei Haltestellen aus.",
+      "expl": "„scendere“ heißt aussteigen; „scende“ ist die dritte Person Singular. Die Endung allein zeigt die Person, ein Pronomen ist unnötig."
+    },
+    {
+      "id": "l05n04",
+      "r": "l05-preposizioni-articolate",
+      "pre": "Il palazzo di Francesca è davanti ",
+      "disp": "al",
+      "ans": [
+        "al"
+      ],
+      "post": " tribunale.",
+      "tr": "Francescas Haus liegt gegenüber dem Gericht.",
+      "expl": "„davanti a“ heißt „vor“ oder „gegenüber“; vor „il“ verschmelzen die beiden zu „davanti al“. Die Verschmelzung ist Pflicht."
+    },
+    {
+      "id": "l05n05",
+      "r": "l05-questo-questa",
+      "pre": "Questo autobus è pieno e questa metropolitana è ",
+      "disp": "piena",
+      "ans": [
+        "piena"
+      ],
+      "post": ".",
+      "tr": "Dieser Bus ist voll, und diese U-Bahn ist auch voll.",
+      "expl": "„questo“ steht vor männlichen, „questa“ vor weiblichen Wörtern. Das Adjektiv „pieno“ passt sich an: bei „metropolitana“ heißt es „piena“."
+    },
+    {
+      "id": "l05n06",
+      "r": "l05-vocabolario",
+      "pre": "Sara decide ",
+      "disp": "di",
+      "ans": [
+        "di"
+      ],
+      "post": " prendere il taxi.",
+      "tr": "Sara beschließt, das Taxi zu nehmen.",
+      "expl": "„decidere di“ + Infinitiv heißt „beschließen zu“. Ohne die Präposition „di“ wäre der Satz ungrammatisch."
+    },
+    {
+      "id": "l05n07",
+      "r": "l05-vocabolario",
+      "pre": "A Roma la metropolitana è sempre molto ",
+      "disp": "affollata",
+      "ans": [
+        "affollata"
+      ],
+      "post": ".",
+      "tr": "In Rom ist die U-Bahn immer sehr voll.",
+      "expl": "„affollata“ heißt „überfüllt“ und steht hier im Femininum, weil „metropolitana“ weiblich ist."
+    },
+    {
+      "id": "l05n08",
+      "r": "l05-vocabolario",
+      "pre": "Oggi il ",
+      "disp": "tempo",
+      "ans": [
+        "tempo"
+      ],
+      "post": " è bello a Milano.",
+      "tr": "Heute ist das Wetter in Mailand schön.",
+      "expl": "„il tempo è bello“ heißt „das Wetter ist schön“. „Tempo“ kann auch „Zeit“ bedeuten; hier entscheidet „bello“ den Sinn."
+    },
+    {
+      "id": "l05n09",
+      "r": "l05-vocabolario",
+      "pre": "Al bar io prendo un caffè, Luca prende un ",
+      "disp": "cappuccino",
+      "ans": [
+        "cappuccino"
+      ],
+      "post": ".",
+      "tr": "In der Bar nehme ich einen Espresso, Luca nimmt einen Cappuccino.",
+      "expl": "„prendere“ benutzt man auch für Getränke: etwas nehmen oder bestellen. „Cappuccino“ ist der Kaffee mit Milchschaum."
+    },
+    {
+      "id": "l05n10",
+      "r": "l05-vocabolario",
+      "pre": "Prendete il treno ",
+      "disp": "oppure",
+      "ans": [
+        "oppure",
+        "o"
+      ],
+      "post": " l'aereo?",
+      "tr": "Nehmt ihr den Zug oder das Flugzeug?",
+      "expl": "„oppure“ verbindet Alternativen und heißt „oder“. Es ist etwas betonter als das einfache „o“."
+    }
+  ]
+}

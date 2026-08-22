@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Quelldateien, die zu groß/fremdcopyright sind (Original-PDFs)
+in/*.pdf
+
+# Scratch
+work/

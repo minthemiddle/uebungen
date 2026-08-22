@@ -1,0 +1,111 @@
+{
+  "rules": {
+    "l30-da-noi": "La preposizione da indica il luogo: da noi, da me, da loro, da Francesca significa a casa di.",
+    "l30-passato-essere": "Il passato prossimo con essere concorda con il soggetto: è andata, sono andate, sono andati.",
+    "l30-conoscere": "Conoscere è della seconda coniugazione; il participio passato è conosciuto, come venduto, potuto, voluto, dovuto.",
+    "l30-participi": "Participi passati irregolari: riso (ridere), bevuto (bere), preso (prendere).",
+    "l30-espressioni": "Espressioni utili: di bello, un sacco di, in giro, verso, ricordarsi di."
+  },
+  "items": [
+    {
+      "id": "l30n01",
+      "r": "l30-da-noi",
+      "pre": "Domani sera venite a cena ",
+      "disp": "da noi",
+      "ans": ["da noi"],
+      "post": "?",
+      "tr": "Kommt ihr morgen Abend bei uns zum Abendessen?",
+      "expl": "„Da noi“ bedeutet „bei uns zu Hause“. Mit „da“ + Pronomen/Name drückt man aus, an welchem Ort jemand wohnt: „da me“, „da loro“, „da Francesca“."
+    },
+    {
+      "id": "l30n02",
+      "r": "l30-passato-essere",
+      "pre": "Anna è andata a Roma con Luisa: cioè Anna e Luisa ",
+      "disp": "sono andate",
+      "ans": ["sono andate"],
+      "post": " a Roma.",
+      "tr": "Anna ist mit Luisa nach Rom gefahren: das heißt, Anna und Luisa sind zusammen nach Rom gefahren.",
+      "expl": "„Sono andate“ ist das Passato prossimo von „andare“ mit „essere“. Da beide Subjekte weiblich sind, endet das Partizip auf „-e“: „sono andate“."
+    },
+    {
+      "id": "l30n03",
+      "r": "l30-conoscere",
+      "pre": "Già conosci mio fratello? L'hai ",
+      "disp": "conosciuto",
+      "ans": ["conosciuto"],
+      "post": " alla festa di Anna, vero?",
+      "tr": "Kennst du meinen Bruder schon? Du hast ihn auf Annas Party kennengelernt, oder?",
+      "expl": "„Conosciuto“ ist das Partizip von „conoscere“ (kennenlernen, 2. Konjugation). Das Passato prossimo wird hier mit „avere“ gebildet: „l'hai conosciuto“ (l' = lo + hai)."
+    },
+    {
+      "id": "l30n04",
+      "r": "l30-participi",
+      "pre": "Durante la festa abbiamo ",
+      "disp": "bevuto",
+      "ans": ["bevuto"],
+      "post": " un po' di vino e abbiamo ballato fino a tardi.",
+      "tr": "Während der Feier haben wir etwas Wein getrunken und bis spät getanzt.",
+      "expl": "„Bevuto“ ist das unregelmäßige Partizip von „bere“ (trinken). Es folgt wie „riso“ (ridere) und „preso“ (prendere) dem Muster der irregulären Partizipien."
+    },
+    {
+      "id": "l30n05",
+      "r": "l30-espressioni",
+      "pre": "Che cosa avete fatto ",
+      "disp": "di",
+      "ans": ["di"],
+      "post": " bello ieri sera?",
+      "tr": "Was habt ihr gestern Abend Schönes gemacht?",
+      "expl": "„Di bello“ heißt hier „Schönes“. Die Wendung „fare qualcosa di bello“ fragt höflich, was jemand Interessantes unternommen hat."
+    },
+    {
+      "id": "l30n06",
+      "r": "l30-espressioni",
+      "pre": "Marcello come al solito ha raccontato ",
+      "disp": "un sacco",
+      "ans": ["un sacco"],
+      "post": " di barzellette e abbiamo riso molto.",
+      "tr": "Marcello hat wie immer eine Menge Witze erzählt und wir haben viel gelacht.",
+      "expl": "„Un sacco di“ bedeutet „eine Menge, haufenweise“. Es ist eine sehr gebräuchliche umgangssprachliche Wendung."
+    },
+    {
+      "id": "l30n07",
+      "r": "l30-espressioni",
+      "pre": "Ieri pomeriggio sono andato ",
+      "disp": "in giro",
+      "ans": ["in giro"],
+      "post": " per i negozi del centro.",
+      "tr": "Gestern Nachmittag bin ich durch die Geschäfte der Innenstadt gebummelt.",
+      "expl": "„Andare in giro“ bedeutet „herumlaufen, bummeln“. „Sono andato in giro per i negozi“ heißt „ich bin zum Bummeln in die Geschäfte gegangen“."
+    },
+    {
+      "id": "l30n08",
+      "r": "l30-passato-essere",
+      "pre": "Fino a che ora siete ",
+      "disp": "restati",
+      "ans": ["restati"],
+      "post": " insieme?",
+      "tr": "Bis wie spät seid ihr zusammen geblieben?",
+      "expl": "„Restati“ ist das Partizip von „restare“ (bleiben). Das Passato prossimo wird mit „essere“ gebildet und richtet sich nach dem maskulinen Subjekt: „siete restati“."
+    },
+    {
+      "id": "l30n09",
+      "r": "l30-espressioni",
+      "pre": "Sono passata dal macellaio ",
+      "disp": "verso",
+      "ans": ["verso"],
+      "post": " mezzogiorno per comprare un po' di carne.",
+      "tr": "Ich bin gegen Mittag beim Metzger vorbeigegangen, um etwas Fleisch zu kaufen.",
+      "expl": "„Verso“ bedeutet bei Zeitangaben „gegen, ungefähr“. „Verso mezzogiorno“ = „gegen Mittag“."
+    },
+    {
+      "id": "l30n10",
+      "r": "l30-espressioni",
+      "pre": "Ti ",
+      "disp": "ricordi",
+      "ans": ["ricordi"],
+      "post": " di Elena, la nostra amica di Firenze?",
+      "tr": "Erinnerst du dich an Elena, unsere Freundin aus Florenz?",
+      "expl": "„Ricordarsi di“ bedeutet „sich an jemanden erinnern“. Die reflexive Form mit Pronomen „ti ricordi“ ist im Italienischen üblich."
+    }
+  ]
+}

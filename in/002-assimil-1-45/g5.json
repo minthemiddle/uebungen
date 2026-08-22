@@ -1,0 +1,630 @@
+{
+  "rules": {
+    "l21-preposizioni-articolate": "di, a, da, in, su + articolo: del, al, dal, nel, sul.",
+    "l21-uso-preposizioni": "da con la durata (da due anni); fra e tra equivalenti per il tempo futuro.",
+    "l21-andare-venire": "andare: vado, vai, va, andiamo, andate, vanno; venire: vengo, vieni, viene, veniamo, venite, vengono.",
+    "l21-espressioni": "avere paura di + infinito; stai attento, stai tranquillo, stai calmo.",
+    "l22-potere": "potere: posso, puoi, può, possiamo, potete, possono.",
+    "l22-quantificatori": "molto, poco, tanto, troppo, quanto: invariabili col verbo, accordo col nome.",
+    "l22-avere-espressioni": "avere fame, sete, voglia di, bisogno di: costruzioni con avere, non essere.",
+    "l22-vocab-colazione": "Colazione: tenda, zucchero, latte, burro, marmellata, cornetti; permesso? avanti!",
+    "l23-dovere": "dovere: devo, devi, deve, dobbiamo, dovete, devono + infinito.",
+    "l23-da-di-infinito": "dopo qualcosa, niente, cose: da + infinito; dopo dimenticare: di + infinito.",
+    "l23-fare-espressioni": "fare presto (sbrigarsi), fare una sosta, fare un giro, fare una fotografia.",
+    "l23-vocab-gita": "gita: sosta, giro, ritardo, artigiani, ceramiche, guida, pullman.",
+    "l24-volere": "volere: voglio, vuoi, vuole, vogliamo, volete, vogliono.",
+    "l24-a-infinito-movimento": "dopo andare, venire, uscire, scendere: a + infinito.",
+    "l24-prima-di": "prima di + infinito = prima dell'azione principale.",
+    "l24-risposte-fisse": "con piacere, per carità, perché no, volentieri: risposte idiomatiche.",
+    "l24-vocab-serata": "serata: passeggiata, lungomare, gelato, Opera, musica lirica, sopportare, assaggiare.",
+    "l25-uscire": "uscire: esco, esci, esce, usciamo, uscite, escono.",
+    "l25-a-senza-articolo": "a casa, a teatro, a scuola, a letto: preposizione a senza articolo.",
+    "l25-fra-tra": "fra e tra sono equivalenti: posizione tra due cose o tempo.",
+    "l25-dare": "dare: do, dai, dà (con accento!), diamo, date, danno.",
+    "l25-espressioni-teatro": "a teatro: maschera, guardaroba, molta gente, fare silenzio, dare fastidio, applaudire."
+  },
+  "items": [
+    {
+      "id": "l21n01",
+      "r": "l21-preposizioni-articolate",
+      "pre": "Il portafoglio è ",
+      "disp": "sul",
+      "ans": [
+        "sul"
+      ],
+      "post": " tavolo.",
+      "tr": "Die Brieftasche liegt auf dem Tisch.",
+      "expl": "„su + il“ verschmilzt zu „sul“. Präpositionen wie di, a, da, in und su bilden mit dem bestimmten Artikel immer ein einziges Wort."
+    },
+    {
+      "id": "l21n02",
+      "r": "l21-preposizioni-articolate",
+      "pre": "C'è del vino bianco ",
+      "disp": "nel",
+      "ans": [
+        "nel"
+      ],
+      "post": " frigorifero.",
+      "tr": "Im Kühlschrank ist weißer Wein.",
+      "expl": "„in + il“ ergibt „nel“. Bei „in“ und „di“ ändert sich die Präposition beim Verschmelzen mit dem Artikel leicht — wie bei „del“."
+    },
+    {
+      "id": "l21n03",
+      "r": "l21-preposizioni-articolate",
+      "pre": "Telefoniamo ",
+      "disp": "all'",
+      "ans": [
+        "all'"
+      ],
+      "post": "ufficio informazioni.",
+      "tr": "Wir rufen beim Auskunftsbüro an.",
+      "expl": "Vor einem Vokal wird der Artikel zu „l'“, deshalb ergibt „a + l'“ hier „all'“. Nach „telefonare“ steht die Präposition „a“."
+    },
+    {
+      "id": "l21n04",
+      "r": "l21-preposizioni-articolate",
+      "pre": "Il numero di telefono ",
+      "disp": "della",
+      "ans": [
+        "della"
+      ],
+      "post": " pensione è scritto qui.",
+      "tr": "Die Telefonnummer der Pension steht hier geschrieben.",
+      "expl": "„di + la“ wird zu „della“. Die Präposition „di“ drückt Zugehörigkeit aus: die Nummer der Pension."
+    },
+    {
+      "id": "l21n05",
+      "r": "l21-andare-venire",
+      "pre": "Noi ",
+      "disp": "andiamo",
+      "ans": [
+        "andiamo"
+      ],
+      "post": " al mare ogni domenica.",
+      "tr": "Wir gehen jeden Sonntag ans Meer.",
+      "expl": "„andiamo“ ist die 1. Person Plural von „andare“ (gehen). Die vollständige Reihe lautet: vado, vai, va, andiamo, andate, vanno."
+    },
+    {
+      "id": "l21n06",
+      "r": "l21-andare-venire",
+      "pre": "I signori Rossi ",
+      "disp": "vengono",
+      "ans": [
+        "vengono"
+      ],
+      "post": " a trovarci domenica.",
+      "tr": "Die Herrschaften Rossi kommen uns am Sonntag besuchen.",
+      "expl": "„vengono“ ist die 3. Person Plural von „venire“. Nach Bewegungsverben wie „venire“ steht vor dem Infinitiv „a“: venire a trovare."
+    },
+    {
+      "id": "l21n07",
+      "r": "l21-uso-preposizioni",
+      "pre": "Il treno per Firenze parte ",
+      "disp": "fra",
+      "ans": [
+        "fra",
+        "tra"
+      ],
+      "post": " dieci minuti.",
+      "tr": "Der Zug nach Florenz fährt in zehn Minuten.",
+      "expl": "„fra“ und „tra“ bedeuten beide „in“ bei Zeitangaben in der Zukunft und sind austauschbar. „Parte fra dieci minuti“ heißt: Er fährt in zehn Minuten ab."
+    },
+    {
+      "id": "l21n08",
+      "r": "l21-uso-preposizioni",
+      "pre": "Studio l'italiano ",
+      "disp": "da",
+      "ans": [
+        "da"
+      ],
+      "post": " dieci anni e parlo ancora male.",
+      "tr": "Ich lerne seit zehn Jahren Italienisch und spreche immer noch schlecht.",
+      "expl": "„da“ + Zeitangabe heißt „seit“ und steht mit dem Präsens. Die Dauer reicht vom Beginn bis zum jetzigen Moment."
+    },
+    {
+      "id": "l21n09",
+      "r": "l21-preposizioni-articolate",
+      "pre": "Torniamo ",
+      "disp": "dal",
+      "ans": [
+        "dal"
+      ],
+      "post": " mare solo domenica sera.",
+      "tr": "Wir kommen erst Sonntagabend vom Meer zurück.",
+      "expl": "„da + il“ verschmilzt zu „dal“. Bei „tornare“ wird die Richtung/der Ausgangspunkt mit „da“ ausgedrückt: tornare dal mare."
+    },
+    {
+      "id": "l21n10",
+      "r": "l21-espressioni",
+      "pre": "Stai ",
+      "disp": "attento",
+      "ans": [
+        "attento"
+      ],
+      "post": ": il pavimento è bagnato!",
+      "tr": "Pass auf: Der Boden ist nass!",
+      "expl": "„stai attento!“ ist eine feste Warnung mit dem Imperativ von „stare“. Ähnliche Wendungen: „stai tranquillo“ (bleib ruhig) und „stai calmo“."
+    },
+    {
+      "id": "l22n01",
+      "r": "l22-potere",
+      "pre": "I signori Neri non ",
+      "disp": "possono",
+      "ans": [
+        "possono"
+      ],
+      "post": " pagare con la carta.",
+      "tr": "Die Herrschaften Neri können nicht mit Karte zahlen.",
+      "expl": "„possono“ ist die 3. Person Plural von „potere“. Vor einem Infinitiv drückt „potere“ aus, dass jemand etwas kann oder darf."
+    },
+    {
+      "id": "l22n02",
+      "r": "l22-potere",
+      "pre": "Marco, non ",
+      "disp": "puoi",
+      "ans": [
+        "puoi"
+      ],
+      "post": " mangiare tutti questi biscotti!",
+      "tr": "Marco, du kannst nicht alle diese Kekse essen!",
+      "expl": "„puoi“ ist die 2. Person Singular von „potere“. Die Anrede mit dem Namen zeigt, dass „tu“ gemeint ist."
+    },
+    {
+      "id": "l22n03",
+      "r": "l22-quantificatori",
+      "pre": "Ma ",
+      "disp": "quanto",
+      "ans": [
+        "quanto"
+      ],
+      "post": " tempo abbiamo ancora prima della partenza?",
+      "tr": "Aber wie viel Zeit haben wir vor der Abfahrt noch?",
+      "expl": "„quanto“ fragt nach der Menge. Vor „tempo“ (Maskulin Singular) steht die Form „quanto“: „quanto tempo“ — wie viel Zeit."
+    },
+    {
+      "id": "l22n04",
+      "r": "l22-quantificatori",
+      "pre": "Ho ",
+      "disp": "pochi",
+      "ans": [
+        "pochi"
+      ],
+      "post": " soldi: non posso comprare il biglietto.",
+      "tr": "Ich habe wenig Geld: Ich kann die Fahrkarte nicht kaufen.",
+      "expl": "„pochi“ passt sich dem Substantiv an — „soldi“ ist Maskulin Plural, deshalb „pochi“. Der zweite Teilsatz begründet, dass es wenig ist; das Gegenteil wäre „molti“."
+    },
+    {
+      "id": "l22n05",
+      "r": "l22-avere-espressioni",
+      "pre": "Che ",
+      "disp": "fame",
+      "ans": [
+        "fame"
+      ],
+      "post": "! Andiamo a mangiare una pizza.",
+      "tr": "Bin ich hungrig! Gehen wir Pizza essen.",
+      "expl": "„Che fame!“ ist der typische Ausruf für großen Hunger. Italienisch benutzt „avere“ (haben): „ho fame“ — ich habe Hunger."
+    },
+    {
+      "id": "l22n06",
+      "r": "l22-avere-espressioni",
+      "pre": "Con questo caldo ho una ",
+      "disp": "sete",
+      "ans": [
+        "sete"
+      ],
+      "post": " terribile: dammi dell'acqua!",
+      "tr": "Bei der Hitze habe ich einen schrecklichen Durst: Gib mir Wasser!",
+      "expl": "„sete“ heißt Durst und gehört zu den Ausdrücken mit „avere“: „avere sete“ — Durst haben. Deshalb sagt man „ho sete“, nicht „sono sete“."
+    },
+    {
+      "id": "l22n07",
+      "r": "l22-avere-espressioni",
+      "pre": "I bambini hanno ",
+      "disp": "voglia",
+      "ans": [
+        "voglia"
+      ],
+      "post": " di giocare in giardino.",
+      "tr": "Die Kinder haben Lust, im Garten zu spielen.",
+      "expl": "„avere voglia di“ heißt Lust haben auf. Danach folgt ein Substantiv oder ein Infinitiv: „giocare“ — spielen."
+    },
+    {
+      "id": "l22n08",
+      "r": "l22-avere-espressioni",
+      "pre": "Scusa un attimo: ho ",
+      "disp": "bisogno",
+      "ans": [
+        "bisogno"
+      ],
+      "post": " di un dizionario.",
+      "tr": "Einen Moment: Ich brauche ein Wörterbuch.",
+      "expl": "„avere bisogno di“ bedeutet brauchen. Das Substantiv „bisogno“ ist unveränderlich und steht immer mit „di“."
+    },
+    {
+      "id": "l22n09",
+      "r": "l22-vocab-colazione",
+      "pre": "Ogni mattina facciamo ",
+      "disp": "colazione",
+      "ans": [
+        "colazione"
+      ],
+      "post": " in terrazza.",
+      "tr": "Jeden Morgen frühstücken wir auf der Terrasse.",
+      "expl": "„fare colazione“ heißt frühstücken — wörtlich „das Frühstück machen“. Italienisch benutzt hier „fare“, nicht „mangiare“."
+    },
+    {
+      "id": "l22n10",
+      "r": "l22-vocab-colazione",
+      "pre": "C'è troppo sole: chiudo la ",
+      "disp": "tenda",
+      "ans": [
+        "tenda"
+      ],
+      "post": ".",
+      "tr": "Es ist zu viel Sonne: Ich mache das Rollo zu.",
+      "expl": "„la tenda“ ist hier der Sonnenschutz oder Vorhang am Fenster. Bei zu viel Sonne macht man die „tenda“ zu."
+    },
+    {
+      "id": "l23n01",
+      "r": "l23-dovere",
+      "pre": "I ragazzi ",
+      "disp": "devono",
+      "ans": [
+        "devono"
+      ],
+      "post": " tornare a casa prima di cena.",
+      "tr": "Die Kinder müssen vor dem Abendessen nach Hause zurück.",
+      "expl": "„devono“ ist die 3. Person Plural von „dovere“. „Dovere“ + Infinitiv drückt aus, dass jemand etwas muss."
+    },
+    {
+      "id": "l23n02",
+      "r": "l23-dovere",
+      "pre": "Se ",
+      "disp": "devi",
+      "ans": [
+        "devi"
+      ],
+      "post": " studiare, spegni la televisione.",
+      "tr": "Wenn du lernen musst, schalt den Fernseher aus.",
+      "expl": "„devi“ ist die 2. Person Singular von „dovere“. Der Infinitiv „studiare“ steht direkt nach der konjugierten Form."
+    },
+    {
+      "id": "l23n03",
+      "r": "l23-dovere",
+      "pre": "L'aereo per Roma ",
+      "disp": "deve",
+      "ans": [
+        "deve"
+      ],
+      "post": " decollare alle nove.",
+      "tr": "Das Flugzeug nach Rom muss um neun abheben.",
+      "expl": "„deve“ ist die 3. Person Singular von „dovere“ — hier für das Flugzeug. Nach „dovere“ folgt der Infinitiv „decollare“."
+    },
+    {
+      "id": "l23n04",
+      "r": "l23-da-di-infinito",
+      "pre": "In centro c'è sempre qualcosa ",
+      "disp": "da",
+      "ans": [
+        "da"
+      ],
+      "post": " vedere.",
+      "tr": "Im Zentrum gibt es immer etwas zu sehen.",
+      "expl": "Nach „qualcosa“, „niente“ oder „cose“ steht „da“ + Infinitiv: etwas zu sehen. Diese Konstruktion entspricht dem deutschen Infinitiv mit „zu“."
+    },
+    {
+      "id": "l23n05",
+      "r": "l23-da-di-infinito",
+      "pre": "Non dimenticare ",
+      "disp": "di",
+      "ans": [
+        "di"
+      ],
+      "post": " comprare i biglietti!",
+      "tr": "Vergiss nicht, die Karten zu kaufen!",
+      "expl": "„dimenticare“ verlangt „di“ vor dem Infinitiv: „dimenticare di fare“ — vergessen, etwas zu tun. Das Gegenteil „ricordare di“ funktioniert genauso."
+    },
+    {
+      "id": "l23n06",
+      "r": "l23-fare-espressioni",
+      "pre": "Fai ",
+      "disp": "presto",
+      "ans": [
+        "presto"
+      ],
+      "post": ", o perdiamo il traghetto!",
+      "tr": "Beeil dich, sonst verpassen wir die Fähre!",
+      "expl": "„fare presto“ heißt sich beeilen. Es ist eine feste Wendung mit „fare“ und wird oft als Aufforderung benutzt: „Fai presto!“"
+    },
+    {
+      "id": "l23n07",
+      "r": "l23-fare-espressioni",
+      "pre": "Il pullman fa una ",
+      "disp": "sosta",
+      "ans": [
+        "sosta"
+      ],
+      "post": " a Siena.",
+      "tr": "Der Bus macht einen Halt in Siena.",
+      "expl": "„fare una sosta“ bedeutet einen Halt oder eine Pause machen. „La sosta“ ist der Zwischenstopp auf einer Fahrt."
+    },
+    {
+      "id": "l23n08",
+      "r": "l23-fare-espressioni",
+      "pre": "Dopo pranzo facciamo un ",
+      "disp": "giro",
+      "ans": [
+        "giro"
+      ],
+      "post": " in bicicletta.",
+      "tr": "Nach dem Mittagessen machen wir eine Radtour.",
+      "expl": "„fare un giro“ heißt einen Rundgang oder eine kleine Fahrt machen. Mit Ortsangabe sagt man „un giro per“ + Stadt oder Viertel."
+    },
+    {
+      "id": "l23n09",
+      "r": "l23-vocab-gita",
+      "pre": "Scusa, sono in ",
+      "disp": "ritardo",
+      "ans": [
+        "ritardo"
+      ],
+      "post": " per il traffico.",
+      "tr": "Entschuldige, ich bin wegen des Verkehrs zu spät.",
+      "expl": "„essere in ritardo“ heißt zu spät sein. Das Wort „ritardo“ steht in dieser festen Wendung immer mit „in“."
+    },
+    {
+      "id": "l23n10",
+      "r": "l23-vocab-gita",
+      "pre": "Gli ",
+      "disp": "artigiani",
+      "ans": [
+        "artigiani"
+      ],
+      "post": " di questo mercato lavorano la ceramica a mano.",
+      "tr": "Die Handwerker auf diesem Markt bearbeiten die Keramik von Hand.",
+      "expl": "„l'artigiano“ ist der Handwerker oder Kunsthandwerker, im Plural „gli artigiani“. In Orten wie Amalfi fertigen sie Keramik, Teller und Krüge."
+    },
+    {
+      "id": "l24n01",
+      "r": "l24-volere",
+      "pre": "I bambini ",
+      "disp": "vogliono",
+      "ans": [
+        "vogliono"
+      ],
+      "post": " un gelato dopo cena.",
+      "tr": "Die Kinder wollen nach dem Abendessen ein Eis.",
+      "expl": "„vogliono“ ist die 3. Person Plural von „volere“. Hier genügt das Objekt „un gelato“ — ein Infinitiv ist nicht nötig."
+    },
+    {
+      "id": "l24n02",
+      "r": "l24-volere",
+      "pre": "Che cosa ",
+      "disp": "vuoi",
+      "ans": [
+        "vuoi"
+      ],
+      "post": " bere, Marco: un tè o un caffè?",
+      "tr": "Was möchtest du trinken, Marco: einen Tee oder einen Kaffee?",
+      "expl": "„vuoi“ ist die 2. Person Singular von „volere“. Die Frage „Che cosa vuoi...?“ erkundigt sich nach einem Wunsch."
+    },
+    {
+      "id": "l24n03",
+      "r": "l24-volere",
+      "pre": "Se ",
+      "disp": "volete",
+      "ans": [
+        "volete"
+      ],
+      "post": " venire anche voi, telefonateci.",
+      "tr": "Wenn ihr auch kommen wollt, ruft uns an.",
+      "expl": "„volete“ ist die 2. Person Plural von „volere“ — die Anrede „voi“ für mehrere vertraute Personen. „Anche voi“ bestätigt die Pluralform."
+    },
+    {
+      "id": "l24n04",
+      "r": "l24-a-infinito-movimento",
+      "pre": "Scendo ",
+      "disp": "a",
+      "ans": [
+        "a"
+      ],
+      "post": " comprare il giornale.",
+      "tr": "Ich gehe hinunter, die Zeitung zu kaufen.",
+      "expl": "Nach Bewegungsverben wie „scendere“, „andare“, „venire“ oder „uscire“ steht vor dem Infinitiv immer „a“. Wörtlich: Ich steige hinunter, um zu kaufen."
+    },
+    {
+      "id": "l24n05",
+      "r": "l24-prima-di",
+      "pre": "Prima ",
+      "disp": "di",
+      "ans": [
+        "di"
+      ],
+      "post": " partire, chiudi le finestre.",
+      "tr": "Schließe die Fenster, bevor du losfährst.",
+      "expl": "„prima di“ + Infinitiv heißt „bevor“. Die Fenster sollen geschlossen werden, bevor die Abreise kommt."
+    },
+    {
+      "id": "l24n06",
+      "r": "l24-risposte-fisse",
+      "pre": "— Signora, viene al concerto con noi? — Con ",
+      "disp": "piacere",
+      "ans": [
+        "piacere"
+      ],
+      "post": ", grazie!",
+      "tr": "— Gnädige Frau, kommen Sie mit uns zum Konzert? — Mit Vergnügen, danke!",
+      "expl": "„con piacere“ ist die höfliche Zusage: mit Vergnügen. Damit wird die Einladung bejahend angenommen."
+    },
+    {
+      "id": "l24n07",
+      "r": "l24-risposte-fisse",
+      "pre": "Un altro caffè? Per ",
+      "disp": "carità",
+      "ans": [
+        "carità"
+      ],
+      "post": ", no: non dormo più!",
+      "tr": "Noch einen Kaffee? Um Himmels willen, nein: Ich schlafe sonst nicht mehr!",
+      "expl": "„per carità!“ drückt entschiedene Ablehnung oder Schreck aus — um Himmels willen. Hier lehnt der Sprecher den Kaffee entschieden ab."
+    },
+    {
+      "id": "l24n08",
+      "r": "l24-risposte-fisse",
+      "pre": "— Facciamo una passeggiata? — E ",
+      "disp": "perché",
+      "ans": [
+        "perché"
+      ],
+      "post": " no!",
+      "tr": "— Machen wir einen Spaziergang? — Und warum nicht!",
+      "expl": "„perché no!“ ist eine freundliche Zusage: warum nicht. Die Frage wird damit locker bejaht."
+    },
+    {
+      "id": "l24n09",
+      "r": "l24-vocab-serata",
+      "pre": "La sera i nonni fanno una ",
+      "disp": "passeggiata",
+      "ans": [
+        "passeggiata"
+      ],
+      "post": " sul lungomare.",
+      "tr": "Abends machen die Großeltern einen Spaziergang an der Uferpromenade.",
+      "expl": "„fare una passeggiata“ heißt spazieren gehen. „Il lungomare“ ist die Uferpromenade — gebildet aus „lungo il mare“, entlang des Meeres."
+    },
+    {
+      "id": "l24n10",
+      "r": "l24-vocab-serata",
+      "pre": "Non ",
+      "disp": "sopporto",
+      "ans": [
+        "sopporto"
+      ],
+      "post": " il rumore del traffico!",
+      "tr": "Ich ertrage den Verkehrslärm nicht!",
+      "expl": "„non sopportare“ heißt nicht ausstehen können. „Sopporto“ ist die 1. Person Singular: ich ertrage den Lärm nicht."
+    },
+    {
+      "id": "l25n01",
+      "r": "l25-uscire",
+      "pre": "A che ora ",
+      "disp": "esci",
+      "ans": [
+        "esci"
+      ],
+      "post": " di casa, Giulia?",
+      "tr": "Um wie viel Uhr gehst du aus dem Haus, Giulia?",
+      "expl": "„esci“ ist die 2. Person Singular von „uscire“ (hinausgehen). Feste Wendung: „uscire di casa“ — das Haus verlassen, wörtlich mit „di“."
+    },
+    {
+      "id": "l25n02",
+      "r": "l25-a-senza-articolo",
+      "pre": "Questa sera andiamo a ",
+      "disp": "teatro",
+      "ans": [
+        "teatro"
+      ],
+      "post": ": ho due biglietti.",
+      "tr": "Heute Abend gehen wir ins Theater: Ich habe zwei Karten.",
+      "expl": "„andare a teatro“ steht ohne Artikel — wie „a casa“, „a scuola“ und „a letto“. Die zwei Karten zeigen, dass das Theater gemeint ist."
+    },
+    {
+      "id": "l25n03",
+      "r": "l25-dare",
+      "pre": "Per favore, mi ",
+      "disp": "dà",
+      "ans": [
+        "dà"
+      ],
+      "post": " quel giornale per un minuto?",
+      "tr": "Bitte, geben Sie mir diese Zeitung für eine Minute?",
+      "expl": "„dà“ ist die 3. Person Singular von „dare“ und trägt immer den Akzent. So unterscheidet es sich von der Präposition „da“ (von, aus)."
+    },
+    {
+      "id": "l25n04",
+      "r": "l25-fra-tra",
+      "pre": "Siediti ",
+      "disp": "tra",
+      "ans": [
+        "tra",
+        "fra"
+      ],
+      "post": " tua sorella e tuo fratello.",
+      "tr": "Setz dich zwischen deine Schwester und deinen Bruder.",
+      "expl": "„tra“ und „fra“ bedeuten beide „zwischen“ und sind beliebig austauschbar. Hier sitzt die Person zwischen zwei anderen Personen."
+    },
+    {
+      "id": "l25n05",
+      "r": "l25-espressioni-teatro",
+      "pre": "In piazza c'è molta ",
+      "disp": "gente",
+      "ans": [
+        "gente"
+      ],
+      "post": " stasera.",
+      "tr": "Auf dem Platz sind heute Abend viele Leute.",
+      "expl": "„la gente“ ist Singular und Feminin, obwohl es viele Menschen bezeichnet: „molta gente“, „la gente è“. Das Verb steht deshalb im Singular."
+    },
+    {
+      "id": "l25n06",
+      "r": "l25-espressioni-teatro",
+      "pre": "La ",
+      "disp": "maschera",
+      "ans": [
+        "maschera"
+      ],
+      "post": " del teatro accompagna gli spettatori ai posti.",
+      "tr": "Die Platzanweiserin des Theaters begleitet die Zuschauer zu ihren Plätzen.",
+      "expl": "„la maschera“ heißt wörtlich Maske und bezeichnet die Platzanweiserin im Theater. „Accompagnare“ bedeutet jemanden begleiten oder irgendwohin bringen."
+    },
+    {
+      "id": "l25n07",
+      "r": "l25-espressioni-teatro",
+      "pre": "Dammi il cappotto: lo porto al ",
+      "disp": "guardaroba",
+      "ans": [
+        "guardaroba"
+      ],
+      "post": ".",
+      "tr": "Gib mir den Mantel: Ich bringe ihn zur Garderobe.",
+      "expl": "„il guardaroba“ ist die Garderobe im Theater. „Portare qualcosa al guardaroba“ — etwas zur Garderobe bringen — ist die feste Wendung."
+    },
+    {
+      "id": "l25n08",
+      "r": "l25-espressioni-teatro",
+      "pre": "Bambini, fate ",
+      "disp": "silenzio",
+      "ans": [
+        "silenzio"
+      ],
+      "post": ": lo spettacolo comincia!",
+      "tr": "Kinder, macht Ruhe: Die Vorstellung beginnt!",
+      "expl": "„fare silenzio“ heißt still sein oder Ruhe geben. Es ist die übliche Aufforderung im Theater oder gegenüber Kindern."
+    },
+    {
+      "id": "l25n09",
+      "r": "l25-espressioni-teatro",
+      "pre": "Il vicino suona il piano e dà ",
+      "disp": "fastidio",
+      "ans": [
+        "fastidio"
+      ],
+      "post": " a tutti.",
+      "tr": "Der Nachbar spielt Klavier und stört alle.",
+      "expl": "„dare fastidio a qualcuno“ bedeutet jemanden stören. Der Nachbar macht Lärm und bereitet allen dadurch Ärger."
+    },
+    {
+      "id": "l25n10",
+      "r": "l25-espressioni-teatro",
+      "pre": "Alla fine del concerto il pubblico ",
+      "disp": "applaude",
+      "ans": [
+        "applaude"
+      ],
+      "post": " per dieci minuti.",
+      "tr": "Am Ende des Konzerts klatscht das Publikum zehn Minuten lang.",
+      "expl": "„applaude“ ist die 3. Person Singular von „applaudire“ — applaudieren. „Il pubblico“ ist das Publikum, das als Einheit im Singular steht."
+    }
+  ]
+}

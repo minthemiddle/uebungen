@@ -1,0 +1,111 @@
+{
+  "rules": {
+    "l42-pron-forte": "Dopo le preposizioni si usano le forme forti dei pronomi (me, te, lui, lei).",
+    "l42-pron-debole": "Le forme deboli dei pronomi precedono il verbo; con Lei si usano la e le.",
+    "l42-pron-infinito": "Con l'infinito il pronome debole si attacca al verbo e perde la vocale finale.",
+    "l42-ne": "Ne sostituisce di + nome e si mette davanti al verbo.",
+    "l42-espressioni": "Espressioni fisse della conversazione quotidiana."
+  },
+  "items": [
+    {
+      "id": "l42n01",
+      "r": "l42-pron-forte",
+      "pre": "Per ",
+      "disp": "me",
+      "ans": ["me"],
+      "post": " è troppo caro.",
+      "tr": "Für mich ist es zu teuer.",
+      "expl": "Nach der Präposition „per“ steht die starke Pronomenform „me“, nicht die schwache „mi“. Auch mit „con, di, fra, senza“ verwendet man immer die starken Formen."
+    },
+    {
+      "id": "l42n02",
+      "r": "l42-pron-debole",
+      "pre": "Domani ",
+      "disp": "ti",
+      "ans": ["ti"],
+      "post": " telefono alle otto.",
+      "tr": "Morgen rufe ich dich um acht Uhr an.",
+      "expl": "„Ti“ ist die schwache Form des direkten Objekts und steht immer direkt vor dem konjugierten Verb (hier „telefono“)."
+    },
+    {
+      "id": "l42n03",
+      "r": "l42-pron-debole",
+      "pre": "Buongiorno, dottore, ",
+      "disp": "La",
+      "ans": ["La", "la"],
+      "post": " chiamo domani per i risultati.",
+      "tr": "Guten Tag, Herr Doktor, ich rufe Sie morgen wegen der Ergebnisse an.",
+      "expl": "In der Höflichkeitsform „Lei“ verwendet man immer das feminine „la“; im Schriftlichen wird es großgeschrieben. „La chiamo“ heißt „ich rufe Sie an“."
+    },
+    {
+      "id": "l42n04",
+      "r": "l42-pron-infinito",
+      "pre": "Non voglio ",
+      "disp": "andarci",
+      "ans": ["andarci"],
+      "post": " da solo.",
+      "tr": "Ich will nicht allein hingehen.",
+      "expl": "Beim Infinitiv wird das Pronomen angehängt: „andare + ci → andarci“. Das End-e fällt weg, die Betonung bleibt an derselben Stelle."
+    },
+    {
+      "id": "l42n05",
+      "r": "l42-ne",
+      "pre": "Mi dispiace, non ",
+      "disp": "ne",
+      "ans": ["ne"],
+      "post": " ho più.",
+      "tr": "Es tut mir leid, ich habe nichts mehr davon.",
+      "expl": "„Ne“ ersetzt „di + Nomen“ (z. B. „di pane“) und steht wie ein schwaches Pronomen vor dem Verb. „Non ne ho più“ heißt „ich habe nichts mehr davon“."
+    },
+    {
+      "id": "l42n06",
+      "r": "l42-espressioni",
+      "pre": "Che fai da queste ",
+      "disp": "parti",
+      "ans": ["parti"],
+      "post": "?",
+      "tr": "Was machst du hier in der Gegend?",
+      "expl": "Der feste Ausdruck „da queste parti“ heißt „in dieser Gegend / hier in der Nähe“. Die Lücke verlangt das Nomen „parti“ (Plural von „parte“)."
+    },
+    {
+      "id": "l42n07",
+      "r": "l42-espressioni",
+      "pre": "Sono venuto per un ",
+      "disp": "colloquio",
+      "ans": ["colloquio"],
+      "post": " di lavoro.",
+      "tr": "Ich bin wegen eines Vorstellungsgesprächs gekommen.",
+      "expl": "„Colloquio di lavoro“ ist der feste Ausdruck für „Vorstellungsgespräch“."
+    },
+    {
+      "id": "l42n08",
+      "r": "l42-espressioni",
+      "pre": "Mi fa molto ",
+      "disp": "piacere",
+      "ans": ["piacere"],
+      "post": " rivederti.",
+      "tr": "Es freut mich sehr, dich wiederzusehen.",
+      "expl": "„Mi fa piacere“ heißt „es freut mich“ (wörtlich: es macht mir Freude). Auf „fare“ folgt der Infinitiv."
+    },
+    {
+      "id": "l42n09",
+      "r": "l42-espressioni",
+      "pre": "Che ",
+      "disp": "sorpresa",
+      "ans": ["sorpresa"],
+      "post": " rivederti qui!",
+      "tr": "Was für eine Überraschung, dich hier wiederzusehen!",
+      "expl": "„Che sorpresa!“ heißt „Was für eine Überraschung!“ — „che“ drückt hier Überraschung aus und steht ohne Artikel vor dem Nomen."
+    },
+    {
+      "id": "l42n10",
+      "r": "l42-espressioni",
+      "pre": "Mi hanno ",
+      "disp": "assunto",
+      "ans": ["assunto"],
+      "post": " subito dopo il colloquio.",
+      "tr": "Sie haben mich direkt nach dem Gespräch eingestellt.",
+      "expl": "„Assunto“ ist das Partizip Perfekt von „assumere“ (einstellen); „mi hanno assunto“ heißt „sie haben mich eingestellt“."
+    }
+  ]
+}

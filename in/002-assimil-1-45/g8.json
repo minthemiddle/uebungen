@@ -1,0 +1,529 @@
+{
+  "rules": {
+    "l36-dativo-gli-le": "Pronomi indiretti atoni: gli = a lui, le = a lei (Le regalo una stampa).",
+    "l36-accordo-participio": "Dopo lo, la, li, le, ne il participio si accorda: li ho visti.",
+    "l36-costruzioni": "Soggetto enfatico dopo il verbo (Pago io); andar via per assenze brevi, partire per viaggi.",
+    "l36-diminutivo": "Il suffisso -ino indica piccolezza: regalo, tavolo, pianta.",
+    "l36-vocab-regali": "Vocabolario dei regali: la mostra, il berretto, le misure, banale.",
+    "l37-che-chi": "che pronome relativo invariabile; chi pronome interrogativo (chi è venuto?).",
+    "l37-fa-tempo": "fa indica tempo trascorso e segue sempre l'espressione di tempo: dieci anni fa.",
+    "l37-loro-gli": "loro (= a loro) segue il verbo; nel parlato si usa anche gli.",
+    "l37-auguri": "augurare qualcosa a qualcuno; formule fisse: tanti auguri, un milione di auguri.",
+    "l37-vocab-posta": "Vocabolario: gemelli, modulo, fila; fretta: fai presto!",
+    "l38-pronome-infinito": "Con potere, dovere, volere il pronome precede il verbo o sta attaccato all'infinito.",
+    "l38-convenire": "convenire: ci conviene, ti conviene + infinito = è meglio (per noi, per te).",
+    "l38-fino-a": "fino a + tempo o luogo: fino alle cinque, fino a casa.",
+    "l38-vocab-traffico": "Vocabolario del traffico: noia, voglia, destra, pedoni, guidare, parcheggio.",
+    "l39-colori-invariabili": "blu, rosa, viola restano invariabili: le fasce blu, un nastro rosa.",
+    "l39-riuscire-ne": "riuscire a + infinito; ne si attacca all'infinito: trovarne uno.",
+    "l39-piacere-sembrare": "piacere e sembrare si accordano con il soggetto: mi piacciono, mi sembra.",
+    "l39-vocab-acquisto": "Vocabolario del negozio: essere finite, commessa, guanti, sorpresa, scala mobile.",
+    "l40-neanche": "neanche, neppure, nemmeno precedono il pronome: neanche a me, neanch'io.",
+    "l40-servire": "servire: mi serve (singolare), mi servono (plurale).",
+    "l40-qualche-plurali": "qualche + singolare (qualche ora); plurali irregolari: due paia, due uova.",
+    "l40-pronome-infinito": "Il pronome si attacca all'infinito: comprare + gli diventa comprargli.",
+    "l40-vocab-magazzino": "Vocabolario del grande magazzino: reparto, sguardo, saldi, buoni affari."
+  },
+  "items": [
+    {
+      "id": "l36n01",
+      "r": "l36-dativo-gli-le",
+      "pre": "Che cosa regali a Sergio? — ",
+      "disp": "Gli",
+      "ans": ["Gli", "gli"],
+      "post": " regalo una cravatta di seta.",
+      "tr": "Was schenkst du Sergio? — Ich schenke ihm eine Krawatte aus Seide.",
+      "expl": "Für eine männliche Person heißt das indirekte Objektpronomen „gli“ (= ihm); das „a Sergio“ wird durch das Pronomen ersetzt. Bei einer Frau hieße es „le“."
+    },
+    {
+      "id": "l36n02",
+      "r": "l36-accordo-participio",
+      "pre": "Hai visto le amiche di Ida? — Sì, le ho ",
+      "disp": "viste",
+      "ans": ["viste"],
+      "post": " stamattina al mercato.",
+      "tr": "Hast du Idas Freundinnen gesehen? — Ja, ich habe sie heute Morgen auf dem Markt gesehen.",
+      "expl": "Das direkte Objektpronomen „le“ (sie, Feminin Plural) steht vor „ho“, deshalb wird das Partizip angeglichen: „viste“ statt „visto“."
+    },
+    {
+      "id": "l36n03",
+      "r": "l36-accordo-participio",
+      "pre": "Vuoi tutte queste pesche? — No, ne ho ",
+      "disp": "prese",
+      "ans": ["prese"],
+      "post": " soltanto tre.",
+      "tr": "Willst du all diese Pfirsiche? — Nein, ich habe nur drei genommen.",
+      "expl": "„ne“ (= davon) verlangt ebenfalls die Angleichung des Partizips an das bezogene Substantiv: Feminin Plural „prese“."
+    },
+    {
+      "id": "l36n04",
+      "r": "l36-costruzioni",
+      "pre": "Chi paga il cinema? — Stasera pago ",
+      "disp": "io",
+      "ans": ["io"],
+      "post": "!",
+      "tr": "Wer zahlt das Kino? — Heute Abend zahle ich!",
+      "expl": "In betonten Aussagen steht das Subjektpronomen hinter dem Verb: „Pago io!“ heißt: Ich bin es, der zahlt."
+    },
+    {
+      "id": "l36n05",
+      "r": "l36-diminutivo",
+      "pre": "Non è un regalo vero, è solo un piccolo ",
+      "disp": "regalino",
+      "ans": ["regalino"],
+      "post": ": una candela profumata.",
+      "tr": "Es ist kein richtiges Geschenk, nur ein kleines Präsent: eine duftende Kerze.",
+      "expl": "Das Suffix „-ino“ verkleinert ein Wort: „regalo → regalino“ (kleines Geschenk)."
+    },
+    {
+      "id": "l36n06",
+      "r": "l36-costruzioni",
+      "pre": "Il treno parte tra mezz'ora: devo proprio ",
+      "disp": "andare",
+      "ans": ["andare"],
+      "post": " via!",
+      "tr": "Der Zug fährt in einer halben Stunde ab: Ich muss jetzt wirklich los!",
+      "expl": "„andar via“ benutzt man für kurze Abwesenheiten, „partire“ für echte Reisen. Nach „devo“ steht der Infinitiv „andare“."
+    },
+    {
+      "id": "l36n07",
+      "r": "l36-vocab-regali",
+      "pre": "A palazzo Ducale c'è una ",
+      "disp": "mostra",
+      "ans": ["mostra"],
+      "post": " di pittura moderna.",
+      "tr": "Im Dogenpalast gibt es eine Ausstellung moderner Malerei.",
+      "expl": "„la mostra“ ist die Ausstellung; nicht verwechseln mit „il mostro“ (das Ungeheuer)."
+    },
+    {
+      "id": "l36n08",
+      "r": "l36-vocab-regali",
+      "pre": "In montagna d'inverno serve sempre un ",
+      "disp": "berretto",
+      "ans": ["berretto"],
+      "post": " di lana.",
+      "tr": "Im Wintergebirge braucht man immer eine Wollmütze.",
+      "expl": "„il berretto“ ist die (strickbare) Mütze, ein klassisches Geschenk für Skifahrer."
+    },
+    {
+      "id": "l36n09",
+      "r": "l36-vocab-regali",
+      "pre": "Non posso regalargli una camicia: non conosco le sue ",
+      "disp": "misure",
+      "ans": ["misure"],
+      "post": ".",
+      "tr": "Ich kann ihm kein Hemd schenken: Ich kenne seine Maße nicht.",
+      "expl": "„le misure“ sind die Maße bzw. Größen eines Menschen — der Grund, warum Kleidungsgeschenke für Männer schwierig sind."
+    },
+    {
+      "id": "l36n10",
+      "r": "l36-vocab-regali",
+      "pre": "Un portachiavi come regalo? Troppo ",
+      "disp": "banale",
+      "ans": ["banale"],
+      "post": "!",
+      "tr": "Ein Schlüsselanhänger als Geschenk? Zu abgedroschen!",
+      "expl": "„banale“ bedeutet banal, einfallslos — die typische Kritik an Standardschenken wie der Krawatte."
+    },
+    {
+      "id": "l37n01",
+      "r": "l37-fa-tempo",
+      "pre": "Ci siamo conosciuti dieci anni ",
+      "disp": "fa",
+      "ans": ["fa"],
+      "post": ".",
+      "tr": "Wir haben uns vor zehn Jahren kennengelernt.",
+      "expl": "„fa“ entspricht dem deutschen „vor“ bei Zeitangaben und steht immer hinter der Zeitangabe: „dieci anni fa“."
+    },
+    {
+      "id": "l37n02",
+      "r": "l37-che-chi",
+      "pre": "La signora Tonini, ",
+      "disp": "che",
+      "ans": ["che"],
+      "post": " abita al quarto piano, aspetta un bambino.",
+      "tr": "Die Frau Tonini, die im vierten Stock wohnt, erwartet ein Baby.",
+      "expl": "„che“ ist das unveränderliche Relativpronomen für Subjekt und Objekt, für Personen und Dinge: der, die, das."
+    },
+    {
+      "id": "l37n03",
+      "r": "l37-che-chi",
+      "pre": "",
+      "disp": "Chi",
+      "ans": ["Chi", "chi"],
+      "post": " ha suonato il campanello? — Il fattorino.",
+      "tr": "Wer hat geklingelt? — Der Paketbote.",
+      "expl": "In echten Fragen steht das Fragepronomen „chi“ (wer). Das Relativpronomen „che“ kann diese Funktion nicht übernehmen."
+    },
+    {
+      "id": "l37n04",
+      "r": "l37-vocab-posta",
+      "pre": "Nati lo stesso giorno: i ",
+      "disp": "gemelli",
+      "ans": ["gemelli"],
+      "post": " della vicina compiono tre anni.",
+      "tr": "Am selben Tag geboren: Die Zwillinge der Nachbarin werden drei Jahre alt.",
+      "expl": "„i gemelli“ sind Zwillinge; ein Zwillingspaar aus Junge und Mädchen ist trotzdem „due gemelli“."
+    },
+    {
+      "id": "l37n05",
+      "r": "l37-auguri",
+      "pre": "Domani è il compleanno di Sergio: scrivigli tanti ",
+      "disp": "auguri",
+      "ans": ["auguri"],
+      "post": "!",
+      "tr": "Morgen ist Sergios Geburtstag: Schreib ihm alles Gute!",
+      "expl": "„tanti auguri“ ist die übliche Glückwunschformel zu Geburtstag, Hochzeit und Festen."
+    },
+    {
+      "id": "l37n06",
+      "r": "l37-auguri",
+      "pre": "Cari amici, vi ",
+      "disp": "auguriamo",
+      "ans": ["auguriamo"],
+      "post": " un Natale sereno.",
+      "tr": "Liebe Freunde, wir wünschen euch ein stilles Weihnachtsfest.",
+      "expl": "„augurare qualcosa a qualcuno“ heißt jemandem etwas wünschen; „vi“ ist das indirekte Objekt „euch“, das Verb wird konjugiert: „auguriamo“."
+    },
+    {
+      "id": "l37n07",
+      "r": "l37-loro-gli",
+      "pre": "Ho conosciuto i nuovi colleghi: scrivo ",
+      "disp": "loro",
+      "ans": ["loro", "gli"],
+      "post": " una cartolina da Venezia.",
+      "tr": "Ich habe die neuen Kollegen kennengelernt: Ich schreibe ihnen eine Postkarte aus Venedig.",
+      "expl": "Für „ihnen“ steht in der geschriebenen Sprache „loro“, das immer hinter dem Verb folgt. In der Umgangssprache sagt man auch „gli“."
+    },
+    {
+      "id": "l37n08",
+      "r": "l37-vocab-posta",
+      "pre": "Per spedire il pacco riempia questo ",
+      "disp": "modulo",
+      "ans": ["modulo"],
+      "post": " e firmi in basso.",
+      "tr": "Um das Paket zu verschicken, füllen Sie dieses Formular aus und unterschreiben Sie unten.",
+      "expl": "„il modulo“ ist das Formular, das man am Schalter ausfüllen muss."
+    },
+    {
+      "id": "l37n09",
+      "r": "l37-vocab-posta",
+      "pre": "Che ",
+      "disp": "fila",
+      "ans": ["fila"],
+      "post": "! Aspettiamo allo sportello da mezz'ora.",
+      "tr": "Was für eine Schlange! Wir warten schon eine halbe Stunde am Schalter.",
+      "expl": "„la fila“ ist die Warteschlange; „fare la fila“ heißt anstehen. „Che fila!“ ist ein Ausruf des Ärgers."
+    },
+    {
+      "id": "l37n10",
+      "r": "l37-vocab-posta",
+      "pre": "Luca, la posta chiude tra cinque minuti: ",
+      "disp": "fai",
+      "ans": ["fai"],
+      "post": " presto!",
+      "tr": "Luca, die Post schließt in fünf Minuten: Beeil dich!",
+      "expl": "„fai presto!“ heißt wörtlich „mach schnell!“ und ist der normale Ruf zur Eile — Imperativ von „fare“ in der du-Form."
+    },
+    {
+      "id": "l38n01",
+      "r": "l38-pronome-infinito",
+      "pre": "I regali per i bambini? Possiamo ",
+      "disp": "comprarli",
+      "ans": ["comprarli"],
+      "post": " domani mattina.",
+      "tr": "Die Geschenke für die Kinder? Wir können sie morgen früh kaufen.",
+      "expl": "Nach „potere“ kann das Pronomen am Infinitiv hängen: „comprare + li → comprarli“. „li“ bezieht sich auf „i regali“ (maskulin Plural)."
+    },
+    {
+      "id": "l38n02",
+      "r": "l38-pronome-infinito",
+      "pre": "Il pacco? ",
+      "disp": "Lo",
+      "ans": ["Lo", "lo"],
+      "post": " dobbiamo ritirare alla stazione.",
+      "tr": "Das Paket? Wir müssen es am Bahnhof abholen.",
+      "expl": "Bei „dovere“ darf das Pronomen auch vor die konjugierte Form treten: „lo dobbiamo ritirare“ statt „dobbiamo ritrarlo“. Beide Stellungen sind korrekt."
+    },
+    {
+      "id": "l38n03",
+      "r": "l38-convenire",
+      "pre": "Con questo traffico ci ",
+      "disp": "conviene",
+      "ans": ["conviene"],
+      "post": " prendere la metropolitana.",
+      "tr": "Bei diesem Verkehr ist es besser, wenn wir die U-Bahn nehmen.",
+      "expl": "„convenire“ heißt sich lohnen oder besser sein; „ci conviene + Infinitiv“ bedeutet: für uns ist es besser zu …."
+    },
+    {
+      "id": "l38n04",
+      "r": "l38-fino-a",
+      "pre": "La libreria è aperta ",
+      "disp": "fino",
+      "ans": ["fino"],
+      "post": " alle otto di sera.",
+      "tr": "Die Buchhandlung hat bis abends acht Uhr geöffnet.",
+      "expl": "„fino a“ heißt bis zu; vor „alle“ (a + le) verschmilzt es zu „fino alle“."
+    },
+    {
+      "id": "l38n05",
+      "r": "l38-vocab-traffico",
+      "pre": "Che ",
+      "disp": "noia",
+      "ans": ["noia"],
+      "post": " questa attesa: il parcheggio è pieno!",
+      "tr": "Wie nervig dieses Warten: Das Parkhaus ist voll!",
+      "expl": "„la noia“ bedeutet Langeweile oder Ärger; „che noia!“ ist der klassische Ausruf der Genervtheit."
+    },
+    {
+      "id": "l38n06",
+      "r": "l38-vocab-traffico",
+      "pre": "Mi viene ",
+      "disp": "voglia",
+      "ans": ["voglia"],
+      "post": " di lasciare la macchina qui e tornare a piedi.",
+      "tr": "Ich bekomme Lust, das Auto hier stehen zu lassen und zu Fuß zurückzugehen.",
+      "expl": "Die feste Wendung „mi viene voglia di + Infinitiv“ heißt: Ich bekomme Lust, etwas zu tun."
+    },
+    {
+      "id": "l38n07",
+      "r": "l38-vocab-traffico",
+      "pre": "Al secondo semaforo svolta a ",
+      "disp": "destra",
+      "ans": ["destra"],
+      "post": ", poi chiedi di nuovo.",
+      "tr": "Bei der zweiten Ampel bieg nach rechts ab, dann frag noch einmal nach.",
+      "expl": "„svoltare/girare a destra“ heißt rechts abbiegen; „a destra“ ist die feste Richtungsangabe."
+    },
+    {
+      "id": "l38n08",
+      "r": "l38-vocab-traffico",
+      "pre": "Rallenta: qui i ",
+      "disp": "pedoni",
+      "ans": ["pedoni"],
+      "post": " hanno la precedenza.",
+      "tr": "Fahr langsamer: Hier haben die Fußgänger Vorrang.",
+      "expl": "„il pedone“ ist der Fußgänger — im Dialog das Gegenstück zum Autofahrer, der den Gehweg blockieren will."
+    },
+    {
+      "id": "l38n09",
+      "r": "l38-vocab-traffico",
+      "pre": "In centro con questo traffico non mi piace ",
+      "disp": "guidare",
+      "ans": ["guidare"],
+      "post": ": meglio il tram.",
+      "tr": "Im Zentrum fahre ich bei diesem Verkehr nicht gern Auto: Die Straßenbahn ist besser.",
+      "expl": "„guidare“ bedeutet (ein Fahrzeug) fahren oder lenken; hier steht es als Infinitiv nach „piace“."
+    },
+    {
+      "id": "l38n10",
+      "r": "l38-vocab-traffico",
+      "pre": "Lascio la macchina nel ",
+      "disp": "parcheggio",
+      "ans": ["parcheggio"],
+      "post": " del supermercato.",
+      "tr": "Ich stelle das Auto auf den Parkplatz des Supermarkts.",
+      "expl": "„il parcheggio“ ist der Parkplatz; das zugehörige Verb heißt „parcheggiare“ (parken)."
+    },
+    {
+      "id": "l39n01",
+      "r": "l39-colori-invariabili",
+      "pre": "Le bandiere della Finlandia sono bianche e ",
+      "disp": "blu",
+      "ans": ["blu"],
+      "post": ".",
+      "tr": "Die Flaggen Finnlands sind weiß und blau.",
+      "expl": "Die Farbadjektive „blu“, „rosa“ und „viola“ sind unveränderlich: Sie erhalten auch im Feminin Plural keine Endung — anders als „bianche“ im selben Satz."
+    },
+    {
+      "id": "l39n02",
+      "r": "l39-riuscire-ne",
+      "pre": "Cerco ovunque, ma non ",
+      "disp": "riesco",
+      "ans": ["riesco"],
+      "post": " a trovare le chiavi dell'ufficio.",
+      "tr": "Ich suche überall, aber ich finde die Büroschlüssel nicht.",
+      "expl": "„riuscire a + Infinitiv“ heißt es schaffen oder etwas zuwege bringen; die ich-Form ist unregelmäßig „riesco“."
+    },
+    {
+      "id": "l39n03",
+      "r": "l39-riuscire-ne",
+      "pre": "Vorrei un ombrello più piccolo, ma non riesco a ",
+      "disp": "trovarne",
+      "ans": ["trovarne"],
+      "post": " uno.",
+      "tr": "Ich hätte gern einen kleineren Regenschirm, aber ich finde keinen.",
+      "expl": "„ne“ (= davon) hängt am Infinitiv: „trovarne uno“ bedeutet einen davon finden."
+    },
+    {
+      "id": "l39n04",
+      "r": "l39-piacere-sembrare",
+      "pre": "Mi ",
+      "disp": "piacciono",
+      "ans": ["piacciono"],
+      "post": " questi sandali: sono comodi e leggeri.",
+      "tr": "Diese Sandalen gefallen mir: Sie sind bequem und leicht.",
+      "expl": "„piacere“ richtet sich nach dem logischen Subjekt: Weil „i sandali“ Plural sind, heißt es „mi piacciono“ (Singular: „mi piace“)."
+    },
+    {
+      "id": "l39n05",
+      "r": "l39-piacere-sembrare",
+      "pre": "Il prezzo mi ",
+      "disp": "sembra",
+      "ans": ["sembra"],
+      "post": " un po' alto per una sciarpa.",
+      "tr": "Der Preis erscheint mir für einen Schal etwas hoch.",
+      "expl": "„sembrare“ heißt scheinen oder wirken; „mi sembra“ ist mir scheint. Die Person ist indirektes Objekt (mi, ti, Le)."
+    },
+    {
+      "id": "l39n06",
+      "r": "l39-vocab-acquisto",
+      "pre": "Mi dispiace, signora: le scarpe numero 38 sono già ",
+      "disp": "finite",
+      "ans": ["finite"],
+      "post": ".",
+      "tr": "Es tut mir leid, Frau: Die Schuhe in Größe 38 sind bereits ausverkauft.",
+      "expl": "„essere finite“ heißt wörtlich zu Ende sein — im Laden die übliche Formel für vergriffen oder ausverkauft."
+    },
+    {
+      "id": "l39n07",
+      "r": "l39-vocab-acquisto",
+      "pre": "Domandiamo alla ",
+      "disp": "commessa",
+      "ans": ["commessa"],
+      "post": " se c'è un altro colore.",
+      "tr": "Fragen wir die Verkäuferin, ob es eine andere Farbe gibt.",
+      "expl": "„la commessa“ ist die Verkäuferin; der männliche Verkäufer heißt „il commesso“."
+    },
+    {
+      "id": "l39n08",
+      "r": "l39-vocab-acquisto",
+      "pre": "D'inverno non esco mai senza i ",
+      "disp": "guanti",
+      "ans": ["guanti"],
+      "post": " di lana.",
+      "tr": "Im Winter gehe ich nie ohne Wollhandschuhe aus dem Haus.",
+      "expl": "„i guanti“ sind Handschuhe — im Dialog das praktische Geschenk, das warm erscheint („mi sembrano caldi“)."
+    },
+    {
+      "id": "l39n09",
+      "r": "l39-vocab-acquisto",
+      "pre": "Non dire niente a Giulia: voglio farle una ",
+      "disp": "sorpresa",
+      "ans": ["sorpresa"],
+      "post": ".",
+      "tr": "Sag Giulia nichts: Ich will sie überraschen.",
+      "expl": "„fare una sorpresa a qualcuno“ heißt jemanden überraschen; „farle“ ist „fare + le“ = ihr."
+    },
+    {
+      "id": "l39n10",
+      "r": "l39-vocab-acquisto",
+      "pre": "Gli articoli sportivi sono al terzo piano: prendiamo la ",
+      "disp": "scala",
+      "ans": ["scala"],
+      "post": " mobile.",
+      "tr": "Die Sportartikel sind im dritten Stock: Nehmen wir die Rolltreppe.",
+      "expl": "„la scala mobile“ ist die Rolltreppe, die feste Wendung im Kaufhaus; „scala“ allein bedeutet Treppe."
+    },
+    {
+      "id": "l40n01",
+      "r": "l40-neanche",
+      "pre": "Io non vado al reparto calzature. — ",
+      "disp": "Neanche",
+      "ans": ["Neanche", "neanche", "Neppure", "neppure", "Nemmeno", "nemmeno"],
+      "post": " a me: vi aspetto qui.",
+      "tr": "Ich gehe nicht zur Schuhabteilung. — Ich auch nicht: Ich warte hier auf euch.",
+      "expl": "„neanche“ (auch nicht) steht immer vor dem Pronomen, auf das es sich bezieht: „neanche a me“. Dasselbe gilt für die Synonyme „neppure“ und „nemmeno“."
+    },
+    {
+      "id": "l40n02",
+      "r": "l40-neanche",
+      "pre": "Davide non va dai saldi. — ",
+      "disp": "Neanch'",
+      "ans": ["Neanch'", "neanch'", "Neppure io", "neppure io", "Nemmeno io", "nemmeno io"],
+      "post": "io!",
+      "tr": "Davide geht nicht zum Schlussverkauf. — Ich auch nicht!",
+      "expl": "Vor einem Vokal elidiert „neanche“ zu „neanch'“: „neanch'io“ = ich auch nicht."
+    },
+    {
+      "id": "l40n03",
+      "r": "l40-vocab-magazzino",
+      "pre": "Le gonne e le camicie sono al ",
+      "disp": "reparto",
+      "ans": ["reparto"],
+      "post": " abbigliamento.",
+      "tr": "Röcke und Hemden sind in der Bekleidungsabteilung.",
+      "expl": "„il reparto“ ist die Abteilung eines Kaufhauses: reparto abbigliamento, reparto cartoleria."
+    },
+    {
+      "id": "l40n04",
+      "r": "l40-servire",
+      "pre": "Mi ",
+      "disp": "servono",
+      "ans": ["servono"],
+      "post": " due paia di calze di lana.",
+      "tr": "Ich brauche zwei Paar Wollstrümpfe.",
+      "expl": "„servire“ verhält sich wie „piacere“: Zwei Gegenstände sind das Subjekt, also Plural „mi servono“ (Singular: „mi serve“)."
+    },
+    {
+      "id": "l40n05",
+      "r": "l40-qualche-plurali",
+      "pre": "Ci fermiamo a Bologna per ",
+      "disp": "qualche",
+      "ans": ["qualche"],
+      "post": " ora, non di più.",
+      "tr": "Wir machen für ein paar Stunden in Bologna Halt, nicht länger.",
+      "expl": "„qualche“ steht immer beim Singular, obwohl die Bedeutung pluralisch ist: „qualche ora“ = ein paar Stunden."
+    },
+    {
+      "id": "l40n06",
+      "r": "l40-qualche-plurali",
+      "pre": "Al mercato ho trovato due ",
+      "disp": "paia",
+      "ans": ["paia"],
+      "post": " di scarpe comode.",
+      "tr": "Auf dem Markt habe ich zwei Paar bequeme Schuhe gefunden.",
+      "expl": "Unregelmäßiger Plural: „un paio“ (ein Paar) wird zu „due paia“ — ebenso „due uova“ und „due dita“."
+    },
+    {
+      "id": "l40n07",
+      "r": "l40-vocab-magazzino",
+      "pre": "Do solo uno ",
+      "disp": "sguardo",
+      "ans": ["sguardo"],
+      "post": " alla nuova collezione e usciamo.",
+      "tr": "Ich werfe nur einen Blick auf die neue Kollektion, dann gehen wir.",
+      "expl": "„dare uno sguardo a“ heißt einen kurzen Blick werfen auf — die schonende Form des Schaufensterbumsels."
+    },
+    {
+      "id": "l40n08",
+      "r": "l40-vocab-magazzino",
+      "pre": "Quest'anno aspetto i ",
+      "disp": "saldi",
+      "ans": ["saldi"],
+      "post": " per comprare il cappotto invernale.",
+      "tr": "Dieses Jahr warte ich auf den Schlussverkauf, um den Wintermantel zu kaufen.",
+      "expl": "„i saldi“ sind der saisonale Schlussverkauf mit Rabatten — für die Sprecherin der Moment der guten Einkäufe."
+    },
+    {
+      "id": "l40n09",
+      "r": "l40-vocab-magazzino",
+      "pre": "Solo a gennaio si possono fare dei buoni ",
+      "disp": "affari",
+      "ans": ["affari"],
+      "post": ".",
+      "tr": "Nur im Januar kann man gute Schnäppchen machen.",
+      "expl": "„fare dei buoni affari“ heißt wörtlich gute Geschäfte machen, umgangssprachlich: ein Schnäppchen ergattern."
+    },
+    {
+      "id": "l40n10",
+      "r": "l40-pronome-infinito",
+      "pre": "Mio figlio mi ha chiesto di ",
+      "disp": "comprargli",
+      "ans": ["comprargli"],
+      "post": " un quaderno nuovo.",
+      "tr": "Mein Sohn hat mich gebeten, ihm ein neues Heft zu kaufen.",
+      "expl": "Bei einem Infinitiv hängt das Pronomen hinten an: „comprare + gli → comprargli“ (ihm). „Mio figlio“ ist männlich, daher „gli“."
+    }
+  ]
+}

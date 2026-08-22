@@ -1,0 +1,131 @@
+{
+  "rules": {
+    "l27-si-impersonale": "Il si impersonale: il verbo sta alla terza persona, singolare o plurale secondo il complemento.",
+    "l27-si-del-tu": "Si dà del tu a un amico, del Lei a chi non si conosce.",
+    "l27-fare-espressioni": "Espressioni idiomatiche con fare: colazione, una doccia, un giro, quattro passi, niente.",
+    "l27-a-piedi": "a piedi significa camminando, in piedi significa in posizione eretta.",
+    "l27-quello": "Quello cambia forma davanti al nome: quel, quello, quella, quelle, quegli, quei."
+  },
+  "items": [
+    {
+      "id": "l27n01",
+      "r": "l27-si-impersonale",
+      "pre": "In italiano si ",
+      "disp": "dice",
+      "ans": [
+        "dice"
+      ],
+      "post": " „arrivederci“ alla fine di una conversazione.",
+      "tr": "Auf Italienisch sagt man am Ende eines Gesprächs „arrivederci“.",
+      "expl": "Das unpersönliche „si“ plus Verb in der 3. Person Singular, hier „si dice“ (man sagt). Die Lektion führt genau diese Wendung ein: „Come si dice?“ und „In italiano si dice, per esempio …“."
+    },
+    {
+      "id": "l27n02",
+      "r": "l27-si-impersonale",
+      "pre": "Come si ",
+      "disp": "fanno",
+      "ans": [
+        "fanno"
+      ],
+      "post": " i pomodori ripieni?",
+      "tr": "Wie macht man gefüllte Tomaten?",
+      "expl": "Beim unpersönlichen „si“ richtet sich das Verb nach dem Objekt: „i pomodori“ ist Plural, daher „si fanno“. Mit einem Singular-Objekt hieße es „si fa“, etwa „Come si fa un buon risotto?“."
+    },
+    {
+      "id": "l27n03",
+      "r": "l27-si-del-tu",
+      "pre": "Tra amici si dà del ",
+      "disp": "tu",
+      "ans": [
+        "tu"
+      ],
+      "post": ", ma a un estraneo si dà del Lei.",
+      "tr": "Unter Freunden duzt man sich, aber einem Fremden gegenüber benutzt man die Höflichkeitsform „Lei“.",
+      "expl": "„Dare del tu“ ist die feste Wendung für „jemanden duzen“, „dare del Lei“ für die Sie-Form. Wie in der Lektion: amici → tu, persona che non si conosce → Lei."
+    },
+    {
+      "id": "l27n04",
+      "r": "l27-a-piedi",
+      "pre": "Il museo non è lontano: andiamo a ",
+      "disp": "piedi",
+      "ans": [
+        "piedi"
+      ],
+      "post": " invece di prendere il taxi.",
+      "tr": "Das Museum ist nicht weit: Gehen wir zu Fuß, statt ein Taxi zu nehmen.",
+      "expl": "„A piedi“ bedeutet „zu Fuß“. Die Lektion warnt ausdrücklich vor der Verwechslung mit „in piedi“, das „stehend“ bedeutet."
+    },
+    {
+      "id": "l27n05",
+      "r": "l27-fare-espressioni",
+      "pre": "Dopo cena vieni a ",
+      "disp": "fare",
+      "ans": [
+        "fare"
+      ],
+      "post": " un giro con la mia bicicletta?",
+      "tr": "Kommst du nach dem Abendessen zu einer Spritztour mit meinem Fahrrad mit?",
+      "expl": "„Fare un giro“ heißt „eine Runde beziehungsweise eine Spritztour machen“. Die Lektion bietet die Vorlage „Vieni a fare un giro con la mia macchina?“."
+    },
+    {
+      "id": "l27n06",
+      "r": "l27-fare-espressioni",
+      "pre": "Che bella serata! Facciamo quattro ",
+      "disp": "passi",
+      "ans": [
+        "passi"
+      ],
+      "post": " lungo il mare.",
+      "tr": "Was für ein schöner Abend! Lass uns am Meer einen Spaziergang machen.",
+      "expl": "„Fare quattro passi“ ist eine feste Redewendung für „spazieren gehen“. Die Lektion: „È una bella serata, possiamo fare quattro passi“."
+    },
+    {
+      "id": "l27n07",
+      "r": "l27-fare-espressioni",
+      "pre": "Faccio ",
+      "disp": "colazione",
+      "ans": [
+        "colazione"
+      ],
+      "post": " alle sette e poi faccio una doccia.",
+      "tr": "Ich frühstücke um sieben und dusche danach.",
+      "expl": "„Fare colazione“ ist die feste Wendung für „frühstücken“, „fare una doccia“ für „duschen“. Die Lektion nennt beide Ausdrücke nacheinander: „Faccio colazione presto la mattina, e poi faccio una doccia“."
+    },
+    {
+      "id": "l27n08",
+      "r": "l27-si-impersonale",
+      "pre": "In Italia si dà la ",
+      "disp": "mancia",
+      "ans": [
+        "mancia"
+      ],
+      "post": " al portiere dell'albergo.",
+      "tr": "In Italien gibt man dem Hotelportier ein Trinkgeld.",
+      "expl": "„La mancia“ ist das Trinkgeld, hier im Singular: „si dà la mancia al portiere“. Die Lektion nennt die typischen Empfänger: tassista, portiere, cameriere."
+    },
+    {
+      "id": "l27n09",
+      "r": "l27-quello",
+      "pre": "Guarda ",
+      "disp": "quelle",
+      "ans": [
+        "quelle"
+      ],
+      "post": " scarpe in vetrina: sono davvero belle!",
+      "tr": "Schau die Schuhe im Schaufenster an: Sie sind wirklich schön!",
+      "expl": "„Quello“ passt sich dem Nomen an: vor femininem Plural heißt es „quelle“ (wie „quel“, „quello“, „quella“, „quegli“, „quei“). „in vetrina“ heißt „im Schaufenster“."
+    },
+    {
+      "id": "l27n10",
+      "r": "l27-fare-espressioni",
+      "pre": "Non posso venire alla festa. – Non fa ",
+      "disp": "niente",
+      "ans": [
+        "niente"
+      ],
+      "post": ", ci vediamo un'altra volta.",
+      "tr": "Ich kann nicht zum Fest kommen. – Macht nichts, wir sehen uns ein anderes Mal.",
+      "expl": "„Non fa niente“ ist die feste Wendung für „macht nichts“. Die Lektion: „Non fa niente, possiamo andare un'altra volta“."
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "rules": {
+    "l06-genere-numero": "Sostantivi e aggettivi concordano: comodo/comoda, i negozi chiusi, le valigie pesanti",
+    "l06-di-possessivo": "Il possessivo si esprime con di: la madre di Marco",
+    "l06-a-piano": "a + il = al: l'appartamento è al secondo piano",
+    "l06-essere-presente": "essere: sono, sei, è, siamo, siete, sono",
+    "l06-lessico-appartamento": "l'ascensore rotto, benvenuto/a, accomodarsi, un po', comodo",
+    "l07-articoli": "un/uno/una/un', il/lo/l'/la, gli: la scelta dipende dal genere e dalla lettera iniziale",
+    "l07-essere-avere": "presente di avere: ho, hai, ha, abbiamo, avete, hanno",
+    "l07-lei-formale": "Lei formale in maiuscolo, verbo alla terza persona singolare",
+    "l07-aggettivi-due-forme": "aggettivi come grande e pesante hanno due forme; il plurale è in -i",
+    "l07-espressioni": "grazie mille, credo di sì, che guaio, ecco",
+    "l08-casa-possessivo": "a casa mia, a casa vostra: il possessivo segue casa senza articolo",
+    "l08-anche": "anche precede la parola cui si riferisce: anch'io, anche Giulia",
+    "l08-questo-quello": "questo per il vicino, quello per il lontano; quella là, questa qui",
+    "l08-loro-invariabile": "loro possessivo invariabile: il loro appartamento, la loro casa",
+    "l08-lessico-stanze": "camera da letto, stanza da bagno, soggiorno, in fondo a, contento di",
+    "l09-stare": "stare: sto, stai, sta, stiamo, state, stanno; come stai?",
+    "l09-verbi-ire-3": "aprire, offrire, sentire: apro, aprite, offro, sento",
+    "l09-fra-tra": "fra e tra sono equivalenti: fra poco, tra poco",
+    "l09-negazioni-rafforzate": "non ... più e non ... affatto rafforzano la negazione",
+    "l09-espressioni": "avere il raffreddore, raffreddato, poverino, per favore, un aperitivo",
+    "l10-quale-quali": "quale al singolare, quali al plurale: quali sono le vostre specialità?",
+    "l10-possessivi-plurali": "miei, tuoi, suoi, nostri, vostri: i miei piatti preferiti",
+    "l10-plurali-invariabili": "caffè, specialità: nomi con ultima sillaba accentata restano invariati",
+    "l10-ottimo-pessimo": "ottimo = molto buono, pessimo = molto cattivo",
+    "l10-lessico-tavola": "a tavola, la cena, la colazione, l'ospite, apprezzare, mangiare"
+  },
+  "items": [
+    {
+      "id": "l06n01",
+      "r": "l06-genere-numero",
+      "pre": "La domenica i negozi sono ",
+      "disp": "chiusi",
+      "ans": [
+        "chiusi"
+      ],
+      "post": ".",
+      "tr": "Sonntags sind die Geschäfte geschlossen.",
+      "expl": "„negozi“ ist Maskulin Plural, daher steht das Adjektiv in der Pluralform „chiusi“. Im Singular hieße es „il negozio è chiuso“."
+    },
+    {
+      "id": "l06n02",
+      "r": "l06-di-possessivo",
+      "pre": "La madre ",
+      "disp": "di",
+      "ans": [
+        "di"
+      ],
+      "post": " Marco abita a Roma.",
+      "tr": "Marcos Mutter wohnt in Rom.",
+      "expl": "Der Besitz oder ein Familienverhältnis wird mit „di“ ausgedrückt, nie mit Apostroph-s wie im Englischen. „la madre di Marco“ = „die Mutter von Marco“."
+    },
+    {
+      "id": "l06n03",
+      "r": "l06-a-piano",
+      "pre": "L'appartamento di Carla è ",
+      "disp": "al",
+      "ans": [
+        "al"
+      ],
+      "post": " secondo piano.",
+      "tr": "Carlas Wohnung ist im zweiten Stock.",
+      "expl": "Bei Stockwerken steht die Präposition „a“; vor dem männlichen Artikel „il“ verschmilzt sie zu „al“: „al secondo piano“."
+    },
+    {
+      "id": "l06n04",
+      "r": "l06-lessico-appartamento",
+      "pre": "Accidenti! L'",
+      "disp": "ascensore",
+      "ans": [
+        "ascensore"
+      ],
+      "post": " è rotto anche oggi.",
+      "tr": "Verdammt! Der Aufzug ist auch heute kaputt.",
+      "expl": "„ascensore“ (Aufzug) ist maskulin und nimmt vor Vokal den Artikel „l'“. „rotto“ bedeutet „kaputt“."
+    },
+    {
+      "id": "l06n05",
+      "r": "l06-lessico-appartamento",
+      "pre": "Ciao Anna! ",
+      "disp": "Benvenuta",
+      "ans": [
+        "Benvenuta"
+      ],
+      "post": " a Milano!",
+      "tr": "Hallo Anna! Willkommen in Mailand!",
+      "expl": "„benvenuto“ richtet sich nach der angesprochenen Person: Für eine Frau heißt es „benvenuta“, für einen Mann „benvenuto“."
+    },
+    {
+      "id": "l06n06",
+      "r": "l06-lessico-appartamento",
+      "pre": "Prego, signora, si ",
+      "disp": "accomodi",
+      "ans": [
+        "accomodi"
+      ],
+      "post": "!",
+      "tr": "Bitte, setzen Sie sich, Signora!",
+      "expl": "Die höfliche Form für „Sie“ ist „si accomodi“, also die dritte Person Singular. Gegenüber Freunden sagt man „accomodati“, gegenüber mehreren „accomodatevi“."
+    },
+    {
+      "id": "l06n07",
+      "r": "l06-lessico-appartamento",
+      "pre": "La stanza di Martina è ",
+      "disp": "un po'",
+      "ans": [
+        "un po'",
+        "un poco"
+      ],
+      "post": " rumorosa.",
+      "tr": "Martinas Zimmer ist ein bisschen laut.",
+      "expl": "„un po'“ ist die Zusammenziehung von „un poco“ und bedeutet „ein bisschen“. Der Apostroph am Ende ist Pflicht."
+    },
+    {
+      "id": "l06n08",
+      "r": "l06-essere-presente",
+      "pre": "Signori, voi ",
+      "disp": "siete",
+      "ans": [
+        "siete"
+      ],
+      "post": " molto gentili.",
+      "tr": "Meine Herren, Sie sind sehr freundlich.",
+      "expl": "Die voi-Form von „essere“ heißt immer „siete“. Die Anrede „Signori“ zeigt eindeutig den Plural."
+    },
+    {
+      "id": "l06n09",
+      "r": "l06-genere-numero",
+      "pre": "Questa poltrona è davvero ",
+      "disp": "comoda",
+      "ans": [
+        "comoda"
+      ],
+      "post": ".",
+      "tr": "Dieser Sessel ist wirklich bequem.",
+      "expl": "„comodo“ hat vier Formen und richtet sich nach dem Substantiv: „poltrona“ ist Feminin Singular, also „comoda“ (Maskulin wäre „comodo“)."
+    },
+    {
+      "id": "l06n10",
+      "r": "l06-genere-numero",
+      "pre": "Le ",
+      "disp": "valigie",
+      "ans": [
+        "valigie"
+      ],
+      "post": " di Marco e Luca sono molto pesanti.",
+      "tr": "Die Koffer von Marco und Luca sind sehr schwer.",
+      "expl": "„valigia“ ist Feminin auf -a, der Plural endet auf -e: „le valigie“. Das Adjektiv steht im Plural: „pesanti“."
+    },
+    {
+      "id": "l07n01",
+      "r": "l07-articoli",
+      "pre": "Anna parla con ",
+      "disp": "uno",
+      "ans": [
+        "uno"
+      ],
+      "post": " studente americano.",
+      "tr": "Anna spricht mit einem amerikanischen Studenten.",
+      "expl": "Vor männlichen Nomen, die mit s + Konsonant beginnen, heißt der unbestimmte Artikel „uno“: „uno studente“, wie auch „uno scompartimento“."
+    },
+    {
+      "id": "l07n02",
+      "r": "l07-articoli",
+      "pre": "Domani arriva ",
+      "disp": "un'",
+      "ans": [
+        "un'"
+      ],
+      "post": "amica di Francesca.",
+      "tr": "Morgen kommt eine Freundin von Francesca an.",
+      "expl": "Vor weiblichen Nomen, die mit Vokal beginnen, fällt das letzte a von „una“ weg und wird durch einen Apostroph ersetzt: „un'amica“."
+    },
+    {
+      "id": "l07n03",
+      "r": "l07-articoli",
+      "pre": "Ecco ",
+      "disp": "gli",
+      "ans": [
+        "gli"
+      ],
+      "post": " amici di Sara.",
+      "tr": "Da sind Saras Freunde.",
+      "expl": "Der Plural von „l'amico“ ist „gli amici“. „gli“ nimmt nie einen Apostroph, ebenso wenig wie „le“."
+    },
+    {
+      "id": "l07n04",
+      "r": "l07-essere-avere",
+      "pre": "Noi ",
+      "disp": "abbiamo",
+      "ans": [
+        "abbiamo"
+      ],
+      "post": " due biglietti per il concerto.",
+      "tr": "Wir haben zwei Karten für das Konzert.",
+      "expl": "Die noi-Form von „avere“ ist „abbiamo“. Das Subjekt „noi“ und der Plural „biglietti“ sichern die Form."
+    },
+    {
+      "id": "l07n05",
+      "r": "l07-essere-avere",
+      "pre": "Signore, ",
+      "disp": "ho",
+      "ans": [
+        "ho"
+      ],
+      "post": " una domanda per Lei.",
+      "tr": "Mein Herr, ich habe eine Frage an Sie.",
+      "expl": "Die ich-Form von „avere“ lautet „ho“; das h wird nicht gesprochen. Die Antwort auf die Anrede ist hier die erste Person."
+    },
+    {
+      "id": "l07n06",
+      "r": "l07-lei-formale",
+      "pre": "Signora Conti, ",
+      "disp": "Lei",
+      "ans": [
+        "Lei"
+      ],
+      "post": " è di Torino?",
+      "tr": "Frau Conti, sind Sie aus Turin?",
+      "expl": "Die höfliche Anrede „Sie“ schreibt man groß: „Lei“. Sie wird wie „sie“ (dritte Person Singular) konjugiert: „Lei è“."
+    },
+    {
+      "id": "l07n07",
+      "r": "l07-espressioni",
+      "pre": "Per l'aiuto, ",
+      "disp": "grazie mille",
+      "ans": [
+        "grazie mille"
+      ],
+      "post": "!",
+      "tr": "Vielen Dank für die Hilfe!",
+      "expl": "„grazie mille“ heißt wörtlich „Dank tausend“ und ist der übliche Ausdruck für „herzlichen Dank“."
+    },
+    {
+      "id": "l07n08",
+      "r": "l07-espressioni",
+      "pre": "Francesca è a casa? — Credo di ",
+      "disp": "sì",
+      "ans": [
+        "sì"
+      ],
+      "post": ".",
+      "tr": "Ist Francesca zu Hause? — Ich glaube ja.",
+      "expl": "Die feste Wendung „credo di sì“ bedeutet „ich glaube ja“. Das „sì“ mit Akzent heißt „ja“."
+    },
+    {
+      "id": "l07n09",
+      "r": "l07-espressioni",
+      "pre": "Oh, che ",
+      "disp": "guaio",
+      "ans": [
+        "guaio"
+      ],
+      "post": "! La macchina di Paolo è rotta.",
+      "tr": "Oh, ein Mist! Paulos Auto ist kaputt.",
+      "expl": "„che guaio!“ ist der Ausdruck für Ärger oder Pech, etwa „was für ein Ärger!“. „rotta“ ist die weibliche Form von „rotto“."
+    },
+    {
+      "id": "l07n10",
+      "r": "l07-aggettivi-due-forme",
+      "pre": "Questi libri di grammatica sono ",
+      "disp": "pesanti",
+      "ans": [
+        "pesanti"
+      ],
+      "post": ".",
+      "tr": "Diese Grammatikbücher sind sehr schwer.",
+      "expl": "Adjektive der zweiten Gruppe wie „pesante“ haben nur zwei Formen: „pesante“ im Singular (m und f) und „pesanti“ im Plural."
+    },
+    {
+      "id": "l08n01",
+      "r": "l08-casa-possessivo",
+      "pre": "Stasera veniamo a casa ",
+      "disp": "vostra",
+      "ans": [
+        "vostra"
+      ],
+      "post": ".",
+      "tr": "Heute Abend kommen wir zu euch.",
+      "expl": "Nach „casa“ folgt das Possessivpronomen ohne Artikel: „a casa mia“, „a casa tua“, hier „a casa vostra“ = „zu euch“."
+    },
+    {
+      "id": "l08n02",
+      "r": "l08-anche",
+      "pre": "Io abito a Milano. — ",
+      "disp": "Anch'io",
+      "ans": [
+        "Anch'io",
+        "anch'io"
+      ],
+      "post": "!",
+      "tr": "Ich wohne in Mailand. — Ich auch!",
+      "expl": "„anche“ steht immer vor dem Wort, auf das es sich bezieht. Vor „io“ verschmilzt es mit Elision zu „anch'io“ = „ich auch“."
+    },
+    {
+      "id": "l08n03",
+      "r": "l08-anche",
+      "pre": "Viene ",
+      "disp": "anche",
+      "ans": [
+        "anche"
+      ],
+      "post": " Giulia al cinema?",
+      "tr": "Kommt Giulia auch ins Kino?",
+      "expl": "„anche“ muss unmittelbar vor dem Bezugswort stehen. Hier ist Giulia gemeint: „anche Giulia“ = „auch Giulia“ (nicht „kommt auch“)."
+    },
+    {
+      "id": "l08n04",
+      "r": "l08-questo-quello",
+      "pre": "Questa è la mia camera, ",
+      "disp": "quella",
+      "ans": [
+        "quella"
+      ],
+      "post": " là è la cucina.",
+      "tr": "Dies ist mein Zimmer, das dort hinten ist die Küche.",
+      "expl": "Für Ferneres steht „quello“/„quella“, für Nahes „questo“/„questa“. „camera“ ist Feminin, daher „quella“; „là“ unterstreicht die Ferne."
+    },
+    {
+      "id": "l08n05",
+      "r": "l08-loro-invariabile",
+      "pre": "Silvia e Tommaso abitano qui: il ",
+      "disp": "loro",
+      "ans": [
+        "loro"
+      ],
+      "post": " appartamento è al terzo piano.",
+      "tr": "Silvia und Tommaso wohnen hier: Ihre Wohnung ist im dritten Stock.",
+      "expl": "Das Possessivpronomen „loro“ ist unveränderlich: „il loro appartamento“, „la loro casa“. Hier bezieht es sich auf die beiden Bewohner."
+    },
+    {
+      "id": "l08n06",
+      "r": "l08-lessico-stanze",
+      "pre": "La camera da ",
+      "disp": "letto",
+      "ans": [
+        "letto"
+      ],
+      "post": " è grande, la stanza da bagno è piccola.",
+      "tr": "Das Schlafzimmer ist groß, das Badezimmer ist klein.",
+      "expl": "„camera da letto“ heißt wörtlich „Zimmer zum Schlafen“, „stanza da bagno“ „Zimmer zum Baden“. Beides sind feste Wendungen."
+    },
+    {
+      "id": "l08n07",
+      "r": "l08-lessico-stanze",
+      "pre": "Il ",
+      "disp": "soggiorno",
+      "ans": [
+        "soggiorno"
+      ],
+      "post": " di questa casa è molto grande.",
+      "tr": "Das Wohnzimmer dieses Hauses ist sehr groß.",
+      "expl": "„soggiorno“ ist das Wohnzimmer, das gemeinsame Zimmer der Wohnung. Der bestimmte Artikel maskulin lautet hier „il“."
+    },
+    {
+      "id": "l08n08",
+      "r": "l08-lessico-stanze",
+      "pre": "Siamo molto ",
+      "disp": "contenti",
+      "ans": [
+        "contenti"
+      ],
+      "post": " di vedervi.",
+      "tr": "Wir freuen uns sehr, euch zu sehen.",
+      "expl": "„contento di + Infinitiv“ heißt „sich freuen zu …“. Das Subjekt „siamo“ (wir) verlangt den Plural „contenti“."
+    },
+    {
+      "id": "l08n09",
+      "r": "l08-lessico-stanze",
+      "pre": "Questo albergo è ",
+      "disp": "abbastanza",
+      "ans": [
+        "abbastanza"
+      ],
+      "post": " caro.",
+      "tr": "Dieses Hotel ist ziemlich teuer.",
+      "expl": "„abbastanza“ bedeutet „ziemlich, recht“ und steht wie im Deutschen direkt vor dem Adjektiv: „abbastanza caro“ = „ziemlich teuer“."
+    },
+    {
+      "id": "l08n10",
+      "r": "l08-lessico-stanze",
+      "pre": "La cucina è in ",
+      "disp": "fondo",
+      "ans": [
+        "fondo"
+      ],
+      "post": " al corridoio.",
+      "tr": "Die Küche ist am Ende des Flurs.",
+      "expl": "„in fondo a“ heißt „am Ende von“. Vor „il“ verschmilzt „a“ zu „al“: „in fondo al corridoio“."
+    },
+    {
+      "id": "l09n01",
+      "r": "l09-stare",
+      "pre": "Ciao Franco! Come ",
+      "disp": "stai",
+      "ans": [
+        "stai"
+      ],
+      "post": " oggi?",
+      "tr": "Hallo Franco! Wie geht es dir heute?",
+      "expl": "„come stai?“ ist die vertrauliche Frage an eine Person. Die du-Form von „stare“ lautet „stai“."
+    },
+    {
+      "id": "l09n02",
+      "r": "l09-stare",
+      "pre": "Buonasera, signori! Come ",
+      "disp": "state",
+      "ans": [
+        "state"
+      ],
+      "post": "?",
+      "tr": "Guten Abend, meine Herrschaften! Wie geht es euch?",
+      "expl": "Für mehrere vertraulich angesprochene Personen steht die voi-Form von „stare“: „come state?“."
+    },
+    {
+      "id": "l09n03",
+      "r": "l09-stare",
+      "pre": "Stamattina non ",
+      "disp": "sto",
+      "ans": [
+        "sto"
+      ],
+      "post": " bene: ho il raffreddore.",
+      "tr": "Heute Morgen geht es mir nicht gut: Ich bin erkältet.",
+      "expl": "Die ich-Form von „stare“ ist „sto“: „non sto bene“ = „es geht mir nicht gut“. „ho il raffreddore“ heißt wörtlich „ich habe die Erkältung“."
+    },
+    {
+      "id": "l09n04",
+      "r": "l09-negazioni-rafforzate",
+      "pre": "Questa strada non è ",
+      "disp": "affatto",
+      "ans": [
+        "affatto"
+      ],
+      "post": " tranquilla.",
+      "tr": "Diese Straße ist überhaupt nicht ruhig.",
+      "expl": "„non ... affatto“ verstärkt die Verneinung wie „überhaupt nicht“. Allein stehend wäre die Aussage nur „nicht“."
+    },
+    {
+      "id": "l09n05",
+      "r": "l09-fra-tra",
+      "pre": "Il treno per Roma parte ",
+      "disp": "fra",
+      "ans": [
+        "fra",
+        "tra"
+      ],
+      "post": " poco.",
+      "tr": "Der Zug nach Rom fährt in Kürze ab.",
+      "expl": "„fra poco“ heißt „in Kürze, bald“. „fra“ und „tra“ sind bedeutungsgleich, daher sind hier beide Formen richtig."
+    },
+    {
+      "id": "l09n06",
+      "r": "l09-verbi-ire-3",
+      "pre": "Ragazzi, ",
+      "disp": "aprite",
+      "ans": [
+        "aprite"
+      ],
+      "post": " la finestra, per favore!",
+      "tr": "Jungs, öffnet bitte das Fenster!",
+      "expl": "„aprire“ gehört zur dritten Verbgruppe auf -ire ohne Einschub. Die voi-Form ist „aprite“."
+    },
+    {
+      "id": "l09n07",
+      "r": "l09-verbi-ire-3",
+      "pre": "Zitto! ",
+      "disp": "Sento",
+      "ans": [
+        "Sento",
+        "sento"
+      ],
+      "post": " arrivare l'autobus.",
+      "tr": "Still! Ich höre den Bus kommen.",
+      "expl": "„sentire“ heißt „hören“ oder „fühlen“ und steht hier mit Infinitiv: „sento arrivare“ = „ich höre kommen“. Die ich-Form ist „sento“."
+    },
+    {
+      "id": "l09n08",
+      "r": "l09-verbi-ire-3",
+      "pre": "Stasera ",
+      "disp": "offro",
+      "ans": [
+        "offro"
+      ],
+      "post": " un aperitivo a Lucia.",
+      "tr": "Heute Abend gebe ich Lucia einen Aperitif aus.",
+      "expl": "„offrire“ (anbieten, einladen) ist ein -ire-Verb der dritten Gruppe. Die ich-Form lautet „offro“: „offro un aperitivo a Lucia“."
+    },
+    {
+      "id": "l09n09",
+      "r": "l09-negazioni-rafforzate",
+      "pre": "Oggi Marco sta bene: non è ",
+      "disp": "più",
+      "ans": [
+        "più"
+      ],
+      "post": " raffreddato.",
+      "tr": "Heute geht es Marco gut: Er ist nicht mehr erkältet.",
+      "expl": "„non ... più“ bedeutet „nicht mehr“. „raffreddato“ ist „erkältet“ (von „raffreddore“, die Erkältung)."
+    },
+    {
+      "id": "l09n10",
+      "r": "l09-espressioni",
+      "pre": "Roberto ha un esame oggi. — Oh, ",
+      "disp": "poverino",
+      "ans": [
+        "poverino"
+      ],
+      "post": "!",
+      "tr": "Roberto hat heute eine Prüfung. — Oh, der Arme!",
+      "expl": "„poverino“ heißt „der Arme“ und drückt Mitleid aus. Für eine Frau sagt man „poverina“."
+    },
+    {
+      "id": "l10n01",
+      "r": "l10-quale-quali",
+      "pre": "Di questi due vini, ",
+      "disp": "quale",
+      "ans": [
+        "quale"
+      ],
+      "post": " preferisci?",
+      "tr": "Welchen von diesen beiden Weinen magst du lieber?",
+      "expl": "Wenn aus einer Auswahl genau einer gemeint ist, steht „quale“ im Singular: „quale preferisci?“. Bei mehreren wäre es „quali“."
+    },
+    {
+      "id": "l10n02",
+      "r": "l10-possessivi-plurali",
+      "pre": "La pizza e la pasta sono i ",
+      "disp": "miei",
+      "ans": [
+        "miei"
+      ],
+      "post": " piatti preferiti.",
+      "tr": "Pizza und Pasta sind meine Lieblingsgerichte.",
+      "expl": "„mio“ wird vor männlichen Plural zu „miei“: „i miei piatti preferiti“. Das Substantiv ist Plural, also „piatti“."
+    },
+    {
+      "id": "l10n03",
+      "r": "l10-lessico-tavola",
+      "pre": "Bambini, a tavola! La cena è ",
+      "disp": "pronta",
+      "ans": [
+        "pronta"
+      ],
+      "post": ".",
+      "tr": "Kinder, kommt zum Essen! Das Abendessen ist fertig.",
+      "expl": "„a tavola!“ ist der feste Ruf „zu Tisch!“. „cena“ ist Feminin, deshalb heißt es „pronta“ und nicht „pronto“."
+    },
+    {
+      "id": "l10n04",
+      "r": "l10-quale-quali",
+      "pre": "E ",
+      "disp": "quali",
+      "ans": [
+        "quali"
+      ],
+      "post": " sono le vostre specialità?",
+      "tr": "Und welche sind eure Spezialitäten?",
+      "expl": "„specialità“ steht hier im Plural, daher muss auch das Frageadjektiv pluralisch sein: „quali sono“."
+    },
+    {
+      "id": "l10n05",
+      "r": "l10-ottimo-pessimo",
+      "pre": "Questo vino non è solo buono, è ",
+      "disp": "ottimo",
+      "ans": [
+        "ottimo"
+      ],
+      "post": "!",
+      "tr": "Dieser Wein ist nicht nur gut, er ist hervorragend!",
+      "expl": "„ottimo“ ist die gesteigerte Form von „buono“ (von lateinisch optimus) und wird oft statt „eccellente“ verwendet. Der Gegensatz „non è solo buono“ verlangt genau diese Form; das Gegenteil von „ottimo“ ist „pessimo“."
+    },
+    {
+      "id": "l10n06",
+      "r": "l10-lessico-tavola",
+      "pre": "L'",
+      "disp": "ospite",
+      "ans": [
+        "ospite"
+      ],
+      "post": " apprezza molto la cucina toscana.",
+      "tr": "Der Gast schätzt die toskanische Küche sehr.",
+      "expl": "„ospite“ ist maskulin und nimmt den Artikel „l'“. Besonders: Das Wort kann sowohl den Gast als auch den Gastgeber bezeichnen."
+    },
+    {
+      "id": "l10n07",
+      "r": "l10-lessico-tavola",
+      "pre": "Tutti ",
+      "disp": "apprezzano",
+      "ans": [
+        "apprezzano"
+      ],
+      "post": " le specialità di Francesca.",
+      "tr": "Alle schätzen Francescas Spezialitäten.",
+      "expl": "„apprezzare“ heißt „sehr zu schätzen wissen“. Das Subjekt „tutti“ (alle) verlangt die dritte Person Plural: „apprezzano“."
+    },
+    {
+      "id": "l10n08",
+      "r": "l10-plurali-invariabili",
+      "pre": "Dopo il pranzo beviamo due ",
+      "disp": "caffè",
+      "ans": [
+        "caffè"
+      ],
+      "post": ".",
+      "tr": "Nach dem Essen trinken wir zwei Kaffee.",
+      "expl": "Nomen mit betonter letzter Silbe wie „caffè“ und „specialità“ bleiben im Plural unverändert. Daher heißt es „due caffè“ ohne zusätzliche Endung."
+    },
+    {
+      "id": "l10n09",
+      "r": "l10-lessico-tavola",
+      "pre": "La domenica papà prepara la ",
+      "disp": "colazione",
+      "ans": [
+        "colazione"
+      ],
+      "post": " per tutti.",
+      "tr": "Sonntags macht der Papa für alle das Frühstück.",
+      "expl": "„la colazione“ ist das Frühstück; „preparare la colazione per qualcuno“ heißt „für jemanden das Frühstück machen“."
+    },
+    {
+      "id": "l10n10",
+      "r": "l10-lessico-tavola",
+      "pre": "Non ",
+      "disp": "mangiate",
+      "ans": [
+        "mangiate"
+      ],
+      "post": " tutti i biscotti adesso, bambini!",
+      "tr": "Esst jetzt nicht alle Kekse, Kinder!",
+      "expl": "Die voi-Form von „mangiare“ ist „mangiate“. Die Anrede „bambini“ am Satzende zeigt, dass mehrere Personen angeredet werden."
+    }
+  ]
+}
