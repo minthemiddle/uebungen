@@ -45,6 +45,7 @@
   .btn:hover{background:#eef1f4}
   .btn:disabled{opacity:.5; cursor:not-allowed}
   .btn:disabled:hover{background:#fff}
+  .btn.filter.active, .btn.sort.active{background:var(--accent); border-color:var(--accent); color:#fff}
   .btn.primary{background:var(--accent); border-color:var(--accent); color:#fff}
   .btn.primary:hover{background:#1d4ed8}
   .btn.ok{border-color:#bbf7d0; color:var(--ok)}
@@ -91,6 +92,8 @@
   @keyframes cardflash{from{box-shadow:0 0 0 3px var(--accent)} to{box-shadow:0 1px 2px rgba(16,24,40,.05)}}
   .card.flash{animation:cardflash 1.4s ease 1}
 
+  .empty{color:var(--muted); text-align:center; padding:20px 0; margin:0}
+
   @media (max-width:600px){
     .card{display:block}
     .card-actions{flex-wrap:wrap}
@@ -125,6 +128,20 @@
     <button class="btn" id="btnReset">↺ Zurücksetzen</button>
   </nav>
 
+  <nav class="toolbar" aria-label="Filter">
+    <button class="btn filter active" data-filter="all">Alle</button>
+    <button class="btn filter" data-filter="open">Nur Unbeantwortete</button>
+    <button class="btn filter" data-filter="wrong">Nur Falsche</button>
+    <button class="btn filter" data-filter="right">Nur Richtige</button>
+  </nav>
+
+  <nav class="toolbar" aria-label="Sortierung">
+    <button class="btn sort active" data-sort="orig">↕ Standard</button>
+    <button class="btn sort" data-sort="open">Unbeantwortete zuerst</button>
+    <button class="btn sort" data-sort="wrong">Falsche zuerst</button>
+    <button class="btn sort" data-sort="right">Richtige zuerst</button>
+  </nav>
+
   <main id="list"></main>
 
   <footer class="foot">
@@ -156,6 +173,23 @@ function shuffleOpen(){
   });
 }
 let order = originalOrder();
+let filter = "all";    /* all | open | wrong | right */
+let sortMode = "orig"; /* orig | open | wrong | right */
+
+const FILTER_LABELS = { all:"Alle", open:"Nur Unbeantwortete", wrong:"Nur Falsche", right:"Nur Richtige" };
+
+function groupOf(id){
+  const s = state[id];
+  if(!s || !s.graded) return "open";
+  return s.correct ? "right" : "wrong";
+}
+function visibleOrder(){
+  const inFilter = order.filter(function(id){ return filter === "all" || groupOf(id) === filter; });
+  if(sortMode === "orig") return inFilter;
+  return inFilter.slice().sort(function(a, b){
+    return (groupOf(a) === sortMode ? 0 : 1) - (groupOf(b) === sortMode ? 0 : 1);
+  });
+}
 
 function loadState(){
   try{
@@ -186,8 +220,22 @@ function norm(s){
 function render(){
   const list = document.getElementById("list");
   list.textContent = "";
-  order.forEach(function(id){ list.appendChild(card(id)); });
+  const view = visibleOrder();
+  if(view.length === 0){
+    list.appendChild(el("p", "empty", "Keine Karten in dieser Ansicht."));
+  }
+  view.forEach(function(id){ list.appendChild(card(id)); });
   updateResult();
+  updateViewButtons();
+}
+
+function updateViewButtons(){
+  document.querySelectorAll(".btn.filter").forEach(function(b){
+    b.classList.toggle("active", b.dataset.filter === filter);
+  });
+  document.querySelectorAll(".btn.sort").forEach(function(b){
+    b.classList.toggle("active", b.dataset.sort === sortMode);
+  });
 }
 
 function chip(kl, txt){ return el("span", "chip " + kl, txt); }
@@ -315,6 +363,12 @@ function updateResult(){
   document.getElementById("progAnswered").style.width = pAns + "%";
   document.getElementById("progCorrect").style.width = (TOTAL ? Math.round(correct / TOTAL * 100) : 0) + "%";
   document.getElementById("btnFirstOpen").disabled = graded >= TOTAL;
+
+  const counts = { all:TOTAL, open:0, wrong:0, right:0 };
+  ITEMS.forEach(function(t){ counts[groupOf(t.id)]++; });
+  document.querySelectorAll(".btn.filter").forEach(function(b){
+    b.textContent = FILTER_LABELS[b.dataset.filter] + " (" + counts[b.dataset.filter] + ")";
+  });
 }
 
 /* ---------- Werkzeugleiste ---------- */
@@ -337,6 +391,12 @@ document.getElementById("btnFirstOpen").addEventListener("click", function(){
     return;
   }
 });
+document.querySelectorAll(".btn.filter").forEach(function(b){
+  b.addEventListener("click", function(){ filter = b.dataset.filter; render(); });
+});
+document.querySelectorAll(".btn.sort").forEach(function(b){
+  b.addEventListener("click", function(){ sortMode = b.dataset.sort; render(); });
+});
 document.getElementById("btnRevealAll").addEventListener("click", function(){
   ITEMS.forEach(function(t){ getState(t.id).revealed = true; });
   saveState();
@@ -346,6 +406,8 @@ document.getElementById("btnReset").addEventListener("click", function(){
   if(confirm("Status und Ergebnis dieser Übung wirklich zurücksetzen?")){
     state = {};
     order = originalOrder();
+    filter = "all";
+    sortMode = "orig";
     localStorage.removeItem(STORE_KEY);
     render();
   }
