@@ -43,6 +43,8 @@
     transition:background .15s ease;
   }
   .btn:hover{background:#eef1f4}
+  .btn:disabled{opacity:.5; cursor:not-allowed}
+  .btn:disabled:hover{background:#fff}
   .btn.primary{background:var(--accent); border-color:var(--accent); color:#fff}
   .btn.primary:hover{background:#1d4ed8}
   .btn.ok{border-color:#bbf7d0; color:var(--ok)}
@@ -86,6 +88,9 @@
 
   .card-actions{grid-area:actions; align-self:center; justify-self:end; display:flex; flex-wrap:nowrap; gap:6px}
 
+  @keyframes cardflash{from{box-shadow:0 0 0 3px var(--accent)} to{box-shadow:0 1px 2px rgba(16,24,40,.05)}}
+  .card.flash{animation:cardflash 1.4s ease 1}
+
   @media (max-width:600px){
     .card{display:block}
     .card-actions{flex-wrap:wrap}
@@ -114,7 +119,8 @@
   </section>
 
   <nav class="toolbar">
-    <button class="btn primary" id="btnShuffle">🔀 Zufällige Reihenfolge</button>
+    <button class="btn primary" id="btnShuffle">🔀 Unbeantwortete mischen</button>
+    <button class="btn" id="btnFirstOpen">📍 Gehe zu Unbeantworteten</button>
     <button class="btn" id="btnRevealAll">👁 Alle aufdecken</button>
     <button class="btn" id="btnReset">↺ Zurücksetzen</button>
   </nav>
@@ -138,8 +144,18 @@ const STORE_KEY = "uebung.001-preposizione.v3";
 
 /* ---------- State ---------- */
 let state = loadState();
-function freshOrder(){ return shuffle(ITEMS.map(function(t){ return t.id; })); }
-let order = freshOrder();
+function originalOrder(){ return ITEMS.map(function(t){ return t.id; }); }
+function shuffleOpen(){
+  // Beantwortete bleiben an ihrem Platz, nur Unbeantwortete werden neu gemischt.
+  const open = order.filter(function(id){ const s = state[id]; return !(s && s.graded); });
+  const mixed = shuffle(open);
+  let k = 0;
+  return order.map(function(id){
+    const s = state[id];
+    return (s && s.graded) ? id : mixed[k++];
+  });
+}
+let order = originalOrder();
 
 function loadState(){
   try{
@@ -298,12 +314,28 @@ function updateResult(){
     correct + " richtig (" + pCor + " %) · aufgedeckt: " + revealed;
   document.getElementById("progAnswered").style.width = pAns + "%";
   document.getElementById("progCorrect").style.width = (TOTAL ? Math.round(correct / TOTAL * 100) : 0) + "%";
+  document.getElementById("btnFirstOpen").disabled = graded >= TOTAL;
 }
 
 /* ---------- Werkzeugleiste ---------- */
 document.getElementById("btnShuffle").addEventListener("click", function(){
-  order = shuffle(ITEMS.map(function(t){ return t.id; }));
+  order = shuffleOpen();
   render();
+});
+document.getElementById("btnFirstOpen").addEventListener("click", function(){
+  const cards = document.getElementById("list").children;
+  for(let i = 0; i < cards.length; i++){
+    const c = cards[i];
+    const s = state[c.dataset.id];
+    if(s && s.graded) continue;
+    c.scrollIntoView({ behavior:"smooth", block:"center" });
+    const input = c.querySelector(".gap-input");
+    if(input) input.focus({ preventScroll:true });
+    c.classList.remove("flash");
+    void c.offsetWidth; /* Animation neu starten */
+    c.classList.add("flash");
+    return;
+  }
 });
 document.getElementById("btnRevealAll").addEventListener("click", function(){
   ITEMS.forEach(function(t){ getState(t.id).revealed = true; });
@@ -313,7 +345,7 @@ document.getElementById("btnRevealAll").addEventListener("click", function(){
 document.getElementById("btnReset").addEventListener("click", function(){
   if(confirm("Status und Ergebnis dieser Übung wirklich zurücksetzen?")){
     state = {};
-    order = freshOrder();
+    order = originalOrder();
     localStorage.removeItem(STORE_KEY);
     render();
   }
